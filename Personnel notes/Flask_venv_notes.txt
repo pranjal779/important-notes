@@ -1,0 +1,15 @@
+Notes for flask + flask virtual environment
+
+DO NOT put the project files in same location as the venv folder
+
+But outside or in a seperate folder beside the folder
+
+install flask package in venv dir
+
+https://realpython.com/python-virtual-environments-a-primer/
+
+or
+
+https://stackoverflow.com/a/51500040/7848995
+
+might help
