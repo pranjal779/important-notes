@@ -25,3 +25,9 @@ keras
 flask
 django
 This is just a small sample and there are many more modules available for use.
+
+
+
+The Python Package Index (PyPI) is a repository of software for the Python programming language. To use PyPI, you can search for packages based on keywords, browse packages by category, or view popular packages. To install a package from PyPI, you can use the pip package manager, which comes with Python. Simply run the following command in your terminal or command prompt: pip install package-name replacing package-name with the name of the package you want to install.
+
+If you find PyPI confusing, you can try reading the documentation or tutorials for pip or PyPI, or seeking help from a Python community, such as a forum or a chatroom.
