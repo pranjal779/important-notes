@@ -11,7 +11,7 @@ Note: These steps are for creating a virtual environment using the Python 3 inte
 
 
 
-Pranjal Shukla
+Q)
 so to make venv with a different name I can do that by
 python -m venv myproject
 Yes, you can create a virtual environment with a different name by using the python -m venv command followed by the desired name of your virtual environment.
@@ -34,7 +34,7 @@ After activating the virtual environment, you can install packages and use them 
 
 
 
-Pranjal Shukla
+Q)
 in AWS cloud9 
 In AWS Cloud9, you can create a virtual environment for your Python project by following these steps:
 
