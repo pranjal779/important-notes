@@ -1,0 +1,5 @@
+To determine which Python module you need to use, you can refer to the Python documentation, check websites such as stackoverflow, 
+check the specific problem statement or use case you are trying to solve, and search for relevant modules. 
+You can also try searching for the module on the Python Package Index (PyPI) and read its documentation and 
+user reviews to understand its functionality and if it fits your needs. 
+It is also recommended to read through the official documentation for each module to understand its capabilities, limitations, and how to use it effectively.
