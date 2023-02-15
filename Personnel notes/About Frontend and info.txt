@@ -86,3 +86,39 @@ Introduction to Continuous Integration and Continuous Deployment (CI/CD)
 Week 10: Project work
 
 Building a complete web application using the MERN stack.
+
+
+
+-------------
+
+
+here's a possible schedule for learning JavaScript from basics to advanced:
+
+Week 1: Introduction to JavaScript and the basics (variables, data types, operators, etc.)
+
+Week 2: Control structures (if/else, loops, etc.) and functions
+
+Week 3: Arrays and Objects
+
+Week 4: DOM Manipulation
+
+Week 5: Events and Event Listeners
+
+Week 6: Regular Expressions
+
+Week 7: Debugging and Error Handling
+
+Week 8: AJAX (Asynchronous JavaScript and XML)
+
+Week 9: ES6 (ECMAScript 2015) features and syntax (let/const, arrow functions, classes, etc.)
+
+Week 10: Modular JavaScript and Advanced Topics (closures, promises, async/await, etc.)
+
+Week 11: JavaScript Frameworks (React, Angular, Vue.js)
+
+Week 12: Server-side JavaScript (Node.js)
+
+This is just a rough outline and the exact duration and depth of each topic can vary depending on your learning pace and goals. You can also adjust the schedule based on your interests and focus more on specific topics that you find more relevant to your projects or career aspirations.
+
+
+
