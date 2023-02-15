@@ -1,0 +1,59 @@
+can you give me a detailed schedule and cirriculum for kubernetes that covers all topics and how to write code files (manifest files) as well
+
+Sure, here is a suggested curriculum and schedule for learning Kubernetes and how to write manifest files:
+
+**Week 1: Introduction to Kubernetes
+
+Day 1: Introduction to containerization and Docker
+Day 2: Introduction to Kubernetes architecture and components
+Day 3: Setting up a Kubernetes cluster with kubeadm
+Day 4: Deploying and managing applications with kubectl
+Day 5: Configuring and managing Kubernetes objects with kubectl
+
+
+**Week 2: Kubernetes Networking and Storage
+
+Day 1: Overview of Kubernetes networking and network policies
+Day 2: Understanding Kubernetes service types and ingress
+Day 3: Deploying stateful applications with Kubernetes storage
+Day 4: Configuring persistent volumes and volume claims
+Day 5: Deploying applications with external storage
+Week 3: Kubernetes Advanced Topics
+
+Day 1: Understanding Kubernetes namespaces and RBAC
+Day 2: Configuring Kubernetes resource limits and quotas
+Day 3: Scaling and autoscaling Kubernetes applications
+Day 4: Rolling out updates and performing rolling upgrades
+Day 5: Managing Kubernetes upgrades and backups
+
+
+**Week 4: Writing Manifest Files
+
+Day 1: Introduction to YAML syntax and Kubernetes API objects
+Day 2: Writing and applying Kubernetes deployment manifests
+Day 3: Deploying stateful applications with Kubernetes statefulsets
+Day 4: Managing and scaling Kubernetes services
+Day 5: Deploying and configuring Kubernetes ingress resources
+
+
+**Week 5: Advanced Manifests and Tools
+
+Day 1: Understanding Kubernetes labels and annotations
+Day 2: Configuring Kubernetes resource requests and limits
+Day 3: Deploying and managing Kubernetes configurations with ConfigMaps and Secrets
+Day 4: Using Helm to package and deploy Kubernetes applications
+Day 5: Deploying and managing Kubernetes applications with Operators
+
+
+**Week 6: Kubernetes Observability and Troubleshooting
+
+Day 1: Monitoring Kubernetes applications with Prometheus and Grafana
+Day 2: Debugging Kubernetes applications with kubectl and logs
+Day 3: Understanding Kubernetes events and audit logging
+Day 4: Troubleshooting Kubernetes networking and storage
+Day 5: Managing Kubernetes failures and backups
+
+
+This schedule is just a suggestion, and you can adjust the pace and topics based on your learning goals and experience level. 
+It is important to start with the basics of Kubernetes and containerization, and gradually build up to more advanced topics like writing manifest files 
+and managing applications. Good luck with your learning!
