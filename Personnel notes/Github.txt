@@ -1,0 +1,11 @@
+## BLAME Button ##
+
+The "Blame" button in GitHub allows you to see the details of who made each change to a file, and when those changes were made. 
+When you click the "Blame" button for a particular file in a GitHub repository, 
+the file will open in a new view that shows the file's contents on the left side of the screen, and a list of changes on the right side of the screen. 
+Each line of the file will have an annotation on the right side showing the author of that line, the date and time of the change, and the commit hash for that change.
+
+The "Blame" view in GitHub can be useful when trying to track down the source of a problem or understand the history of a particular file. 
+For example, if you are debugging an issue in a file, you might use the "Blame" view to see who made changes to the file and when,
+and then try to track down the source of the problem by looking at the changes made by each author. 
+Additionally, the "Blame" view can help you understand the evolution of a file over time, and how it has been modified and refined by different authors.
