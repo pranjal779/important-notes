@@ -22,3 +22,4 @@ Week 9: Deploying Django to production. Securing Django applications.
 
 Week 10: Working on a real-world project to consolidate the skills learned.
 
+<<<< for FReMP refer -> About FReMP Stacks.txt >>>>
