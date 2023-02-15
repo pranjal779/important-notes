@@ -1,3 +1,5 @@
+do we have to write any code or any simpler file like Dockerfile for kubernetes?
+
 Yes, you typically need to write a Kubernetes manifest file to deploy an application to a Kubernetes cluster. 
 The manifest file is a YAML or JSON file that describes the desired state of the application and the resources it requires, 
 such as containers, volumes, services, and deployments.
