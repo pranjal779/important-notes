@@ -1,0 +1,48 @@
+a sample schedule for learning shell scripting from basics to advanced:
+
+Week 1:
+
+Introduction to Shell and Basic Commands
+Bash Scripting Basics
+Shell Variables
+
+Week 2:
+
+Conditional Statements in Shell
+Looping Constructs in Shell
+
+Week 3:
+
+Input and Output Redirection
+Piping and Filters
+Processes and Jobs
+
+Week 4:
+
+Functions and Script Modularity
+String Manipulation in Shell
+Arrays and Lists in Shell
+
+Week 5:
+
+Regular Expressions
+Advanced Text Processing
+Script Debugging and Error Handling
+
+Week 6:
+
+Filesystem Operations and File Attributes
+Command-line Arguments and Options
+Signal Handling in Shell
+
+Week 7:
+
+System Administration Automation
+Network Programming with Shell
+Database Access with Shell
+
+Week 8:
+
+Advanced Topics: Sed, Awk, and Grep
+Shell Scripting Best Practices
+Project Work: Build a Complete Shell Script
