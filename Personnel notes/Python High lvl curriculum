@@ -1,0 +1,22 @@
+Here is a high-level curriculum to learn the concepts of Python:
+
+Basics: Data Types, Variables, Operators, Flow control statements, Functions, Input/Output
+Data structures: Lists, Tuples, Dictionaries, Sets, Strings
+Modules and Packages: Importing, Creating and Distributing modules/packages
+File I/O and Error Handling: Opening/Reading/Writing files, Exception handling
+Object Oriented Programming: Classes, Objects, Inheritance, Polymorphism
+Regular Expressions
+Datetime, Calendar and Time module
+Database programming: Connecting to databases, SQLite3
+Multithreading and Multiprocessing
+Decorators and Generators
+Advanced Topics: Metaclasses, Context Managers, Iterators, Coroutines, Decorators
+Web Development using Flask or Django
+Network Programming
+Scientific Computing: NumPy, Pandas, Matplotlib
+Working with XML and JSON data
+Testing and Debugging
+This is a broad curriculum and there might be some variations based on personal preference and requirement.
+
+It's also important to note that, learning should not be limited to just reading textbooks,
+and instead, hands-on coding and practical implementation is crucial for a good understanding of the concepts.
