@@ -98,3 +98,7 @@ print((lambda: b, lambda: a)[a < b]())
 
 
 ----
+
+#***BITWISE OPERATOR***
+
+----
