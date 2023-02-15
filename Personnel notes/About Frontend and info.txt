@@ -8,6 +8,13 @@ LAMP Stack (Linux, Apache, MySQL, PHP)
 WAMP Stack (Windows, Apache, MySQL, PHP)
 JAM Stack (JavaScript, APIs, Markup)
 Vue.js Stack (Vue.js, Node.js, Nuxt.js, Firebase)
+
+***
+is node js any different than javascript
+
+Yes, Node.js is a runtime environment for executing JavaScript code outside of a web browser. It allows JavaScript to be used on the server-side to build web applications, command-line tools, and even desktop applications. While Node.js is based on JavaScript, it includes additional APIs and features specific to server-side programming, such as the ability to read and write files, interact with databases, and perform network operations. Therefore, while Node.js is based on JavaScript, it is a different technology and ecosystem from client-side JavaScript in the browser.
+***
+
 As for the detailed schedule for frontend technologies, here's an example:
 
 Week 1: Introduction to HTML and CSS
