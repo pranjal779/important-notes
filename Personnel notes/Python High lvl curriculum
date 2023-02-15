@@ -20,3 +20,34 @@ This is a broad curriculum and there might be some variations based on personal 
 
 It's also important to note that, learning should not be limited to just reading textbooks,
 and instead, hands-on coding and practical implementation is crucial for a good understanding of the concepts.
+
+
+
+-------------
+
+
+
+ here is a suggested schedule for learning all the concepts of Python:
+
+Week 1: Introduction to Python and the basics (variables, data types, operators, etc.)
+
+Week 2: Control structures (if/else, loops, etc.) and functions
+
+Week 3: Modules and libraries
+
+Week 4: Exception handling
+
+Week 5: File handling and CSV (Comma Separated Values) files
+
+Week 6: Classes and Objects
+
+Week 7: Regular Expressions
+
+Week 8: Database Connectivity with SQLite
+
+Week 9: Advanced Topics (decorators, generators, etc.)
+
+Week 10: Project Work (Build a complete Python project)
+
+This schedule is just a suggestion and can be modified to suit your learning pace and availability. 
+It is also advisable to continuously practice with small programming exercises and projects to solidify your understanding of the concepts.
