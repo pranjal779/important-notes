@@ -47,9 +47,19 @@ Week 7: Regular Expressions
 
 Week 8: Database Connectivity with SQLite
 
-Week 9: Advanced Topics (decorators, generators, etc.)
+Week 9: Advanced Topics: Metaclasses, Context Managers, Iterators, Coroutines, Decorators
 
-Week 10: Project Work (Build a complete Python project)
+Week 10: Web Development using Flask or Django
+
+Week 11: Network Programming
+
+Week 12: Scientific Computing: NumPy, Pandas, Matplotlib
+
+Week 13: Working with XML and JSON data
+
+Week 14: Testing and Debugging
+
+Week 15: Project Work (Build a complete Python project)
 
 This schedule is just a suggestion and can be modified to suit your learning pace and availability. 
 It is also advisable to continuously practice with small programming exercises and projects to solidify your understanding of the concepts.
