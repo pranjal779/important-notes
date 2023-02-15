@@ -1,3 +1,15 @@
+can you give me a detailed schedule for frontend technologies and before that can you tell me is there any famous stacks in frontend as well if so can you name a few of them?
+
+Yes, there are several famous frontend technology stacks. Here are a few of them:
+
+MERN Stack (MongoDB, Express, React, Node.js)
+MEAN Stack (MongoDB, Express, Angular, Node.js)
+LAMP Stack (Linux, Apache, MySQL, PHP)
+WAMP Stack (Windows, Apache, MySQL, PHP)
+JAM Stack (JavaScript, APIs, Markup)
+Vue.js Stack (Vue.js, Node.js, Nuxt.js, Firebase)
+As for the detailed schedule for frontend technologies, here's an example:
+
 Week 1: Introduction to HTML and CSS
 
 HTML basics: elements, attributes, semantic HTML
