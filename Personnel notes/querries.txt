@@ -1,0 +1,46 @@
+I see some stacks are python based but they do have React which is javascript, why is that? why is it needed in a python stack
+React is a JavaScript library used for building user interfaces. It is often used in combination with a Python backend because 
+the two technologies complement each other well.
+
+Python is great for server-side processing and handling data, while JavaScript is ideal for creating dynamic and interactive user interfaces. 
+When used together, Python and React can create a complete web application with a rich frontend and a robust backend.
+
+Moreover, React provides a large developer community and a lot of resources and tools to help you build your application quickly and efficiently. 
+Therefore, even if a stack is primarily built with Python, it may still use JavaScript for certain tasks, such as creating a dynamic and interactive user interface.
+
+
+
+can you give me names of few important stacks
+Sure, here are a few popular tech stacks:
+
+MEAN (MongoDB, Express.js, AngularJS, Node.js)
+MERN (MongoDB, Express.js, React, Node.js)
+LAMP (Linux, Apache, MySQL, PHP)
+Django (Python, Django, JavaScript, SQLite)
+Ruby on Rails (Ruby, Rails, JavaScript, SQLite)
+.NET (C#, .NET, SQL Server)
+MEVN (MongoDB, Express.js, Vue.js, Node.js)
+
+
+
+
+is FReMP Stack a good stack?
+FReMP is not a well-known technology stack. It's possible that you're referring to the LAMP stack (Linux, Apache, MySQL, PHP), 
+which is a popular open-source web development stack, but there's not enough information to determine whether the FReMP stack is a 
+good one or not without further context.
+
+
+
+I mean Flask React Mongo Python - FReMP Stack
+The FReMP stack (Flask, React, MongoDB, and Python) can be a good choice for certain web development projects, 
+as it combines the benefits of Flask for the back-end (server-side) and React for the front-end (client-side). 
+MongoDB can provide a scalable and flexible solution for data storage. However, the suitability of the FReMP stack for a 
+specific project depends on the requirements and constraints of the project.
+
+
+
+so which stack do you recommend FReMP Stack or Django?
+It depends on the use case and project requirements. Both Flask and Django are good for building web applications, 
+but Django is a full-featured framework that can handle complex projects, while Flask is a micro framework that is better suited for small to medium sized projects 
+or for serving as a backend for a JavaScript-based frontend. If you want to build an application with a Python backend and a React frontend, 
+the FReMP stack could be a good choice. However, ultimately the choice of stack will depend on your specific needs and preferences.
