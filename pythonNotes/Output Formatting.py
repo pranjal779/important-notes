@@ -47,3 +47,28 @@ data = dict(fun ="GeeksForGeeks", adj ="Portal")
  
 # using format() in dictionary
 print("I love {fun} computer {adj}".format(**data))
+
+
+-----
+
+"""Formatting output using the String method : 
+This output is formatted by using string slicing and concatenation operations. 
+The string type has some methods that help in formatting output in a fancier way. 
+Some methods which help in formatting an output are str.ljust(), str.rjust(), and str.centre()"""
+
+cstr = "I love coding"
+   
+# Printing the center aligned 
+# string with fillchr
+print ("Center aligned string with fillchr: ")
+print (cstr.center(40, '#'))
+ 
+# Printing the left aligned 
+# string with "-" padding 
+print ("The left aligned string is : ")
+print (cstr.ljust(40, '-'))
+ 
+# Printing the right aligned string
+# with "-" padding 
+print ("The right aligned string is : ")
+print (cstr.rjust(40, '-'))
