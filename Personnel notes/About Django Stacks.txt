@@ -111,4 +111,5 @@ Week 10: Final Project
 
 Implementing a complete Django project with all the above features
 Building a REST API for the project
-This is a comprehensive schedule covering all the major topics of Django. However, the pace of learning may vary depending on individual learning speed and prior programming experience.
+This is a comprehensive schedule covering all the major topics of Django. However, 
+the pace of learning may vary depending on individual learning speed and prior programming experience.
