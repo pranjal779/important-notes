@@ -1,0 +1,69 @@
+Week 1: Introduction to HTML and CSS
+
+HTML basics: elements, attributes, semantic HTML
+CSS basics: selectors, properties, values, box model
+HTML/CSS layout: positioning, floats, flexbox, grid
+CSS frameworks: Bootstrap, Materialize, Semantic UI
+
+
+Week 2: Introduction to JavaScript
+
+JavaScript basics: variables, data types, operators, control structures, functions
+JavaScript DOM: selecting elements, manipulating elements, events
+jQuery: selecting elements, manipulating elements, events
+
+
+Week 3: Advanced JavaScript
+
+Object-oriented JavaScript: classes, objects, prototypes
+Asynchronous JavaScript: callbacks, promises, async/await
+ES6 and beyond: let and const, arrow functions, template literals, spread operator, destructuring, classes
+
+
+Week 4: React
+
+Introduction to React: JSX, components, props, state
+React lifecycle methods
+Handling events in React
+Managing state in React: lifting state up, Redux
+
+
+Week 5: Advanced React
+
+React Router: navigation, routing
+React Hooks: useState, useEffect, useContext
+Redux: actions, reducers, middleware
+React and APIs: fetching data, rendering data
+
+
+Week 6: Webpack and Babel
+
+Introduction to Webpack: configuration, loaders, plugins
+Introduction to Babel: transpiling, presets, plugins
+Setting up a React project with Webpack and Babel
+
+
+Week 7: Node.js and Express
+
+Introduction to Node.js: event loop, asynchronous I/O, modules
+Introduction to Express: middleware, routing, templating
+Setting up an Express project
+
+
+Week 8: MongoDB
+
+Introduction to MongoDB: collections, documents, queries
+Introduction to Mongoose: schemas, models, queries
+Setting up a MongoDB database and connecting it to an Express app
+
+
+Week 9: Deployment
+
+Introduction to deployment: hosting options, server setup
+Deploying a full-stack app to Heroku
+Introduction to Continuous Integration and Continuous Deployment (CI/CD)
+
+
+Week 10: Project work
+
+Building a complete web application using the MERN stack.
