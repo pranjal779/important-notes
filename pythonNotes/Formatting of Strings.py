@@ -1,3 +1,5 @@
+# https://www.geeksforgeeks.org/python-string/
+
 # Integers such as Binary, hexadecimal, etc., and floats can be rounded or displayed in the exponent form with the use of format specifiers. 
 
 # Formatting of Integers
