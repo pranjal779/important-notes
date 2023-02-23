@@ -1,0 +1,17 @@
+in the django documentation
+
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+]
+
+what is meant by from.inport views
+
+In the code snippet you provided, from . import views is a Python statement that imports the views module from the current package. In Django, a package is a directory containing a file called __init__.py. The . in the statement represents the current package.
+
+So, if the views.py file is located in the same directory as urls.py, then from . import views will import the views module defined in views.py. Once imported, the views module can be accessed using the dot notation, for example views.index.
+
+The path statement below it creates a URL pattern that maps the empty string ('') to the index function defined in views.py.
