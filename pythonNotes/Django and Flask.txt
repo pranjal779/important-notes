@@ -6,3 +6,6 @@ This helps to avoid version conflicts between packages installed for different p
 
 Once you have created a virtual environment, you can activate it and install the required packages using pip. 
 The exact steps may differ slightly depending on the specific tools you use, but the general approach should be the same.
+
+
+jango templating language is same as Flask
