@@ -23,15 +23,20 @@ For example:
 
 Copy code
 python -m venv myproject
-This will create a virtual environment named myproject in the current working directory. To activate the virtual environment, you will use the activate script specific to your operating system. On Windows, you can activate the virtual environment by running:
+This will create a virtual environment named myproject in the current working directory. 
+To activate the virtual environment, you will use the activate script specific to your operating system. 
 
-Copy code
+*---*
+On Windows, you can activate the virtual environment by running:
+
 myproject\Scripts\activate.bat
+
+
 On Linux/MacOS:
 
-bash
-Copy code
 source myproject/bin/activate
+*---*
+
 After activating the virtual environment, you can install packages and use them within that virtual environment without affecting your global Python installation.
 
 
@@ -55,4 +60,5 @@ To install packages in your virtual environment, you can use the pip command. Fo
 
 To deactivate the virtual environment, run the command deactivate.
 
-This will create a virtual environment named "myproject" (or the desired name) and allow you to install packages in it, isolated from the packages installed in your main Python environment.
+This will create a virtual environment named "myproject" (or the desired name) and allow you to install packages in it, 
+isolated from the packages installed in your main Python environment.
