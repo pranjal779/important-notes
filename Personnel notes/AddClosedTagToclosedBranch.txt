@@ -23,3 +23,11 @@ after a pull request (PR) is merged, create a Git tag to mark the branch as clos
    This command pushes the tag to the remote repository, making it visible to other contributors.
 
 By creating a Git tag, you provide a clear indication that the branch is closed, allowing you and others to reference it later for historical purposes. The tag will remain in the repository even after the branch is deleted or merged.
+
+
+afterwards delete the branch locally:
+git branch -d <branchName>
+
+Optionally, you can also delete the remote branch if you no longer need it:
+git push origin --delete <branchName>
+
