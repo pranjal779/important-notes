@@ -1,0 +1,17 @@
+
+// C:\Users\prath>aws iam list-users
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "IAM_user536",
+            "UserId": "AIDAQCN22XAFJENISE4G5",
+            "Arn": "arn:aws:iam::005223659530:user/IAM_user536",
+            "CreateDate": "2023-02-23T18:56:10+00:00",
+            "PasswordLastUsed": "2023-08-16T18:25:56+00:00"
+        }
+    ]
+}
+
+
+// C:\Users\prath>
