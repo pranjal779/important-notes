@@ -1,0 +1,9 @@
+run the command `git config --global core.longpaths true`, you are setting the `core.longpaths` configuration to `true` at the global (user) level. This means that Git should now be configured to allow longer file paths.
+
+To confirm that it has been set correctly, you can check the Git configuration by running the following command:
+
+```bash
+git config --global --get core.longpaths
+```
+
+If it's set correctly, it should return `true`, indicating that the `core.longpaths` configuration is enabled at the global level.
