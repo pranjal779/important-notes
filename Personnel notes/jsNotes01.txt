@@ -1,0 +1,21 @@
+
+1. If either `a` or `b` is less than 0, the function should return `undefined` immediately. You don't need to perform any calculations in this case.
+
+2. If both `a` and `b` are greater than or equal to 0, you should calculate and return the result as it currently does.
+
+Here's the modified `abTest` function:
+
+```javascript
+function abTest(a, b) {
+  // Check if either a or b is less than 0
+  if (a < 0 || b < 0) {
+    return undefined; // Return undefined immediately
+  }
+
+  // Calculate and return the result for non-negative values of a and b
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+```
+
+This code first checks if `a` or `b` is less than 0. If either of them is less than 0, it immediately returns `undefined`. If both `a` and `b` are non-negative, it proceeds with the calculation and returns the result. 
+  This way, the function stops execution early when one of the input values is negative.
