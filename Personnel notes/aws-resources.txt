@@ -2,3 +2,7 @@ aws sso - single sign on
 control tower
 macie
 active directory
+s3
+s3-Intelligent-Tiering
+s3 standard Infrequent Access
+Glacier
