@@ -1,0 +1,16 @@
+**Gzip compression in DynamoDB**
+
+Gzip compression is a lossless data compression algorithm that reduces the size of a file by removing redundant data. It is a widely used compression algorithm for files of all types, including text, images, and binary data.
+In DynamoDB, gzip compression can be used to reduce the size of data items before they are written to the table. This can save storage space and improve performance, as smaller items can be processed more quickly.
+To use gzip compression in DynamoDB, you can specify the Compression attribute when you create a table or when you update an item. The Compression attribute can be set to either NONE or GZIP. 
+When set to GZIP, DynamoDB will automatically compress all data items that are written to the table.
+Gzip compression is a highly effective way to reduce the size of data items in DynamoDB. 
+It can save storage space and improve performance, and it is supported by all major programming languages.
+Here are some additional benefits of using gzip compression in DynamoDB:
+Reduced storage costs:
+Gzip compression can reduce the size of data items by up to 90%. This can lead to significant savings on storage costs.
+Improved performance:
+Smaller data items can be processed more quickly than larger data items. This can lead to improved performance for applications that use DynamoDB.
+Increased flexibility:
+Gzip compression is a lossless compression algorithm, which means that no data is lost during the compression process. This means that you can easily decompress the data items if you need to.
+If you are using DynamoDB to store data, I encourage you to try gzip compression. It is a simple and effective way to save storage space and improve performance.
