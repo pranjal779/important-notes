@@ -1,0 +1,12 @@
+aws sso - single sign on
+control tower
+macie
+active directory
+s3
+s3-Intelligent-Tiering
+s3 standard Infrequent Access
+s3 Glacier
+EBS - Elastic Block storage
+ENI - Elastic Network Interface
+DLM - Data Lifecycle Manager
+AWS Backup
