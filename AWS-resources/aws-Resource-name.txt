@@ -20,3 +20,4 @@ Amazon Redshift
 Amazon Kinesis Firehose
 Amazon Kinesis Data Stream
 Route 53
+DynDNS
