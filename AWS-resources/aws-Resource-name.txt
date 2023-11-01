@@ -10,3 +10,4 @@ EBS - Elastic Block storage
 ENI - Elastic Network Interface
 DLM - Data Lifecycle Manager
 AWS Backup
+AW RDS - Amazon Relational Datanbase Service
