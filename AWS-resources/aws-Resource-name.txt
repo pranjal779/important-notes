@@ -17,5 +17,5 @@ Amazon Simple Notification Service (SNS)
  -> pub/sub feature
 Amazon Athena
 Amazon Redshift
-Amazon Kineis Firehose
+Amazon Kinesis Firehose
 Amazon Kinesis Data Stream
