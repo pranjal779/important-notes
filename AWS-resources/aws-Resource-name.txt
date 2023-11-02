@@ -21,3 +21,8 @@ Amazon Kinesis Firehose
 Amazon Kinesis Data Stream
 Route 53
 DynDNS
+Geolocation:
+ -> Amazon Location Service: https://aws.amazon.com/location/
+ -> GeoLocation: https://docs.aws.amazon.com/Route53/latest/APIReference/API_GeoLocation.html
+ -> Geolocation routing: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-geo.html
+ -> Welcome to Amazon Location Service: https://docs.aws.amazon.com/location/latest/APIReference/welcome.html
