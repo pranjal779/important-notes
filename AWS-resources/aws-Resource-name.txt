@@ -46,3 +46,4 @@ medium sized storage optimized instance
 medium burstableperformace instance])}
 cross-region-replication
 Multi-part upload
+**->stateless proprietary application on 4 EC2 instances mean?<-**
