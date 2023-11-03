@@ -26,3 +26,7 @@ Geolocation:
  -> GeoLocation: https://docs.aws.amazon.com/Route53/latest/APIReference/API_GeoLocation.html
  -> Geolocation routing: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-geo.html
  -> Welcome to Amazon Location Service: https://docs.aws.amazon.com/location/latest/APIReference/welcome.html
+>access control lists by username
+>signed URLs
+>geo-restriction based on IP address
+>sticky sessions
