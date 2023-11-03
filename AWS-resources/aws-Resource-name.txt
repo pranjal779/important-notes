@@ -1,6 +1,6 @@
 aws sso - single sign on
 control tower
-macie
+macie *
 active directory
 s3
 s3-Intelligent-Tiering
@@ -30,3 +30,6 @@ Geolocation:
 >signed URLs
 >geo-restriction based on IP address
 >sticky sessions
+* Amazon GaurdDuty
+* Amazon Detective
+* Amazon Cognito
