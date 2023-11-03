@@ -44,3 +44,5 @@ Geolocation:
 extra large compute optimized instance
 medium sized storage optimized instance
 medium burstableperformace instance])}
+cross-region-replication
+Multi-part upload
