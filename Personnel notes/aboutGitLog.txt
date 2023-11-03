@@ -1,0 +1,20 @@
+The correct syntax for showing the last 5 commits in a single line format is:
+
+`git log --oneline -5`
+
+Notice that there is only one dash (`-`) before the number 5, not two (`--`). 
+This is because the number 5 is not a separate option, but a parameter for the `--oneline` option. 
+The dash (`-`) indicates that the parameter is optional, and the default value is 10. 
+If you want to show more or less than 10 commits, you can specify the number after the dash (`-`). 
+
+For example:
+
+`git log --oneline -20`
+
+This will show the last 20 commits in a single line format. You can also use the `--max-count` option to achieve the same result. For example:
+
+`git log --oneline --max-count=20`
+
+This will also show the last 20 commits in a single line format. 
+The `--max-count` option takes an equal sign (`=`) and a number as its parameter. 
+You can use either syntax, but the dash (`-`) is shorter and easier to type.
