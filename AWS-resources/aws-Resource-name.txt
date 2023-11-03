@@ -52,3 +52,4 @@ Organizational Units(OUs)->DEV, and PROD:
  --> Attach the policy to the Dev OU.
  --> Attach the policy to the PROD OU.
  --> Attach the policy to the management account
+Service Control Policies (SCPs)
