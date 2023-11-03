@@ -33,3 +33,8 @@ Geolocation:
 * Amazon GaurdDuty
 * Amazon Detective
 * Amazon Cognito
+]AWS-Managed IAM
+]Customer-Managed IAM
+]Inline Policy
+]IAM Identity Federation
+*]IAM Identity Federation would only work if the uer were signing in through a separate Identity Provider(idP) like Facebook, Twitter or Google.*
