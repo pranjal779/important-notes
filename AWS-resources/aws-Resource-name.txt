@@ -53,3 +53,10 @@ Organizational Units(OUs)->DEV, and PROD:
  --> Attach the policy to the PROD OU.
  --> Attach the policy to the management account
 Service Control Policies (SCPs)
+AWS Artifact
+Amazon DynamoDB Accelerator (DAX)
+DynamoDB Accelerator (DAX) for caching (only? or can be used for general purpose? > I think general purpose: yes!)
+Q141 Imp context - ".....the team decides to monitor the CPU utilization of the primary node in the DAX cluster and cache eviction rate using Amazon CloudWatch....."
+DAX cluster
+cache eviction rate
+ --> When a DAX cluster has a high amount of cache misses and writes, using larger node types can improve write performance.
