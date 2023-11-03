@@ -47,3 +47,8 @@ medium burstableperformace instance])}
 cross-region-replication
 Multi-part upload
 **->stateless proprietary application on 4 EC2 instances mean?<-**
+Organizational Units(OUs)->DEV, and PROD:
+ --> Attach the policy to the Root. [x]
+ --> Attach the policy to the Dev OU.
+ --> Attach the policy to the PROD OU.
+ --> Attach the policy to the management account
