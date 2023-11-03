@@ -38,3 +38,9 @@ Geolocation:
 ]Inline Policy
 ]IAM Identity Federation
 *]IAM Identity Federation would only work if the uer were signing in through a separate Identity Provider(idP) like Facebook, Twitter or Google.*
+{for small size shop bakery local, website with steady amount of transaction - Q137
+(t3.small
+[small general purpose instance
+extra large compute optimized instance
+medium sized storage optimized instance
+medium burstableperformace instance])}
