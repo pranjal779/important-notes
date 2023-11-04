@@ -60,3 +60,19 @@ Q141 Imp context - ".....the team decides to monitor the CPU utilization of the 
 DAX cluster
 cache eviction rate
  --> When a DAX cluster has a high amount of cache misses and writes, using larger node types can improve write performance.
+imp Q143
+CRI-O containers hosted on on-permises virtual server.
+Amazon EKS
+Amazon Fargate
+Amazon ECS
+Amazon EC2
+Amazon EKS supports CRI-O containers with an open-source container orchestration service, and provide the right balance of flexibility and AWS management
+AWS Fargate would not allow the same level of customization and flexibility.
+Amazon ECS does not offer a proprietary container orchestration service.
+Amazon EC2 instances would not provide any level of managing the host instances. in the case where containers are involved. 
+AWS SQS
+AWS SNS
+AWS SWF - Simple Workflow Service
+AWS SES - Simple Email Service
+AWS WAF - Web Application Firewall {https://www.youtube.com/watch?v=Kch-rwEcGYs&ab_channel=AmazonWebServices}
+NAT instances - network address translation
