@@ -1,0 +1,16 @@
+You have been assigned to design a new Amazon RDS database for a pharmaceutical company. Their most important requirement is high availability. You have proposed a multi AZ configuration for high availability. This the discussion has progressed to failovers scenarios, which scenarios will not cause a automatic failover question, mark. 
+
+Option 1) loss of availability in the primary database availability zone. 
+Option 2), a compute unit, failure on a primary database instance, 
+Option 3), a long-running resource-intensive, stored procedure on the primary DB. 
+Option. 4), loss of network connectivity to primary DB instance. 
+
+Ans -> 3
+Explanation. 
+
+Amazon RDS detects and automatically recovers from the most common failures scenarios for multi-az deployments so that you can resume database operations as quickly as possible without administrative intervention. 
+Amazon RDS automatically performs a failover in the event of any, of the following: 
+1) loss of availability in primary availability zone 
+2) loss of network connectivity to primary
+3) compute, unit failure, on primary
+4) storage failure on primary, 
