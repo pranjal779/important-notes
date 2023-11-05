@@ -1,0 +1,2 @@
+AWS Artifact is a central resource for AWS SECURITY and compliance reportss. FROM AWS Artifact, you can download reports (e.g. Service Organizational Control Industry), 
+certifications, manage legel agreements (e.g. Business Associate Addendum)
