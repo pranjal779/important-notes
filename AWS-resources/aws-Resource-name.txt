@@ -126,3 +126,7 @@ Amazon Elastic-cache for memcached or redis protocol compliant sesrver nodes in 
 AWS Elemental MediaConvert
 
 EBS backed Instances type ** do checkthem out/revise them
+
+NAT Gateway
+Gateway VPC endpoints to route requests from private subnet to s3 bucket.
+NAT instance
