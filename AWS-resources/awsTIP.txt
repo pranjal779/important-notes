@@ -1,0 +1,11 @@
+Q173 {https://www.youtube.com/watch?v=19hVJ1HLLdY&t=16434s&ab_channel=ShapingPixel}
+TLDR; about dispute regarding hosting the videos right in S3 bucket in edge location
+you need to prevent customers from accessing these videos through your sservice immediately, but you have configured edge cache objects
+with a 24-hour expiration time, How can you resolve this issue (choose 2)
+
+1) Remove the contested files form your origin servers [x]
+2) Invalidate the contested files [x]
+3) Delete the files from the edge locations
+4) Replace the contested videos with dummy files assigned the same file names
+
+technology used AWS Elemental MediaConvert
