@@ -123,3 +123,4 @@ Amazon Machine Image(AMI)
 EBS Elastic Block Store
 
 Amazon Elastic-cache for memcached or redis protocol compliant sesrver nodes in the cloud.
+AWS Elemental MediaConvert
