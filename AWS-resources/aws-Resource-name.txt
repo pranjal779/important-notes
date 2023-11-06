@@ -20,6 +20,7 @@ Amazon Redshift
 Amazon Kinesis Firehose
 Amazon Kinesis Data Stream
 Route 53
+
 DynDNS
 Geolocation:
  -> Amazon Location Service: https://aws.amazon.com/location/
@@ -130,3 +131,5 @@ EBS backed Instances type ** do checkthem out/revise them
 NAT Gateway
 Gateway VPC endpoints to route requests from private subnet to s3 bucket.
 NAT instance
+
+AWS CloudHSM
