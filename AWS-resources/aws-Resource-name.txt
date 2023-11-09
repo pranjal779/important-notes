@@ -133,3 +133,4 @@ Gateway VPC endpoints to route requests from private subnet to s3 bucket.
 NAT instance
 
 AWS CloudHSM
+AWS MangedIPSec VPN Connection
