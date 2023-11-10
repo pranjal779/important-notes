@@ -1,0 +1,5 @@
+Cluster placement group
+
+Partition placement group
+
+Spread placement group.
