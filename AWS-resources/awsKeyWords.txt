@@ -3,3 +3,4 @@ Cluster placement group
 Partition placement group
 
 Spread placement group.
+A Spread placement group is a group of instances that are each placed on distinct racks, with each rack having its own network and power source.
