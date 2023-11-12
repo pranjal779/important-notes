@@ -8,3 +8,8 @@ with each rack having its own network and power source.
 
 AWS Database Migration Service
 
+AWS Snowball Edge
+
+AWS Glue
+
+Basic Schema Copy
