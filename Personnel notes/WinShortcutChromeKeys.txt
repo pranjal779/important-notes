@@ -1,0 +1,8 @@
+Windows and Linux:
+Zoom in: Ctrl and + (plus)
+Zoom out: Ctrl and – (minus)
+Return to default size: Ctrl and 0 (zero)
+Full-screen mode: F11
+Chromebook desktop screen zoom out: Ctrl + Shift + - (minus)
+Chromebook desktop zoom in: Ctrl + Shift + + (plus)
+Quick Zoom: Hold down the Cmd key and scroll with your mouse to zoom in and out of the page
