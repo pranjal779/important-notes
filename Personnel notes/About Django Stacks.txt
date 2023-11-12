@@ -1,4 +1,4 @@
-can you give me a schedule for Django stack and 1 for FReMP stack
+can you give me a schedule for Django stack and 1 for FReMP stack.
 
 Here is a sample schedule for learning the Django stack:
 
