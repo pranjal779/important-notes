@@ -13,3 +13,7 @@ AWS Snowball Edge
 AWS Glue
 
 Basic Schema Copy
+
+Amazon Machine Image (AMI)
+
+block device mapping.
