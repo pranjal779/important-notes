@@ -29,3 +29,5 @@ Amazon Kinesis Data Streams (KDS)
 
  Aurora Replica
 CloudFront points of presence (POPs) (edge locations)
+
+*AWS Shield* - AWS Shield is a managed Distributed Denial of Service (DDoS)
