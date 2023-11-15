@@ -26,3 +26,5 @@ Amazon EMR also lets you transform and move large amounts of data into and out o
 such as Amazon Simple Storage Service (Amazon S3) and Amazon DynamoDB.
 
 Amazon Kinesis Data Streams (KDS)
+
+ Aurora Replica
