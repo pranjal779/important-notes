@@ -147,3 +147,15 @@ VPN tunnel: An encrypted link where data can pass from the customer network to o
 Customer Gateway: An AWS resource that provides information to AWS about your Customer Gateway device.
 
 Customer Gateway device: A physical device or software application on the customer side of the Site-to-Site VPN connection
+
+
+Use AWS Global Accelerator - AWS Global Accelerator is a service that improves the availability and performance of your applications with local or global users. 
+It provides static IP addresses that act as a fixed entry point to your application endpoints in a single or multiple AWS Regions, 
+such as your Application Load Balancers, Network Load Balancers or Amazon EC2 instances. Global Accelerator is a good fit for non-HTTP use cases, 
+such as gaming (UDP), IoT (MQTT), or Voice over IP, as well as for HTTP use cases that specifically require static IP addresses or deterministic, 
+fast regional failover. Since CloudFront is better for improving application resiliency to handle spikes in traffic, so this option is ruled out.
+
+Use AWS Direct Connect - AWS Direct Connect lets you establish a dedicated network connection between your network and one of the AWS Direct Connect locations. 
+Using industry-standard 802.1q VLANs, this dedicated connection can be partitioned into multiple virtual interfaces. 
+AWS Direct Connect does not involve the Internet; instead, it uses dedicated, private network connections between your intranet and Amazon VPC. 
+Direct Connect cannot be used to improve application resiliency to handle spikes in traffic.
