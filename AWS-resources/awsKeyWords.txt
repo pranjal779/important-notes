@@ -33,3 +33,9 @@ CloudFront points of presence (POPs) (edge locations)
 *AWS Shield* - AWS Shield is a managed Distributed Denial of Service (DDoS)
 
 AWS Global Accelerator
+
+Enhanced Fanout feature of Kinesis Data Streams
+Swap out Kinesis Data Streams with Kinesis Data Firehose
+Swap out Kinesis Data Streams with SQS Standard queues
+Swap out Kinesis Data Streams with SQS FIFO queues
+
