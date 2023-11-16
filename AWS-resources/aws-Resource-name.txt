@@ -159,3 +159,31 @@ Use AWS Direct Connect - AWS Direct Connect lets you establish a dedicated netwo
 Using industry-standard 802.1q VLANs, this dedicated connection can be partitioned into multiple virtual interfaces. 
 AWS Direct Connect does not involve the Internet; instead, it uses dedicated, private network connections between your intranet and Amazon VPC. 
 Direct Connect cannot be used to improve application resiliency to handle spikes in traffic.
+
+
+Q19
+VPC Endpoint
+VPC CloudHub
+VPC Peering
+Software VPN
+
+AWS Direct Connect connection to the AWS VPC
+
+VPC Endpoint
+ AWS PrivateLink simplifies the security of data shared with cloud-based applications by eliminating the exposure of data to the public Internet.
+
+A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. 
+Instances in either VPC can communicate with each other as if they are within the same network. 
+VPC peering facilitates a connection between two VPCs within the AWS network, therefore this option cannot be used to send 
+and receive data between the remote branch offices of the company.
+
+Copy data from the source bucket to the destination bucket using the aws S3 sync command
+The aws S3 sync command uses the CopyObject APIs to copy objects between S3 buckets.
+
+Set up S3 batch replication to copy objects across S3 buckets in different Regions using S3 console
+
+
+AWS Direct Connect link
+
+
+User Data is generally used to perform common automated configuration tasks and even run scripts after the instance starts. When you launch an instance in Amazon EC2, you can pass two types of user data - shell scripts and cloud-init directives. You can also pass this data into the launch wizard as plain text or as a file.
