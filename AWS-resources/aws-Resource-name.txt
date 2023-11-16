@@ -189,3 +189,7 @@ AWS Direct Connect link
 User Data is generally used to perform common automated configuration tasks and even run scripts after the instance starts. When you launch an instance in Amazon EC2, you can pass two types of user data - shell scripts and cloud-init directives. You can also pass this data into the launch wizard as plain text or as a file.
 
 By default, user data is executed every time an EC2 instance is re-started - As discussed above, this is not a default configuration of the system. But, can be achieved by explicitly configuring the instance.
+
+
+What does VIF stand for in AWS?
+A virtual interface (VIF) is necessary to access AWS services, and is either public or private. A public virtual interface enables access to public services, such as Amazon S3. A private virtual interface enables access to your VPC.
