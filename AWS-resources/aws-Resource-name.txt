@@ -22,6 +22,9 @@ Amazon Kinesis Data Stream
 Route 53
 RDS Custom for Oracle
 launch template and launch configuration - launch template >>>
+Amazon Aurora Global Database
+??Amazon DynamoDB Global Tables??
+
 
 DynDNS
 Geolocation:
