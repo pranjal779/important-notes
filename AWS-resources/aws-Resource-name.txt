@@ -195,3 +195,6 @@ What does VIF stand for in AWS?
 A virtual interface (VIF) is necessary to access AWS services, and is either public or private. A public virtual interface enables access to public services, such as Amazon S3. A private virtual interface enables access to your VPC.
 
 the Amazon EFS API
+
+
+Data Transfer Out (DTO) from AWS to the on-premises data center. DTO refers to the cumulative network traffic that is sent through AWS Direct Connect to destinations outside of AWS. This is charged per gigabyte (GB), and unlike capacity measurements, DTO refers to the amount of data transferred, not the speed.
