@@ -21,6 +21,7 @@ Amazon Kinesis Firehose
 Amazon Kinesis Data Stream
 Route 53
 RDS Custom for Oracle
+launch template and launch configuration - launch template >>>
 
 DynDNS
 Geolocation:
