@@ -8,3 +8,7 @@ can be used with AWS Direct Connect.
 
 Link:
 https://aws.amazon.com/directconnect/faqs/
+
+Data Transfer Out (DTO) from AWS to the on-premises data center. 
+DTO refers to the cumulative network traffic that is sent through AWS Direct Connect to destinations outside of AWS. 
+This is charged per gigabyte (GB), and unlike capacity measurements, DTO refers to the amount of data transferred, not the speed.
