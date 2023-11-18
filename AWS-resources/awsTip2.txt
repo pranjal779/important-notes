@@ -35,3 +35,7 @@ A launch configuration is an instance configuration template that an Auto Scalin
 
 You cannot use a launch configuration to provision capacity across multiple instance types using both On-Demand Instances and Spot Instances.
 ----
+
+ token bucket algorithm
+q46
+Amazon API Gateway throttles requests to your API using the token bucket algorithm,
