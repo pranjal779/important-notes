@@ -42,3 +42,5 @@ Using Amazon CloudWatch alarm actions, you can create alarms that automatically 
 You can create an Amazon CloudWatch alarm that monitors an Amazon EC2 instance and automatically reboots the instance. The reboot alarm action is recommended for Instance Health Check failures (as opposed to the recover alarm action, which is suited for System Health Check failures).
 
 ---------
+
+EC2 Reboot CloudWatch Alarm Action to reboot the instance
