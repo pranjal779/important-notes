@@ -221,3 +221,5 @@ AWS Glue
 
 industry-standard Service Message Block (SMB) protocol
 Microsoft Active Directory (AD) integration
+
+cold data and Hot Data
