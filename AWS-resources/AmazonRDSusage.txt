@@ -14,3 +14,11 @@ Amazon RDS automatically performs a failover in the event of any, of the followi
 2) loss of network connectivity to primary
 3) compute, unit failure, on primary
 4) storage failure on primary, 
+
+
+Aurora Replicas
+Aurora Replicas have two main purposes. You can issue queries to them to scale the read operations for your application. You typically do so by connecting to the reader endpoint of the cluster. 
+That way, Aurora can spread the load for read-only connections across as many Aurora Replicas as you have in the cluster. Aurora Replicas also help to increase availability. If the writer instance in a cluster becomes unavailable, Aurora automatically promotes one of the reader instances to take its place as the new writer.
+
+While setting up a Multi-AZ deployment for Aurora, you create an Aurora replica or reader node in a different AZ.
+
