@@ -29,6 +29,7 @@ Consolidated billing
 EC2 Reboot CloudWatch Alarm Action to reboot the instance
 Amazon API Gateway throttles requests to your API using the token bucket algorithm,
 Gateway Endpoint
+AWS PrivateLink
 
 
 DynDNS
