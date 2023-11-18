@@ -215,3 +215,9 @@ HPC applications  - High-Performance Computing
 Electronic Design Automation (EDA) application
 
 Amazon FSx for Lustre
+Amazon FSx for Windows File Server
+Amazon EMR
+AWS Glue
+
+industry-standard Service Message Block (SMB) protocol
+Microsoft Active Directory (AD) integration
