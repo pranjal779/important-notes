@@ -25,6 +25,7 @@ launch template and launch configuration - launch template >>>
 Amazon Aurora Global Database
 ??Amazon DynamoDB Global Tables??
 AWS Key Management Service (AWS KMS) customer master keys (CMK)
+Consolidated billing
 
 
 DynDNS
