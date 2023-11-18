@@ -225,3 +225,4 @@ industry-standard Service Message Block (SMB) protocol
 Microsoft Active Directory (AD) integration
 
 cold data and Hot Data
+AWS offers to authorize an API call within the API Gateway. 
