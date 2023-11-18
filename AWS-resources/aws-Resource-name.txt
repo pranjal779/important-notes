@@ -211,3 +211,5 @@ Access Control Management (ACM) application
 
 
 HPC applications  - High-Performance Computing 
+
+Electronic Design Automation (EDA) application
