@@ -27,6 +27,7 @@ Amazon Aurora Global Database
 AWS Key Management Service (AWS KMS) customer master keys (CMK)
 Consolidated billing
 EC2 Reboot CloudWatch Alarm Action to reboot the instance
+Amazon API Gateway throttles requests to your API using the token bucket algorithm,
 
 
 DynDNS
