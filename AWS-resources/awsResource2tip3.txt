@@ -32,4 +32,5 @@ For consumers who currently are located within your AWS environment or have the 
 you can use AWS_IAM authorization and add least-privileged permissions to the respective IAM role to securely invoke your API. 
 API Gateway API Keys is not a security mechanism and should not be used for authorization unless it’s a public API. It should be used primarily to track a consumer’s usage across your API.
 
+API Gateway Lambda authorizer
 ------
