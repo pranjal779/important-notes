@@ -52,3 +52,15 @@ Enable ElastiCache Redis for DynamoDB and CloudFront for S3
 Enable DAX for DynamoDB and ElastiCache Memcached for S3
 Enable ElastiCache Redis for DynamoDB and ElastiCache Memcached for S3
 -=-=-==-=--=-=-=-
+
+
+q60
+Amazon SNS - Amazon Simple Notification Service (SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple 
+microservices, distributed systems, and serverless applications. Amazon SNS provides topics for high-throughput, push-based, many-to-many messaging.
+
+Amazon CloudWatch - Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers. 
+CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, 
+and get a unified view of operational health. Amazon CloudWatch allows you to monitor AWS cloud resources and the applications you run on AWS.
+
+You can use CloudWatch Alarms to send an email via SNS whenever any of the EC2 instances breaches a certain threshold. Hence both these options are correct.
+-=-==--=-=
