@@ -12,3 +12,12 @@ Amazon Neptune can quickly and easily process large sets of user-profiles and in
 Neptune enables highly interactive graph queries with high throughput to bring social features into your applications. 
 For example, if you are building a social feed into your application, you can use Neptune to provide results that prioritize showing your users 
 the latest updates from their family, from friends whose updates they ‘Like,’ and from friends who live close to them.
+
+*other*
+
+Amazon ElasticSearch - Elasticsearch is a search engine based on the Lucene library. 
+Amazon Elasticsearch Service is a fully managed service that makes it easy for you to deploy, secure, and run Elasticsearch cost-effectively at scale. You can build, monitor, and troubleshoot your applications using the tools you love, at the scale you need. The service provides support for open-source Elasticsearch APIs, managed Kibana, integration with Logstash and other AWS services, and built-in alerting and SQL querying.
+
+Amazon Redshift - Amazon Redshift is a fully-managed petabyte-scale cloud-based data warehouse product designed for large scale data set storage and analysis. The given use-case is not about data warehousing, so this is not a correct option.
+
+Amazon Aurora - Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases. Amazon Aurora features a distributed, fault-tolerant, self-healing storage system that auto-scales up to 64TB per database instance. Aurora is not an in-memory database. Here, we need a graph database due to the highly connected datasets and queries, therefore Neptune is the best answer
