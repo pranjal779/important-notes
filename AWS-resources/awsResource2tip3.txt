@@ -44,3 +44,11 @@ You can create an Amazon CloudWatch alarm that monitors an Amazon EC2 instance a
 ---------
 
 EC2 Reboot CloudWatch Alarm Action to reboot the instance
+
+---=-=--=-=-=
+q57
+Enable DynamoDB Accelerator (DAX) for DynamoDB and CloudFront for S3
+Enable ElastiCache Redis for DynamoDB and CloudFront for S3
+Enable DAX for DynamoDB and ElastiCache Memcached for S3
+Enable ElastiCache Redis for DynamoDB and ElastiCache Memcached for S3
+-=-=-==-=--=-=-=-
