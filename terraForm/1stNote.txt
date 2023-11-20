@@ -1,0 +1,2 @@
+Terraform Core
+Terraform Plugins
