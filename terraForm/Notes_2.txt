@@ -1,0 +1,87 @@
+Oreilly Terraform U& Running takes a deep dive into the internal worings of Terraform
+1:05:26
+https://youtu.be/SPcwo0Gq9T8
+
+
+Terraform is an online open book about Terraform Best Practices
+www.terraform-besst-practices.com
+
+Terraform Provisioners
+-> cloud-init
+-> Packer
+
+1:09:13 important notes regarding uisng Provisioners should only ne used as a last resort. For most common situation there are better alternatives.
+
+local-exec = local commands
+outputs vss Local Exec
+
+local exec example 1:14:03
+command (required)
+working_dir
+interpreter
+Environment
+
+Remote-Exec -> commands on a target resource
+1:15:13 example
+
+connection block 1:17:25
+Bastion Host
+
+A connection block tells a provisioner or resource how to establish a connection
+
+null_resources
+Triggers
+
+
+Terraform Providers
+
+Terraform Registry
+- Provider
+- Modules
+
+1:24:33 Terraform Cloud - Private Registry
+
+version control system (VCS)
+
+
+Terraform Providers Command 1:24:55
+
+Terraform Provider Configuration 1:26:09
+
+Terraform Modules 1:27:21
+a terraform modules is a group of configuration files that provide common configuration functionality
+Enforces best practice
+reduces the amount of code
+Reduce time to develop scripts
+
+
+Azure VM via the Azure Provider but the code is long
+so use Azure VM via a Compute and Network Module
+
+1:28:09
+
+1:30:57
+Hashicorp Configuration Files
+Terraform files end in the extension of .tf or either .tf.json
+
+1:31:55 **
+
+1:32:20 Alternate JSON Syntax
+
+1:32:45 Terraform Settings
+
+1:35:37 Input Variables
+
+1:37:02 Variable Definitions Files
+variable definition files are named .tfvars or tfvars.json
+
+1:37:33 Variables vs Environment Variables
+
+**Variable starting with TF_VAR_<name> will be read and loaded
+export TF_VAR_image_id=ami-abc123
+
+1:38:30 Loading Input Variables
+
+1:40:27 Variable Definition Precedence
+
+1:40:46 Output Values
