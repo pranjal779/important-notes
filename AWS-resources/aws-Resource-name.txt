@@ -33,7 +33,9 @@ AWS PrivateLink
 transit gateway to interconnect the VPCs
 Amazon Managed Streaming of Kafka (Amazon MSK) as the target.
 AWS Database Migration Service (AWS DMS)
-AWS DMS allows migration of full and change data capture (CDC) files to these services. 
+AWS DMS allows migration of full and change data capture (CDC) files to these services.
+AWS Managed IPSec VPN Connection
+Virtual Private Gateway on the AWS side of the VPN and a Customer Gateway on the on-premises side of the VPN {or vise versa - or any other way around}
 
 
 DynDNS
