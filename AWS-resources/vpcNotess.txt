@@ -1,0 +1,7 @@
+VPC with a single public subnet
+VPC with public and private subnets (NAT)
+VPC with public and private subnets and AWS Site-to-Site VPN access
+VPC with a private subnet only and AWS Site-to-Site VPN access
+
+IPsec AWS Site-to-Site VPN connection.
+IPsec VPN tunnel
