@@ -30,19 +30,18 @@ An IPSec (Internet Protocol Security) VPN Connection establishes a secure encryp
 Here's an overview of how it works:
 
 Virtual Private Gateway (VPG):
-
 The VPG is the VPN concentrator on the AWS side that enables the VPN connection to your VPC.
 It's attached to your VPC and acts as an endpoint for the VPN connection from your on-premises network.
-Customer Gateway (CGW):
 
+Customer Gateway (CGW):
 The CGW represents your customer's on-premises VPN device or software that connects to the VPG.
 You configure the CGW with the necessary settings and credentials to establish a secure connection with the VPG.
-IPSec VPN Tunnel:
 
+IPSec VPN Tunnel:
 Once the VPG and CGW configurations are set up correctly, an IPSec VPN tunnel is established between them.
 The IPSec tunnel encrypts the data traffic passing between your on-premises network and your VPC, ensuring secure communication.
-Traffic Routing:
 
+Traffic Routing:
 You define routing rules to direct traffic between your on-premises network and the AWS VPC.
 These routes ensure that the traffic from your on-premises resources to AWS resources (and vice versa) follows the VPN connection.
 By using a managed IPSec VPN Connection with AWS VPC, you can securely extend your on-premises network to the AWS cloud. 
