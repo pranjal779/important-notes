@@ -24,3 +24,5 @@ Customer Gateway device: A physical device or software application on the custom
 
 AWS Managed IPSec VPN  via - https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-managed-vpn-network-to-amazon.html
 ---------
+
+An IPSec (Internet Protocol Security) VPN Connection establishes a secure encrypted connection between your on-premises network and your Amazon VPC over the internet. This connection allows secure communication between your on-premises resources and your resources in the AWS cloud.
