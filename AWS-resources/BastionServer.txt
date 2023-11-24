@@ -1,0 +1,17 @@
+A Bastion server, often referred to as a Jump server or a Jump host, is a secure gateway used to access and manage private servers or instances within a private network (like a VPC in AWS) from an external or less secure network, such as the internet. It acts as an entry point to the private network and helps to enhance security by restricting direct access to internal resources.
+
+The primary purpose of a Bastion server is to provide a controlled and monitored point of entry to access other servers or resources within the private network. Users connect to the Bastion server using Secure Shell (SSH) or Remote Desktop Protocol (RDP) for Windows-based systems, and from there, they can then access other servers within the private network.
+
+A NAT (Network Address Translation) instance in AWS can be used as a Bastion server, but it's important to note the differences between the two:
+
+1. **NAT Instance:**
+   - NAT instances in AWS are primarily used to provide internet access to private instances in a VPC that do not have public IP addresses. They help private instances access the internet while preventing inbound internet traffic from reaching those instances.
+   - NAT instances perform outbound network address translation, changing the source IP of outgoing traffic from private instances to its own public IP address before forwarding it to the internet.
+   - While a NAT instance can perform some Bastion server-like functions (as it's an instance that sits between internal and external networks), it lacks the security features and direct user interaction typically associated with a dedicated Bastion server.
+
+2. **Bastion Server:**
+   - A Bastion server is designed specifically for secure remote access to internal resources. It typically has more robust security measures in place, such as strict access controls, logging, auditing, and monitoring.
+   - The Bastion server acts as a secure access point, allowing users to authenticate and then access other servers or resources within the private network.
+   - Unlike a NAT instance, a Bastion server is designed for direct user interaction, where users log in to the Bastion server and then initiate connections to other internal servers from there.
+
+While a NAT instance could theoretically be used as a Bastion server, it may not offer the same level of security and control as a dedicated Bastion server solution. For secure and controlled remote access to private instances in an AWS VPC, using a dedicated Bastion host with proper security measures is often recommended over using a NAT instance for Bastion server purposes.
