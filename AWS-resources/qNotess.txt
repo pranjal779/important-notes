@@ -1,1 +1,53 @@
 The DevOps team at the organization has set up an AWS Managed IPSec VPN Connection between their remote on-premises network and their Amazon VPC over the internet.
+
+
+
+
+
+
++++++++++++++++++++++++
+Q
+A retail company has developed a REST API which is deployed in an Auto Scaling group behind an Application Load Balancer. The API stores the user data in DynamoDB and any static content, such as images, are served via S3. On analyzing the usage trends, it is found that 90% of the read requests are for commonly accessed data across all users.
+
+As a Solutions Architect, which of the following would you suggest as the MOST efficient solution to improve the application performance?
+
+>Explanation
+Correct option:
+
+>Enable DynamoDB Accelerator (DAX) for DynamoDB and CloudFront for S3
+
+DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for Amazon DynamoDB that delivers up to a 10 times performance improvement—from milliseconds to microseconds—even at millions of requests per second.
+
+DAX is tightly integrated with DynamoDB—you simply provision a DAX cluster, use the DAX client SDK to point your existing DynamoDB API calls at the DAX cluster, and let DAX handle the rest. Because DAX is API-compatible with DynamoDB, you don't have to make any functional application code changes. DAX is used to natively cache DynamoDB reads.
+
+CloudFront is a content delivery network (CDN) service that delivers static and dynamic web content, video streams, and APIs around the world, securely and at scale. By design, delivering data out of CloudFront can be more cost-effective than delivering it from S3 directly to your users.
+
+When a user requests content that you serve with CloudFront, their request is routed to a nearby Edge Location. If CloudFront has a cached copy of the requested file, CloudFront delivers it to the user, providing a fast (low-latency) response. If the file they’ve requested isn’t yet cached, CloudFront retrieves it from your origin – for example, the S3 bucket where you’ve stored your content.
+
+So, you can use CloudFront to improve application performance to serve static content from S3.
+
+Incorrect options:
+
+> Enable ElastiCache Redis for DynamoDB and CloudFront for S3
+
+Amazon ElastiCache for Redis is a blazing fast in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications. Amazon ElastiCache for Redis is a great choice for real-time transactional and analytical processing use cases such as caching, chat/messaging, gaming leaderboards, geospatial, machine learning, media streaming, queues, real-time analytics, and session store.
+
+via - https://aws.amazon.com/elasticache/redis/
+
+Although you can integrate Redis with DynamoDB, it's much more involved than using DAX which is a much better fit.
+
+> Enable DAX for DynamoDB and ElastiCache Memcached for S3
+
+> Enable ElastiCache Redis for DynamoDB and ElastiCache Memcached for S3
+
+Amazon ElastiCache for Memcached is a Memcached-compatible in-memory key-value store service that can be used as a cache or a data store. Amazon ElastiCache for Memcached is a great choice for implementing an in-memory cache to decrease access latency, increase throughput, and ease the load off your relational or NoSQL database.
+
+ElastiCache Memcached cannot be used as a cache to serve static content from S3, so both these options are incorrect.
+
+References:
+
+https://aws.amazon.com/dynamodb/dax/
+
+https://aws.amazon.com/blogs/networking-and-content-delivery/amazon-s3-amazon-cloudfront-a-match-made-in-the-cloud/
+
+https://aws.amazon.com/elasticache/redis/
