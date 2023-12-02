@@ -39,6 +39,7 @@ Virtual Private Gateway on the AWS side of the VPN and a Customer Gateway on the
 Open Systems Interconnection (OSI) model.
 Amazon EFS API
 Amazon FSx File Gateway
+Service Message Block (SMB) protocol
 
 
 DynDNS
