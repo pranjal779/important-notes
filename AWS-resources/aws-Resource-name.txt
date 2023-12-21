@@ -41,6 +41,7 @@ Amazon EFS API
 Amazon FSx File Gateway
 Service Message Block (SMB) protocol
 RAID configuration
+AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD)
 
 
 DynDNS
