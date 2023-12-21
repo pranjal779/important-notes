@@ -1,0 +1,26 @@
+Q
+An application is hosted on multiple Amazon EC2 instances in the same Availability Zone (AZ). 
+The engineering team wants to set up shared data access for these Amazon EC2 instances using Amazon EBS Multi-Attach volumes.
+
+Which Amazon EBS volume type is the correct choice for these Amazon EC2 instances?
+
+Explanation
+Correct option:
+
+Provisioned IOPS SSD Amazon EBS volumes
+
+Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD (io1 or io2) volume to multiple instances that are in the same Availability Zone. You can attach multiple Multi-Attach enabled volumes to an instance or set of instances. Each instance to which the volume is attached has full read and write permission to the shared volume. Multi-Attach makes it easier for you to achieve higher application availability in clustered Linux applications that manage concurrent write operations.
+
+Multi-Attach is supported exclusively on Provisioned IOPS SSD volumes.
+
+Incorrect options:
+
+General-purpose SSD-based Amazon EBS volumes - These SSD-backed Amazon EBS volumes provide a balance of price and performance. AWS recommends these volumes for most workloads. These volume types are not supported for Multi-Attach functionality.
+
+Throughput Optimized HDD Amazon EBS volumes - These HDD-backed volumes provide a low-cost HDD designed for frequently accessed, throughput-intensive workloads. These volume types are not supported for Multi-Attach functionality.
+
+Cold HDD Amazon EBS volumes - These HDD-backed volumes provide a lowest-cost HDD design for less frequently accessed workloads. These volume types are not supported for Multi-Attach functionality.
+
+Reference:
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes-multi.html
