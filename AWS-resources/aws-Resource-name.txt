@@ -42,6 +42,11 @@ Amazon FSx File Gateway
 Service Message Block (SMB) protocol
 RAID configuration
 AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD)
+Amazon Simple Queue Service (Amazon SQS) temporary queues
+Amazon Simple Queue Service (Amazon SQS) dead-letter queues
+Amazon Simple Queue Service (Amazon SQS) FIFO queues
+
+
 
 
 DynDNS
