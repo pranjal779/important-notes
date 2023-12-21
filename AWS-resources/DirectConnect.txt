@@ -23,3 +23,19 @@ Opt for two separate AWS Direct Connect connections terminating on separate devi
 Maximum resilience is achieved by separate connections terminating on separate devices in more than one location. This configuration offers customers maximum resilience to failure. As shown in the figure above, such a topology provides resilience to device failure, connectivity failure, and complete location failure. You can use Direct Connect Gateway to access any AWS Region (except AWS Regions in China) from any AWS Direct Connect locations.
 
 Maximum Resiliency for Critical Workloads:  via - https://aws.amazon.com/directconnect/resiliency-recommendation/
+
+Incorrect options:
+
+Opt for one AWS Direct Connect connection at each of the multiple Direct Connect locations - For critical production workloads that require high resiliency, it is recommended to have one connection at multiple locations. As shown in the figure below, such a topology ensures resilience to connectivity failure due to a fiber cut or a device failure as well as a complete location failure. You can use Direct Connect Gateway to access any AWS Region (except AWS Regions in China) from any AWS Direct Connect location.
+
+High Resiliency for Critical Workloads:  via - https://aws.amazon.com/directconnect/resiliency-recommendation/
+
+Opt for at least two AWS Direct Connect connections terminating on different devices at a single Direct Connect location - For non-critical production workloads and development workloads that do not require high resiliency, it is recommended to have at least two connections terminating on different devices at a single location. As shown in the figure above, such a topology helps in the case of the device failure at a location but does not help in the event of a total location failure.
+
+Non Critical Production Workloads or Development Workloads:  via - https://aws.amazon.com/directconnect/resiliency-recommendation/
+
+Use AWS Managed VPN as a backup for AWS Direct Connect connections to ensure maximum resiliency - It is important to understand that AWS Managed VPN supports up to 1.25 Gbps throughput per VPN tunnel and does not support Equal Cost Multi-Path (ECMP) for egress data path in the case of multiple AWS Managed VPN tunnels terminating on the same VGW. Thus, AWS does not recommend customers use AWS Managed VPN as a backup for AWS Direct Connect connections with speeds greater than 1 Gbps.
+
+Reference:
+
+https://aws.amazon.com/directconnect/resiliency-recommendation/
