@@ -51,3 +51,14 @@ https://aws.amazon.com/dynamodb/dax/
 https://aws.amazon.com/blogs/networking-and-content-delivery/amazon-s3-amazon-cloudfront-a-match-made-in-the-cloud/
 
 https://aws.amazon.com/elasticache/redis/
+
+
+Q
+A data analytics company is running a proprietary database on an Amazon EC2 instance using Amazon EBS volumes. The database is heavily input/output (I/O) bound. As a solutions architect, which of the following RAID configurations would you recommend improving the I/O performance?
+
+Use RAID 0 when I/O performance is more important than fault tolerance
+
+With Amazon EBS, you can use any of the standard RAID configurations that you can use with a traditional bare metal server, as long as that particular RAID configuration is supported by the operating system for your instance. This is because all RAID is accomplished at the software level.
+
+RAID configuration options for I/O performance v/s fault tolerance:
+via - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/raid-config.html
