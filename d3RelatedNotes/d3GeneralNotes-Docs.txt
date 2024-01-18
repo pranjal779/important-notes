@@ -1,0 +1,23 @@
+You can find D3.js documentation at https://d3js.org/. You can also find installation documentation at https://d3js.org/getting-started. 
+You can also find documentation for older versions of D3 on GitHub.
+
+To link to the latest version of D3.js, you can use the following snippet: 
+<script src="https://d3js.org/d3.v7.min.js"></script> 
+ 
+D3.js, or Data-Driven Documents, is a JavaScript library that creates dynamic data visualizations for web browsers. 
+  It uses HTML5, Cascading Style Sheets (CSS), and Scalable Vector Graphics (SVG) standards. 
+  
+Here are some steps for creating a D3 app: 
+Set up the environment
+Create an HTML file
+Create a JavaScript file
+Load data
+Create visualizations
+To embed D3 in HTML, you can: 
+Add basic tags like html, head, and body
+Include the d3 JavaScript in a script tag with src="http://d3js.org/d3.v3.min.js"
+Add your code above into another script and the end of the body tag
+
+You can also include the D3 library from CDN by linking it directly into your HTML page. 
+A CDN is a network of servers that hosts files and delivers them to a user based on their location. 
+Using a CDN means you don't need to download the source code.
