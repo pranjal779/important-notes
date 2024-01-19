@@ -27,3 +27,7 @@ Why use CDN for JavaScript?
 A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. 
 A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
 https://www.cloudflare.com/learning/cdn/what-is-a-cdn/#:~:text=A%20content%20delivery%20network%20(CDN)%20is%20a%20geographically%20distributed%20group,stylesheets%2C%20images%2C%20and%20videos.
+
+
+Doc which lets you DIY:
+https://www.tutorialspoint.com/d3js/d3js_installation.htm#:~:text=We%20can%20use%20the%20D3,to%20download%20the%20source%20code.
