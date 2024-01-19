@@ -21,3 +21,9 @@ Add your code above into another script and the end of the body tag
 You can also include the D3 library from CDN by linking it directly into your HTML page. 
 A CDN is a network of servers that hosts files and delivers them to a user based on their location. 
 Using a CDN means you don't need to download the source code.
+
+
+Why use CDN for JavaScript?
+A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. 
+A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
+https://www.cloudflare.com/learning/cdn/what-is-a-cdn/#:~:text=A%20content%20delivery%20network%20(CDN)%20is%20a%20geographically%20distributed%20group,stylesheets%2C%20images%2C%20and%20videos.
