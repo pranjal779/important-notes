@@ -1,0 +1,15 @@
+The defer attribute in the script tag tells the browser to defer the execution of the script until the page has finished parsing. 
+This can be useful for scripts that are not essential for the initial rendering of the page, as it can improve the page load time.
+For example, a script that adds analytics tracking to a page can be deferred, as the page can still be rendered and used without the tracking data. 
+Once the page has finished loading, the deferred script will be executed and the analytics data will be collected.
+The defer attribute can also be used for scripts that are dependent on other scripts. 
+For example, a script that adds a social media sharing button to a page may need to wait for the social media scripts to be loaded before it can be executed. 
+By deferring the execution of the social media sharing script, the browser can ensure that all of the necessary scripts are loaded before the button is added to the page.
+It is important to note that the defer attribute does not prevent the browser from downloading the script. The script will still be downloaded in parallel with the parsing of the page. 
+However, the script will not be executed until the page has finished parsing.
+
+Here is an example of how to use the defer attribute:
+
+<script defer src="/Bar-Charts/script.js"></script>
+
+In this example, the script at the specified URL will be deferred until the page has finished parsing.
