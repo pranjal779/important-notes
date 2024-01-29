@@ -1,0 +1,17 @@
+Here are some of the most popular Python React
+ stacks:
+Django + React:
+Django is a popular Python web framework that is known for its speed, security, and scalability. 
+React is a popular JavaScript library for building user interfaces. Together, Django and React can be used to build powerful and dynamic web applications.
+Flask + React:
+Flask is another popular Python web framework that is known for its simplicity and flexibility. 
+React is a popular JavaScript library for building user interfaces. Together, Flask and React can be used to build powerful and dynamic web applications.
+Pyramid + React:
+Pyramid is a Python web framework that is known for its modularity and extensibility. 
+React is a popular JavaScript library for building user interfaces. Together, Pyramid and React can be used to build powerful and dynamic web applications.
+TurboGears2 + React:
+TurboGears2 is a Python web framework that is known for its speed and scalability. 
+React is a popular JavaScript library for building user interfaces. Together, TurboGears2 and React can be used to build powerful and dynamic web applications.
+CherryPy + React:
+CherryPy is a Python web framework that is known for its simplicity and lightweightness. 
+React is a popular JavaScript library for building user interfaces. Together, CherryPy and React can be used to build powerful and dynamic web applications.
