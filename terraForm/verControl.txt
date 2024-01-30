@@ -1,0 +1,12 @@
+22. Name all version controls supported by Terraform
+The supported version controls are:
+
+Azure DevOps Services
+Azure DevOps Server
+Bitbucket Server
+Bitbucket Cloud
+Gitlab EE and CE
+Gitlab.com
+GitHub Enterprise
+GitHub.com (OAuth)
+GitHub.com
