@@ -1,0 +1,10 @@
+I'm Japanese!
+You’ve seen that hiragana and katakana can be mixed in the same sentence. They can also be mixed within a single word! Compare the examples below:
+これはアメリカです。
+
+[kore wa Amerika desu]
+This is America.
+わたしはアメリカじんです。
+
+[watashi wa Amerikajin desu]
+I'm American.
