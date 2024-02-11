@@ -1,0 +1,5 @@
+k8s
+
+Getting started with Docker and Kubernetes: A beginners guide
+Oct 03, 2019 - 18 min read
+https://www.educative.io/blog/docker-kubernetes-beginners-guide
