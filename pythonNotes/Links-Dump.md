@@ -12,4 +12,4 @@
 
 [Flask, Heroku, Twitter API & Google Sheets API - YouTube](https://www.youtube.com/watch?v=yCYPzoG25ak)
 
-[Use these 15 Django Interview Questions to Prepare for Your Next Technical Interview - 02/23/2023 - 8 minutes - By Michael Klein] (https://www.codecademy.com/resources/blog/django-interview-questions/)
+[Use these 15 Django Interview Questions to Prepare for Your Next Technical Interview - 02/23/2023 - 8 minutes - By Michael Klein](https://www.codecademy.com/resources/blog/django-interview-questions/)
