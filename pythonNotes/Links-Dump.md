@@ -16,4 +16,5 @@
 
 [Django MVT Architecture: A Fresh Take on Classic MVC - By Vinayak Nishant / August 20, 2020](https://www.askpython.com/django/django-mvt-architecture)
 
+[27 Advanced NumPy Interview Questions (ANSWERED) To Crush Your Data Science Interview](https://www.mlstack.cafe/blog/numpy-interview-questions)
 [8 Python Code Challenges to Try During Pride - 06/01/2023 - 4 minutes - Cory-Stieg-Headshot-e1697134432604.webp?w=338 - By Cory Stieg](https://www.codecademy.com/resources/blog/python-code-challenges-lgbtq-pride/)
