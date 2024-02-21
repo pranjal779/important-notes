@@ -11,3 +11,5 @@
 [Top 15 Most Essential Python Modules for Developers - YiXu Zhang](https://morioh.com/a/153aed2b7383/top-15-most-essential-python-modules-for-developers)
 
 [Flask, Heroku, Twitter API & Google Sheets API - YouTube](https://www.youtube.com/watch?v=yCYPzoG25ak)
+
+[Use these 15 Django Interview Questions to Prepare for Your Next Technical Interview - 02/23/2023 - 8 minutes - By Michael Klein] (https://www.codecademy.com/resources/blog/django-interview-questions/)
