@@ -9,3 +9,6 @@ The exact steps may differ slightly depending on the specific tools you use, but
 
 
 jango templating language is same as Flask
+
+
+Some of the main features of Django you could consider discussing are templating, admin interface, object-relational mapping (ORM), testing framework, form handling, and session management and role-based permissions.
