@@ -7,3 +7,5 @@
 [The 30 Most Useful Python Libraries for Data Engineering - Medium](https://medium.com/@Evenword/the-30-most-useful-python-libraries-for-data-engineering-9e724a19e613)
 
 [Flask vs. Django: Which Framework Should You Choose? - 09/22/2021 - By Michael Klein - DataCamp](https://www.codecademy.com/resources/blog/flask-vs-django/)
+
+[Top 15 Most Essential Python Modules for Developers - YiXu Zhang](https://morioh.com/a/153aed2b7383/top-15-most-essential-python-modules-for-developers)
