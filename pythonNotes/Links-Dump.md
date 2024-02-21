@@ -15,3 +15,5 @@
 [Use these 15 Django Interview Questions to Prepare for Your Next Technical Interview - 02/23/2023 - 8 minutes - By Michael Klein](https://www.codecademy.com/resources/blog/django-interview-questions/)
 
 [Django MVT Architecture: A Fresh Take on Classic MVC - By Vinayak Nishant / August 20, 2020](https://www.askpython.com/django/django-mvt-architecture)
+
+[8 Python Code Challenges to Try During Pride - 06/01/2023 - 4 minutes - Cory-Stieg-Headshot-e1697134432604.webp?w=338 - By Cory Stieg](https://www.codecademy.com/resources/blog/python-code-challenges-lgbtq-pride/)
