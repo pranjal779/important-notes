@@ -14,6 +14,8 @@
 
 [Use these 15 Django Interview Questions to Prepare for Your Next Technical Interview - 02/23/2023 - 8 minutes - By Michael Klein](https://www.codecademy.com/resources/blog/django-interview-questions/)
 
+[Python Database Tutorial - geek for geeks](https://www.geeksforgeeks.org/python-database-tutorial/)
+
 [Django MVT Architecture: A Fresh Take on Classic MVC - By Vinayak Nishant / August 20, 2020](https://www.askpython.com/django/django-mvt-architecture)
 
 [27 Advanced NumPy Interview Questions (ANSWERED) To Crush Your Data Science Interview](https://www.mlstack.cafe/blog/numpy-interview-questions)
