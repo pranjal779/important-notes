@@ -1,0 +1,4 @@
+from if__name__EqualEqualTo__main__py import add
+
+x = add(1, 2)
+print(x)
