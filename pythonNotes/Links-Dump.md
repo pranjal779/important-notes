@@ -32,3 +32,5 @@
 [20 Python MySQL Interview Questions and Answers](https://climbtheladder.com/python-mysql-interview-questions/#:~:text=20%20Python%20MySQL%20Interview%20Questions%20and%20Answers%201,difference%20between%20autocommit%20and%20commit%3F%20...%20More%20items)
 
 [PySpark Decorator](https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/decorators/pyspark.html)
+
+[How to Generate Random Numbers in Python](https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/)
