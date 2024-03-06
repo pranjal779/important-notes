@@ -30,3 +30,5 @@
 [8 Python Code Challenges to Try During Pride - 06/01/2023 - 4 minutes - By Cory Stieg](https://www.codecademy.com/resources/blog/python-code-challenges-lgbtq-pride/)
 
 [20 Python MySQL Interview Questions and Answers](https://climbtheladder.com/python-mysql-interview-questions/#:~:text=20%20Python%20MySQL%20Interview%20Questions%20and%20Answers%201,difference%20between%20autocommit%20and%20commit%3F%20...%20More%20items)
+
+[PySpark Decorator](https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/decorators/pyspark.html)
