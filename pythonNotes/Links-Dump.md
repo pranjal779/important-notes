@@ -18,6 +18,14 @@
 
 [Django MVT Architecture: A Fresh Take on Classic MVC - By Vinayak Nishant / August 20, 2020](https://www.askpython.com/django/django-mvt-architecture)
 
+[Data science courses](https://www.datacamp.com/courses-all)
+
+[Building Data Engineering Pipelines in Python](https://www.datacamp.com/courses/building-data-engineering-pipelines-in-python)
+
+[Apache Spark Operators](https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/operators.html)
+
+[Apache Airflow](https://airflow.apache.org/)
+
 [27 Advanced NumPy Interview Questions (ANSWERED) To Crush Your Data Science Interview](https://www.mlstack.cafe/blog/numpy-interview-questions)
 [8 Python Code Challenges to Try During Pride - 06/01/2023 - 4 minutes - By Cory Stieg](https://www.codecademy.com/resources/blog/python-code-challenges-lgbtq-pride/)
 
