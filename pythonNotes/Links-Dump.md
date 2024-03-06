@@ -34,3 +34,7 @@
 [PySpark Decorator](https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/decorators/pyspark.html)
 
 [How to Generate Random Numbers in Python](https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/)
+
+[random — Generate pseudo-random numbers](https://docs.python.org/3/library/random.html)
+
+[Generating random number list in Python](https://www.tutorialspoint.com/generating-random-number-list-in-python)
