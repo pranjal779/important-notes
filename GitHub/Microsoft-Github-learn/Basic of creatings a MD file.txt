@@ -1,0 +1,9 @@
+To create an ordered list in a GitHub Markdown file, you can:
+Start each line with a number
+Follow the number with a period
+Follow the period with a space 
+The order of the numbers doesn't matter, and they don't need to be sequential. You can also use any of * , + or - to make a list. Each list must consistently use the same character, and a space is required after each list character. 
+To create a nested section of a list, you can add two spaces before the bullet or number character. Lists must have an empty line above and below to separate them from adjacent paragraphs. 
+You can also create an unordered list by preceding one or more lines of text with - , * , or +. 
+
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
