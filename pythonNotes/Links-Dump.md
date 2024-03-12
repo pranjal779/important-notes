@@ -40,3 +40,5 @@
 [Generating random number list in Python](https://www.tutorialspoint.com/generating-random-number-list-in-python)
 
 [ETL Tools](https://www.datacamp.com/blog/a-list-of-the-16-best-etl-tools-and-why-to-choose-them)
+
+[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
