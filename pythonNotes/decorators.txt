@@ -1,0 +1,299 @@
+Decorators are a powerful and elegant feature in Python that allows you to modify or extend the behavior of functions or methods without changing their actual code. 
+  They are an excellent way to apply reusable functionality across multiple functions, such as timing, caching, logging, or authentication.
+
+Decorators in Python Explained [+Examples]
+https://blog.hubspot.com/website/decorators-in-python#:~:text=Decorators%20are%20a%20powerful%20and,caching%2C%20logging%2C%20or%20authentication.
+
+
+    What are decorators in Python?
+Decorators are Python functions that allow you to wrap another function as an input and modify its behavior without altering the wrapped function’s code. They are used to extend the behavior of a particular object, such as a class, method, or function. This approach promotes reusability, modularity, and separation of concerns in your Python programs.
+
+Decorators in Python Syntax
+The syntax for a decorator in Python is quite simple. It starts with the keyword 'def' to define a function, followed by an (@) and the name of the decorator. After that, you can add any arguments needed and then pass your target function as an argument.
+
+This setup looks something like this:
+
+Python
+#Step 1: Define the decorator function
+def decorator_name(target_function):
+
+    #Step 2: Define the wrapper function
+def wrapper( * args, ** kwargs):
+
+    #Step 3: Do something before target_function is called
+    results = target_function( * args, ** kwargs)
+
+# Step 4: Do something after the call to target_function
+return results
+return wrapper
+Use cases for Decorators
+Decorators are widely used for a variety of purposes, such as:
+
+Timing function execution
+Caching results (memoization)
+Authorization and authentication
+Logging and error handling
+Input validation
+Next, we will look at the types of decorators in Python and see an example to show how they can be applied in practice.
+
+Types of Decorators in Python
+Decorators come in many forms and shapes, from built-in functions to custom user-defined functions. Here are some of the most common types:
+
+Function Decorator
+Function decorators allow you to extend the functionality of a single function without changing its code. They are higher-order functions that take a function as input and return a new function with the updated behavior.
+
+Here's an example:
+
+Python
+def simple_decorator(func):
+
+    def wrapper():
+
+    print("Before function execution")
+
+func()
+
+print("After function execution")
+
+return wrapper
+
+@simple_decorator
+
+def greet():
+
+    print("Hello, world!")
+
+greet()
+Class Decorator
+Class decorators allow you to extend a class's behavior without changing the original source code. They are similar to function decorators but work on classes instead of functions. They take a class as input and return a new class with modified or extended behavior. Class decorators can be used for various purposes, such as adding or modifying class attributes, methods, or properties.
+
+Python
+def class_decorator(cls):
+
+    class NewClass(cls):
+
+    def new_method(self):
+
+    print("This is a new method added by the decorator")
+
+return NewClass
+
+@class_decorator
+
+class MyClass:
+
+    def original_method(self):
+
+    print("This is the original method")
+
+obj = MyClass()
+
+obj.original_method()
+
+obj.new_method()
+Decorators with Arguments
+Decorators with arguments provide additional customization and flexibility when modifying or extending the behavior of functions or classes. These decorators accept arguments and return another decorator function, which then takes the function or class as input and returns the modified function or class.
+
+Python
+def decorator_with_args(arg1, arg2):
+
+    def actual_decorator(func):
+
+    def wrapper( * args, ** kwargs):
+
+    print(f "Decorator argument 1: {arg1}")
+
+print(f "Decorator argument 2: {arg2}")
+
+func( * args, ** kwargs)
+
+return wrapper
+
+return actual_decorator
+
+@decorator_with_args("Hello", "World")
+
+def greet(name):
+
+    print(f "Hi, {name}!")
+
+greet("John")
+Now that we have explored the different types of decorators in Python, you can choose the appropriate decorator type based on your use case and apply them to your projects.
+
+How to write a decorator in Python?
+Now that you know the basics of decorators, let's look at how to write a simple decorator in Python.
+
+Step-by-step explanation
+Define a higher-order function that takes a function as input.
+Inside this higher-order function, define a nested function (a wrapper) that will modify or extend the input function's behavior.
+Call the input function within the wrapper function and add any additional functionality you desire.
+Return the wrapper function from the higher-order function
+In this example, we will create a simple decorator that measures the execution time of a function.
+
+Python
+import time
+
+def timer_decorator(func):
+
+    def wrapper( * args, ** kwargs):
+
+    start_time = time.time()
+
+result = func( * args, ** kwargs)
+
+end_time = time.time()
+
+print(f "{func.__name__} executed in {end_time - start_time:.5f} seconds")
+
+return result
+
+return wrapper
+
+@timer_decorator
+
+def slow_function():
+
+    time.sleep(2)
+
+print("Slow function executed")
+
+slow_function()
+In the example, the '@' symbol is syntactic sugar that simplifies the process of applying a decorator to a function. When placed above a function definition, it indicates that the function should be passed as an argument to the decorator.
+
+Here's a comparison of applying the timer_decorator with and without the '@' syntax:decorators in python: example of writing decorators in python
+
+Decorating Functions With Parameters
+When decorating functions that accept parameters, you should use the *args and **kwargs syntax to ensure that your decorator can handle any number of positional and keyword arguments.
+
+The *args syntax allows your wrapper function to accept any number of positional arguments, while **kwargs enables it to accept any number of keyword arguments.
+
+Here is an example:
+
+Python
+def print_arguments_decorator(func):
+
+    def wrapper( * args, ** kwargs):
+
+    print(f "Positional arguments: {args}")
+
+print(f "Keyword arguments: {kwargs}")
+
+return func( * args, ** kwargs)
+
+return wrapper
+
+@print_arguments_decorator
+
+def example_function(a, b, c, x = 1, y = 2, z = 3):
+
+    return a + b + c + x + y + z
+
+example_function(10, 20, 30, x = 5, y = 10, z = 15)
+Now that you know how to write simple decorators, you can start experimenting with different use cases and apply them to your Python projects.
+
+Decorator in Python Example
+Now, let's look at an example of how to use decorators in Python.
+
+Timing Function Execution
+Measuring the execution time of a function is useful for optimizing code and identifying performance bottlenecks. A timing decorator can help you achieve this without modifying the original function's code.
+
+Python
+import time
+
+def timer_decorator(func):
+
+    def wrapper( * args, ** kwargs):
+
+    start_time = time.time()
+
+result = func( * args, ** kwargs)
+
+end_time = time.time()
+
+print(f "{func.__name__} executed in {end_time - start_time:.5f} seconds")
+
+return result
+
+return wrapper
+
+@timer_decorator
+
+def slow_function():
+
+    time.sleep(2)
+
+print("Slow function executed")
+
+slow_function()
+Authorization and Authentication
+Decorators can be used to implement access control for functions or methods by checking if a user is authenticated or authorized to perform an action. This approach helps maintain a separation of concerns between authentication/authorization and the actual functionality of the function or method.
+
+Python
+def is_authenticated(user):
+
+    return user == "authenticated_user"
+
+def authentication_decorator(func):
+
+    def wrapper( * args, ** kwargs):
+
+    user = kwargs.get("user")
+
+if is_authenticated(user):
+
+    return func( * args, ** kwargs)
+
+else :
+
+    raise PermissionError("User is not authenticated")
+
+return wrapper
+
+@authentication_decorator
+
+def restricted_function(user = None):
+
+    print("Access granted to the restricted function")
+
+restricted_function(user = "authenticated_user")
+Logging and Error Handling
+Decorators can be employed to log information about function calls or handle errors and exceptions in a consistent manner across multiple functions without modifying their code.
+
+Python
+import logging
+
+ def logging_decorator(func):
+
+     def wrapper( * args, ** kwargs):
+
+     try:
+
+     logging.info(f "Calling {func.__name__} with arguments {args} and keyword arguments {kwargs}")
+
+ result = func( * args, ** kwargs)
+
+ logging.info(f "Function {func.__name__} executed successfully")
+
+ return result
+
+ except Exception as e:
+
+     logging.error(f "An error occurred while executing {func.__name__}: {e}")
+
+ raise
+
+ return wrapper
+
+ @logging_decorator
+
+ def example_function(a, b):
+
+     return a / b
+
+ example_function(10, 5)
+
+ example_function(10, 0)
+Explore the Power of Decorators in Python
+It's amazing how powerful decorators in Python can be. They are like superheroes with different superpowers. Each type of decorator allows us to use a superpower that can help make our code better, easier to read, and more maintainable.
+
+Decorators may take some time to get used to but once you understand their power and capabilities, there's no limit on what these heroes can do for your code.
