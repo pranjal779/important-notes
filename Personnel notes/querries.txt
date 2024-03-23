@@ -44,3 +44,5 @@ It depends on the use case and project requirements. Both Flask and Django are g
 but Django is a full-featured framework that can handle complex projects, while Flask is a micro framework that is better suited for small to medium sized projects 
 or for serving as a backend for a JavaScript-based frontend. If you want to build an application with a Python backend and a React frontend, 
 the FReMP stack could be a good choice. However, ultimately the choice of stack will depend on your specific needs and preferences.
+
+22 March 2024 42 days streak ended I cri in corner
