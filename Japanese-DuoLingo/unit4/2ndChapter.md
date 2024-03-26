@@ -19,3 +19,9 @@ However, some sentences can have more than one translation:
 
 [watashi no kutsu desu]
 It's my shoe. / They're my shoes
+
+
+
+
+はhaいi わwaたtaしshiのno かkaさsa はwa あaかkaいi でdeすsu
+Yes, my umbrella is red.
