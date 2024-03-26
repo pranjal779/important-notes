@@ -23,5 +23,5 @@ It's my shoe. / They're my shoes
 
 
 
-はhaいi わwaたtaしshiのno かkaさsa はwa あaかkaいi でdeすsu
+はhaいi わwaたtaしshiのno かkaさsa はwa あaかkaいi でdeすsu  
 Yes, my umbrella is red.
