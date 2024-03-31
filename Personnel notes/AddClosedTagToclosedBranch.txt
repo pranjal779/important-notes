@@ -31,3 +31,4 @@ git branch -d <branchName>
 Optionally, you can also delete the remote branch if you no longer need it:
 git push origin --delete <branchName>
 
+chk doc
