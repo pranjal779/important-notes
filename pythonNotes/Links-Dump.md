@@ -42,3 +42,5 @@
 [ETL Tools](https://www.datacamp.com/blog/a-list-of-the-16-best-etl-tools-and-why-to-choose-them)
 
 [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[Regular Expressions: Regexes in Python (Part 2)](https://realpython.com/regex-python-part-2/)
