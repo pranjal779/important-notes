@@ -1,5 +1,5 @@
 
-こkoのno ひhiとto とto そsoのno ひhiとto 
+こkoのno ひhiとto とto そsoのno ひhiとto - 
 this person and that person
 
 
