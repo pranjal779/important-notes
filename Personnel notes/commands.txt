@@ -48,7 +48,8 @@ On GitHub, navigate to the forked repository and you will see a button to create
 After you submit your pull request, the repository's maintainers will be notified and can review your changes, provide feedback, and merge them if they decide to accept them.
 
 Please keep in mind that the pull request process might be different depending on the organization or the person maintaining the repository you are contributing to.
-
+-------------
+more commands in MS-Github
 --------------
 Yes, it is possible to push changes directly to a remote repository branch without first checking out the "main" branch.
 
