@@ -8,3 +8,6 @@ The git push --set-upstream origin <BRANCH_NAME> command is used to push the cha
 So, when you type git push --set-upstream origin <BRANCH_NAME>, you’re saying “Hey Git, push my changes to the branch named <BRANCH_NAME> on the origin remote repository. And also, set my local <BRANCH_NAME> branch to track the remote <BRANCH_NAME> branch from now on.”
 
 This command is typically used when you’ve just created a new branch locally and you want to push it to the remote repository for the first time. After running this command once, you can use git push and git pull for the branch without specifying the branch name.
+
+
+[time-based one-time password (TOTP)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
