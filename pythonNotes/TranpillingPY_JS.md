@@ -27,5 +27,5 @@ Source: Conversation with Bing, 4/19/2024
 (3) [GitHub - TranscryptOrg/Transcrypt: Python 3.9 to JavaScript compiler ....](https://github.com/TranscryptOrg/Transcrypt)  
 (4) [GitHub - milahu/awesome-transpilers: A curated list of awesome ....](https://github.com/milahu/awesome-transpilers)  
 (5) [How to convert Python to JavaScript (and back again) - Medium.](https://medium.com/@techrobot45/how-to-convert-python-to-javascript-and-back-again-3db7a143e49f)  
-(6) [undefined](https://www.transcrypt.org)  
-(7) [undefined.](https://www.apache.org/licenses/LICENSE-2.0)  
+(6) [transcrypt_org](https://www.transcrypt.org)  
+(7) [apache_org](https://www.apache.org/licenses/LICENSE-2.0)  
