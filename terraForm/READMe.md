@@ -8,3 +8,5 @@ Providers/hashicorp/aws/V5.46.0/Latest Version
 [Data Source: aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/security_group)
 
 [AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+
+[Resource: aws_vpc_security_group_ingress_rule](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc_security_group_ingress_rule.html)
