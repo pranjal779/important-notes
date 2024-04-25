@@ -16,8 +16,6 @@ Providers/hashicorp/aws/V5.46.0/Latest Version
 
 [Resource: aws_eip - "Elastic IP"](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip)
 
-#### Example for Attribute for ec2
-
-[Resource: aws_instance/Attribute Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#attribute-reference)
+Example for Attribute for ec2: [Resource: aws_instance/Attribute Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#attribute-reference)
 
 [Resource: eip/Attribute Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip)
