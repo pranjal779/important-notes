@@ -1,2 +1,6 @@
 Terraform Core
 Terraform Plugins
+
+
+output format is
+resourceName.localName.attributeName
