@@ -19,3 +19,8 @@ Providers/hashicorp/aws/V5.46.0/Latest Version
 Example for Attribute for ec2: [Resource: aws_instance/Attribute Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#attribute-reference)
 
 [Resource: eip/Attribute Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip)
+
+(4/29/24)
+[Resource: aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
+
+[Resource: aws_security_group_rule](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule)
