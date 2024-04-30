@@ -24,3 +24,6 @@ Example for Attribute for ec2: [Resource: aws_instance/Attribute Reference](http
 [Resource: aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
 
 [Resource: aws_security_group_rule](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule)
+
+(4/30/24)  
+[Input Variables](https://developer.hashicorp.com/terraform/language/values/variables)
