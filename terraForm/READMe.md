@@ -27,3 +27,11 @@ Example for Attribute for ec2: [Resource: aws_instance/Attribute Reference](http
 
 (4/30/24)  
 [Input Variables](https://developer.hashicorp.com/terraform/language/values/variables)
+
+(5/2/24)  
+[Resource: aws_instance/Argument Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#argument-reference)  
+[vpc_security_group_ids](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#vpc_security_group_ids)  
+vpc_security_group_ids - (Optional, VPC only) List of security group IDs to associate with.
+
+[tags](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#tags)  
+tags - (Optional) Map of tags to assign to the resource. Note that these tags apply to the instance and not block storage devices. If configured with a provider default_tags configuration block present, tags with matching keys will overwrite those defined at the provider-level.  
