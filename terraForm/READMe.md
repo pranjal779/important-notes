@@ -38,3 +38,7 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 
 
 [Resource: aws_instance/Basic example using AMI lookup](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
+
+
+(5/3/24)
+[Developer/Terraform/Configuration Language/Expressions/Types and Values](https://developer.hashicorp.com/terraform/language/expressions/types#)
