@@ -35,3 +35,6 @@ vpc_security_group_ids - (Optional, VPC only) List of security group IDs to asso
 
 [tags](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#tags)  
 tags - (Optional) Map of tags to assign to the resource. Note that these tags apply to the instance and not block storage devices. If configured with a provider default_tags configuration block present, tags with matching keys will overwrite those defined at the provider-level.  
+
+
+[Resource: aws_instance/Basic example using AMI lookup](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
