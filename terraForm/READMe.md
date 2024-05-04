@@ -45,4 +45,7 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 
 
 (5/4/24)  
-[Developer/Terraform/Configuration Language/Variables and Outputs](https://developer.hashicorp.com/terraform/language/values)
+[Developer/Terraform/Configuration Language/Variables and Outputs](https://developer.hashicorp.com/terraform/language/values)  
+- Input Variables
+- Ouput Values
+- Local Values
