@@ -42,3 +42,7 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 
 (5/3/24)
 [Developer/Terraform/Configuration Language/Expressions/Types and Values](https://developer.hashicorp.com/terraform/language/expressions/types#)
+
+
+(5/4/24)  
+[Developer/Terraform/Configuration Language/Variables and Outputs](https://developer.hashicorp.com/terraform/language/values)
