@@ -49,3 +49,9 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 - Input Variables
 - Ouput Values
 - Local Values
+
+(5/8/24)  
+[Declaring a Local Value](https://developer.hashicorp.com/terraform/language/values/locals#declaring-a-local-value)  
+
+(5/9/24)  
+[I passed the HashiCorp Terraform Certification with a 84%. Here's my Guide - omenking - r/Terraform - 3years ago post](https://www.reddit.com/r/Terraform/comments/pcrvk6/i_passed_the_hashicorp_terraform_certification/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
