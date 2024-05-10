@@ -13,3 +13,6 @@ Learn more
 2) [builtin.com](https://builtin.com/software-engineering-perspectives/python-interview-questions)
 3) [llego.dev](https://llego.dev/posts/preparing-behavioral-interview-questions-python-developer/)  
 4) [codecademy.com](https://www.codecademy.com/resources/blog/python-interview-questions-practice/)
+
+
+[Master Behavioral Interviews (for Software Engineers)](https://www.youtube.com/watch?v=8hpSMnCwCxY&ab_channel=freeCodeCamp.org)
