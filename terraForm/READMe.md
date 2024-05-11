@@ -66,3 +66,5 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 [element Function](https://developer.hashicorp.com/terraform/language/functions/element)  
 
 [Filesystem Functions/file Function](https://developer.hashicorp.com/terraform/language/functions/file)  
+
+[Date and Time Function/formatdate Function](https://developer.hashicorp.com/terraform/language/functions/formatdate)
