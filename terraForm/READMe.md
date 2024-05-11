@@ -58,9 +58,11 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 
 [Built-in Functions](https://developer.hashicorp.com/terraform/language/functions)  
 
-[lookup Function](https://developer.hashicorp.com/terraform/language/functions/lookup)
+[lookup Function](https://developer.hashicorp.com/terraform/language/functions/lookup)  
 
 (5/11/24)  
 [lookup Function](https://developer.hashicorp.com/terraform/language/functions/lookup)  
 
-[element Function](https://developer.hashicorp.com/terraform/language/functions/element)
+[element Function](https://developer.hashicorp.com/terraform/language/functions/element)  
+
+[Filesystem Functions/file Function](https://developer.hashicorp.com/terraform/language/functions/file)  
