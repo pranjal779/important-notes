@@ -23,6 +23,7 @@ https://aws.amazon.com/architecture/
 
 **Gzip compression in DynamoDB**
 
-link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3-too.html
+link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3-too.html  
 
 
+[Interview links](https://www.redhat.com/en/blog/modern-continuous-integration-continuous-delivery-ci-cd-pipeline-for-traditional-provisioning-your-questions-answered-part-2)
