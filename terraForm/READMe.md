@@ -87,4 +87,11 @@ any resource in any Provider documention will have a Resource and Data_Source - 
 
 [Data Source: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami)  
 
-[Data Source: aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/instance)
+[Data Source: aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/instance)  
+
+2 different types of Data Source: aws_instance
+**1st** is [Data Source: aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/instance)  
+**2nd** is [Data Source: aws_instances](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/instances)
+
+both have different purposes **1st** will only allow 1 resouce info to be returned example if multiple ec2 are present in aws account it will return a error and ask for filter or attribute or something  
+**2nd** will come handy in multiple resource are present in aws account
