@@ -81,6 +81,8 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 (5/15/24)  
 [DigitalOcean Provider](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs)  
 
+any resource in any Provider documention will have a Resource and Data_Source - Resource will help create resources, Data_Source will help fetch info....  
+
 [Resource: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ami)  
 
 [Data Source: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami)
