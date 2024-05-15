@@ -85,4 +85,6 @@ any resource in any Provider documention will have a Resource and Data_Source - 
 
 [Resource: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ami)  
 
-[Data Source: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami)
+[Data Source: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami)  
+
+[Data Source: aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/instance)
