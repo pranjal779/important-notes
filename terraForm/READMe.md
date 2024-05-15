@@ -68,3 +68,13 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 [Filesystem Functions/file Function](https://developer.hashicorp.com/terraform/language/functions/file)  
 
 [Date and Time Function/formatdate Function](https://developer.hashicorp.com/terraform/language/functions/formatdate)
+
+(5/14/24)
+[digitalocean/data-source/account](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/data-sources/account)
+
+[aws/resources /instace](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
+
+[/data-sources/file](https://registry.terraform.io/providers/hashicorp/local/latest/docs/data-sources/file)
+
+(5/15/24)
+[DigitalOcean Provider](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs)
