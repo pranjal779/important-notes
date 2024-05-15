@@ -79,4 +79,8 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 [local_file (Data Source)](https://registry.terraform.io/providers/hashicorp/local/latest/docs/data-sources/file)
 
 (5/15/24)  
-[DigitalOcean Provider](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs)
+[DigitalOcean Provider](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs)  
+
+[Resource: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ami)  
+
+[Data Source: aws_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami)
