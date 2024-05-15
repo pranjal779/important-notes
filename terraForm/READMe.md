@@ -51,6 +51,8 @@ tags - (Optional) Map of tags to assign to the resource. Note that these tags ap
 - Local Values
 
 (5/8/24)  
+[Local Values](https://developer.hashicorp.com/terraform/language/values/locals)
+
 [Declaring a Local Value](https://developer.hashicorp.com/terraform/language/values/locals#declaring-a-local-value)  
 
 (5/9/24)  
