@@ -1,0 +1,10 @@
+# CloudFormation example
+AWSTemplateFormateVersion: 2010-09-09
+Description: Deploy Ec2 Instance
+
+Resources:
+  WebAppInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-..............
+      IntanceType: t2.micro
