@@ -1,3 +1,5 @@
+[Master Behavioral Interviews (for Software Engineers)](https://www.youtube.com/watch?v=8hpSMnCwCxY&ab_channel=freeCodeCamp.org)
+
 Preparing for a Python job interview involves not only technical knowledge but also the ability to handle behavioral questions. Here are some examples of behavioral interview questions that you might encounter:
 
 1) Can you describe a challenging problem you faced while working on a Python project and how you overcame it?  
@@ -15,4 +17,4 @@ Learn more
 4) [codecademy.com](https://www.codecademy.com/resources/blog/python-interview-questions-practice/)
 
 
-[Master Behavioral Interviews (for Software Engineers)](https://www.youtube.com/watch?v=8hpSMnCwCxY&ab_channel=freeCodeCamp.org)
+
