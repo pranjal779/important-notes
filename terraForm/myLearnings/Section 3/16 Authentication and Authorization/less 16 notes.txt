@@ -1,0 +1,28 @@
+cteate aws user IAM permission
+Access Credentials
+
+hashicorp Docs AWS Provider
+
+
+
+Now whenever you go ahead and create token, now we know that TerraForm requires a token when it comes
+
+to GitHub.
+
+So whenever you go ahead and you create a new token, you can specify what are the permissions that
+
+a token has, whether it has permissions or all repository or only selected repository.
+
+And on that selected repository also you can specify for which feature what is the access pattern that
+
+it has.
+
+So discussion might have read and write access.
+
+The pulled request might have no access and so on.
+
+So again, depending upon what you want to create and manage through TerraForm, you can go ahead and
+
+create the appropriate credentials with proper permissions.
+
+So that's a very high level overview about the authentication and authorization stages.
