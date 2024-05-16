@@ -97,3 +97,7 @@ lesson 58
 
 both have different purposes **1st** will only allow 1 resouce info to be returned example if multiple ec2 are present in aws account it will return a error and ask for filter or attribute or something  
 **2nd** will come handy in multiple resource are present in aws account
+
+
+(5/16/24)
+[Resource: aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group.html)
