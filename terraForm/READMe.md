@@ -99,7 +99,7 @@ both have different purposes **1st** will only allow 1 resouce info to be return
 **2nd** will come handy in multiple resource are present in aws account
 
 
-(5/16/24)
+(5/16/24)  
 [Resource: aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group.html)
 
 [Resource: aws_iam_user](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user)
