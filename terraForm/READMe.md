@@ -138,3 +138,14 @@ Type Conversion Functions
 - tostring
 - try
 - type
+
+[Command: graph](https://developer.hashicorp.com/terraform/cli/commands/graph)  
+Developer/Terraform/Terraform CLI/commands/graph
+
+Inspecting Infrastructure
+- Overview
+- graph
+- output
+- show
+- state list
+- state show
