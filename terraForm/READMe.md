@@ -1,3 +1,7 @@
+[Andrew Brown-u/omenking](https://www.reddit.com/user/omenking/) -  
+[I passed the HashiCorp Terraform Certification with a 84%. Here's my Guide](https://www.reddit.com/r/Terraform/comments/pcrvk6/i_passed_the_hashicorp_terraform_certification/)
+
+<hr>
 [GitHub Provider](https://registry.terraform.io/providers/integrations/github/latest/docs)
 
 [Resource: aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
