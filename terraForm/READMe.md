@@ -123,7 +123,7 @@ Meta-Arguments:
 - lifecycle
 
 
-[toset Function](https://developer.hashicorp.com/terraform/language/functions/toset)
+[toset Function](https://developer.hashicorp.com/terraform/language/functions/toset)  
 Developer/Terraform/Configuration Language/Functions/toset
 Type Conversion Functions
 - can
