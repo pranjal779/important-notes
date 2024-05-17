@@ -105,3 +105,7 @@ both have different purposes **1st** will only allow 1 resouce info to be return
 [Resource: aws_iam_user](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user)
 
 [GraphiViz Documentation Referred in Course](https://graphviz.gitlab.io/download/)
+
+(5/17/24)  
+[zipmap Function](https://developer.hashicorp.com/terraform/language/functions/zipmap)  
+terraform functions zipmaps
