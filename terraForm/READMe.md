@@ -112,4 +112,12 @@ both have different purposes **1st** will only allow 1 resouce info to be return
 
 (5/17/24)  
 [zipmap Function](https://developer.hashicorp.com/terraform/language/functions/zipmap)  
-terraform functions zipmaps
+terraform functions zipmaps  
+
+[Developer/Terraform/Configuration Language/Meta-Arguments/](https://developer.hashicorp.com/terraform/language/meta-arguments/depends_on)  
+Meta-Arguments:
+- depends_on
+- count
+- for_each
+- provider
+- lifecycle
