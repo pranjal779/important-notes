@@ -121,3 +121,20 @@ Meta-Arguments:
 - for_each
 - provider
 - lifecycle
+
+
+[toset Function](https://developer.hashicorp.com/terraform/language/functions/toset)
+Developer/Terraform/Configuration Language/Functions/toset
+Type Conversion Functions
+- can
+- issensitive
+- nonsensitive
+- sensitive
+- tobool
+- tolist
+- tomap
+- tonumber
+- toset
+- tostring
+- try
+- type
