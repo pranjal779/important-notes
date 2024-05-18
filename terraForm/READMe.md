@@ -162,5 +162,5 @@ Provisioners
 - Provisioners Without a Resource
 - file
 - [local-exec](https://developer.hashicorp.com/terraform/language/resources/provisioners/local-exec)  
-- remote-exec
+- [remote-exec](https://developer.hashicorp.com/terraform/language/resources/provisioners/remote-exec)
 
