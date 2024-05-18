@@ -149,3 +149,16 @@ Inspecting Infrastructure
 - show
 - state list
 - state show
+
+(5/18/24)  
+[Provisioners](https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax)  
+Developer/Terraform/Configuration Language/Resources/Provisioners/Declaring Provisioners  
+
+Provisioners
+- Declaring Provisioners
+- Provisioner Connections
+- Provisioners Without a Resource
+- file
+- local-exec
+- remote-exec
+
