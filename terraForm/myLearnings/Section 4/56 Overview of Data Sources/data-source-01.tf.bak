@@ -1,0 +1,14 @@
+terraform {
+  required_providers {
+    digitalocean = {
+      source = "digitalocean/digitalocean"
+    }
+  }
+}
+
+provider "digitalocean" {
+  token = "your-token"
+}
+
+data "digitalocean" "example" {}
+# all data is stored in the terraform.tfstate file

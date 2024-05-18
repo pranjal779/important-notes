@@ -1,0 +1,10 @@
+data "local_file" "foo" {
+  filename = "${path.module}/demo.txt"
+}
+
+# renaming a file with .bak file will not let it be included in 
+# the cli when you run terraform plan
+
+output "data" {
+  value = data.local_file.foo.content
+}
