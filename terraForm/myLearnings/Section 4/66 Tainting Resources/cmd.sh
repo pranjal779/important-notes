@@ -1,0 +1,1 @@
+terraform apply -replace="aws_instance.<>local_name"
