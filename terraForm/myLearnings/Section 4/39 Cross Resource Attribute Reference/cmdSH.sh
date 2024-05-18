@@ -1,0 +1,1 @@
+teraform apply -auto-approve
