@@ -163,4 +163,6 @@ Provisioners
 - file
 - [local-exec](https://developer.hashicorp.com/terraform/language/resources/provisioners/local-exec)  
 - [remote-exec](https://developer.hashicorp.com/terraform/language/resources/provisioners/remote-exec)
+   
 
+[null resource for provisioners](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource)
