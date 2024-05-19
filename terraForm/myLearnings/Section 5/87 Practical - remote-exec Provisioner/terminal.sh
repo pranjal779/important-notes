@@ -1,0 +1,1 @@
+# chmod 400 terraform-key.pem
