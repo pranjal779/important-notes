@@ -176,4 +176,4 @@ Provisioners
 
 [muodule_doc_for_ec2->Notes](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#notes)
 
-[Single EC2 Instance](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#single-ec2-instance)
+[Single EC2 Instance -> Example Code from the Doc](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#single-ec2-instance)
