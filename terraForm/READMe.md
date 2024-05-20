@@ -171,3 +171,5 @@ Provisioners
 [Terraform Registry URL](https://registry.terraform.io/)  
 
 [registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest)
+
+[modules_doc->Inputs](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#inputs)
