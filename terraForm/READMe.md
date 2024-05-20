@@ -166,3 +166,6 @@ Provisioners
    
 
 [null resource for provisioners](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource)
+
+(5/20/24)
+[Terraform Registry URL](https://registry.terraform.io/)
