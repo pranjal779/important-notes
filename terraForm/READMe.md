@@ -172,4 +172,6 @@ Provisioners
 
 [registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest)
 
-[modules_doc->Inputs](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#inputs)
+[modules_doc_for_ec2->Inputs](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#inputs)
+
+[muodule_doc_for_ec2->Notes](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#notes)
