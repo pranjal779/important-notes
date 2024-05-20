@@ -179,3 +179,6 @@ Provisioners
 [Single EC2 Instance -> Example Code from the Doc](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest#single-ec2-instance)
 
 [You can refere or check the source in the githubpage as well - might be a good practice - Source Code](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance)
+
+check this lesson for workspaces:  
+[Implementing Terraform Workspace](https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%204%20-%20Terraform%20Modules%20%26%20Workspaces/kplabs-workspace.md)
