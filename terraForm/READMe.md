@@ -189,3 +189,5 @@ check this lesson for workspaces:
 [Github](https://developer.hashicorp.com/terraform/language/modules/sources#github)
 
 [gitignore](https://github.com/github/gitignore)
+
+[Terraform.gitignore](https://github.com/github/gitignore/blob/main/Terraform.gitignore)
