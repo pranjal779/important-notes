@@ -185,3 +185,5 @@ check this lesson for workspaces:
 
 (5/21/24)  
 [registry.terraform.io/providers/hashicorp/aws/latest/docs/RDS (Relational Database) - Resource: aws_db_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/db_instance.html)
+
+[Github](https://developer.hashicorp.com/terraform/language/modules/sources#github)
