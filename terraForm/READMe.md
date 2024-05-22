@@ -195,3 +195,8 @@ check this lesson for workspaces:
 [Developer/Terraform/Configuration Language/Terraform Settings/Backends/Backend Configuration](https://developer.hashicorp.com/terraform/language/settings/backends/configuration)
 
 [Backend/S3](https://developer.hashicorp.com/terraform/language/settings/backends/s3)
+
+(5/22/24)
+[access Key](https://developer.hashicorp.com/terraform/language/settings/backends/s3#access_key)
+
+[secret key](https://developer.hashicorp.com/terraform/language/settings/backends/s3#secret_key)
