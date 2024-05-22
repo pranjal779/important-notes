@@ -193,3 +193,5 @@ check this lesson for workspaces:
 [Terraform.gitignore](https://github.com/github/gitignore/blob/main/Terraform.gitignore)
 
 [Developer/Terraform/Configuration Language/Terraform Settings/Backends/Backend Configuration](https://developer.hashicorp.com/terraform/language/settings/backends/configuration)
+
+[Backend/S3](https://developer.hashicorp.com/terraform/language/settings/backends/s3)
