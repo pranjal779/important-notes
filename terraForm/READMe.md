@@ -191,3 +191,5 @@ check this lesson for workspaces:
 [gitignore](https://github.com/github/gitignore)
 
 [Terraform.gitignore](https://github.com/github/gitignore/blob/main/Terraform.gitignore)
+
+[Developer/Terraform/Configuration Language/Terraform Settings/Backends/Backend Configuration](https://developer.hashicorp.com/terraform/language/settings/backends/configuration)
