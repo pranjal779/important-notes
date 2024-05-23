@@ -205,3 +205,5 @@ check this lesson for workspaces:
 
 (5/23/24)  
 [State](https://developer.hashicorp.com/terraform/language/state)  
+
+[Developer/Terraform/Configuration Language/State/Remote State](https://developer.hashicorp.com/terraform/language/state/remote)
