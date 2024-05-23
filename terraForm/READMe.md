@@ -202,3 +202,6 @@ check this lesson for workspaces:
 [secret key](https://developer.hashicorp.com/terraform/language/settings/backends/s3#secret_key)
 
 [DynamoDB State Locking](https://developer.hashicorp.com/terraform/language/settings/backends/s3#dynamodb-state-locking)
+
+(5/23/24)  
+[State](https://developer.hashicorp.com/terraform/language/state)  
