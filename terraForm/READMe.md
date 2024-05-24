@@ -209,3 +209,5 @@ check this lesson for workspaces:
 [Developer/Terraform/Configuration Language/State/Remote State](https://developer.hashicorp.com/terraform/language/state/remote)
 
 [The terraform_remote_state Data Source](https://developer.hashicorp.com/terraform/language/state/remote-state-data)
+
+[Import](https://developer.hashicorp.com/terraform/language/import)
