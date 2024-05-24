@@ -1,0 +1,5 @@
+2:26 AWS Hardening guideline
+
+3:21 CIS Amazon Web Services Foundations Benchmark v2.0.0.pdf
+
+Challenge that Terraform solves

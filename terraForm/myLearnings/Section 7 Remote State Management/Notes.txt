@@ -1,0 +1,483 @@
+Cross Ressource Attribute References
+
+challenges - typical challenges
+
+Understanding the Workflow
+
+Basics of Attributes
+- Each resource ha its associated set of attributes.
+- Attributes are the fields in a resource that hold the values that end up in state.
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs#argument-reference
+
+
+aws_EIP
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip
+
+
+aws_security_group
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
+
+Resource: aws_security_group - in Python language
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group?lang=python
+
+lesson 32 - *imp*
+UseCases
+
+33
+central source from which we can import the values from.
+
+variables very important
+
+Multiple Approaches to Variable Assignment
+
+Variables in Terraform can be assigned values in multiple ways
+Some of these include:
+ - Environment variables
+ - Command Line Flags
+ - Variable Defaults
+
+lessson 35
+Data Types for Variables
+
+Overview of Type Constraint
+type argument
+The type argument in a variable block allows you to restrict the type of value that will
+be accepted as the value for a variable
+
+variable "image_id" {
+    type = string
+}
+
+If no type constraint is set then a value of any type is accepted.
+
+
+Example Use-Case
+
+Overview of Data Types
+string
+list - starts with 0 in []
+map - group of named variables {name="mich", age=34}
+number
+
+
+lesson 37 Count Parameter
+you will have copy paste the instance resource block multiple times
+
+count index
+
+Understanding Challenge with resource-name with Default Count index
+for naming-Convention
+
+lesson 38
+Overview of Conditional Expression
+syntax:
+condition ? true_val : false_val
+
+lesson 39
+Local values
+
+A local value asssigns a name to an expression, allowing it to be
+used multiple times within a module without repeating it.
+
+locals {
+  common_tags = {
+    Owner = "DevOps Team"
+    service = "backend"
+  }
+}
+
+tags will let you inherit the assigned local values, for multiple
+resources.
+
+resource "aws_instance" "db-dev" {
+   ami = "ami-082b5a644766e0e6f"
+   instance_type = "t2.small"
+   tags = local.common_tags
+}
+
+resource "aws_ebs_volume" "db_ebs" {
+  availability_zone = "us-west-2a"
+  size              = 8
+  tags = local.common_tags
+}
+
+Local Values Support for Expression
+locals {
+    name_prefix = "${var.name != "" ? var.name : var.default}"
+}
+
+you will have to read the DOCs as the DOCS have been changed
+according to my Understanding
+chk the links
+
+https://developer.hashicorp.com/terraform/language/values/locals
+
+
+Local Values
+Hands-on: Try the Simplify Terraform Configuration with Locals tutorial.
+https://developer.hashicorp.com/terraform/tutorials/configuration-language/locals?utm_source=WEBSITE&utm_medium=WEB_IO&utm_offer=ARTICLE_PAGE&utm_content=DOCS
+
+
+in the vid (this is old, according to my understanding) time 3:48
+locals {
+    # id for multiple sets of EC2 instance, merged together
+    instance_id = concat(aws_instance.blue.*.id, aws_instance.green.*.id)
+}
+
+locals {
+    # Common tags to be assigned to all resources
+    common_tags = {
+        Service = local.service_name
+        Owner = local.owner
+    }
+}
+
+
+Important Pointer for local Values 4:40
+So let's look into some of the important pointers for local values.
+
+1st one is that local values can be helpful to avoid repeating the same values or expression multiple
+
+times within the configuration.
+
+This is something that we have already seen.
+
+2nd important point is that if local values are over used, they can make a configuration hard to
+
+read by a future maintainer by hiding the actual values that are being used.
+
+So you should use local values only in moderation in situation where a single value result is used in
+
+multiple places, and that value is likely to be changed in the future.
+
+So that's the high level overview about the local values.
+
+Lesson 40
+
+Terraform functions
+syntax
+function(argument1, argument2)
+
+ex:
+max(5, 12, 9)
+output: 12
+
+List of Available function
+- Numeric
+- String
+- Collection
+- Encoding
+- Filesystem
+- Date and Time
+- Hash and Crypto
+- IP Network
+- Type Conversion
+
+to test these function you can use
+terraform console Command
+>terraform console
+
+C:\Users\prath>terraform console
+>
+
+
+lookup function
+
+Important:
+lesson 41 Data Sources
+DataSource Code
+
+**
+(42)
+Note - Filters in Data Sources
+If you need to find more details related to options that can be used in filters, you can refer to the following AWS documentation:
+
+https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-instances.html
+
+Refer to the --filters option
+
+Note: This additional details is beyond the scope of certification.
+**
+
+lesson 45 Validating Terraform Configuration Files
+
+
+Important Topic
+lesson 46
+Load Order & Semantics
+
+
+lesson 49
+Dynamic Block
+Dynamic Block allows us to dynamically construct repeatable nested block which
+is supported inside resource, data, provider, and provisioner blocks
+
+Iterators
+The iterators argument (optional) sets the name of a temporary variable that represents the current element of
+the current element of the complex value
+
+if omitted, the name of the variable defaults to the label of the
+dynamic block ("ingress" in the example in after-dynamic-block.tf).
+
+
+Lesson 52
+The terraform graph command is used to generate a visual representation of
+either a configuration or execution plan
+
+The output of terraform graph is in the DOT format, which can easily
+be covered to an image.
+
+dependency graph
+
+
+53 saving terraform Plan to File
+
+54 Terraform output
+terraform output
+
+55 terraform settings
+The special terraform configuration block type is used to configure
+some behaviors of Terraform itself, such as requiring
+a minimum Terraform version to apply your configuration.
+
+Terraform settings are gathered together into terraform blocks
+
+Setting 1 - Terraform Version
+- required version
+
+
+56
+Challenges with Large Infrastructure
+
+Hardening Scripts
+
+*--*
+Important lesson
+Lesson 59
+Resource Behaviors and Meta Arguments + Revision
+
+A resource block declares that you want a particular infrastructure
+object to exist with the given settings
+
+How Terraform Applies a Configuration:
+Create resources that exist in the configuration but are not associated
+with a real infrastructure object in the state
+
+Destory resource that exist in the state but no longer exist in the configuration.
+
+Update in-place resource whose arguments have changed.
+
+Destory and re-create resources whose arguments have changes but which
+cannot be updated in-place due to remote API Limitations.
+
+Understanding the Limitations
+What happens if we want to change the default behavior?
+
+Solution - Using Meta Arguments
+Terraform allows us to include meta-argument within the resource block
+which allows some details of this standard resource behavior to be customized on a per-resource basis.
+
+resource "aws_instance" "myec2" {
+  ami = "ami-q342345245"
+  instance_type = "t2.micro"
+
+  lifecycle {
+    ignore_changes = [tags]
+  }
+}
+
+here lifecycle is that meta argument
+
+Meta argument
+depends_on
+count
+for_each
+lifecycle
+provider (this one is different, not the one we use at the start)
+
+lesson 60 meta-argument - lifecycle
+
+create_before_destory
+prevent_destroy
+ignore_changes
+replace_triggered_by
+*--*
+
+lesson 61
+Create Before Destory Argument
+
+
+lesson 62
+Thiss meta-argument, when set to true, will cause Terraform to reject with an error
+any plan that would destory the infrastructure object associated with the resource,
+as long as the argument remains present in the configuration.
+
+This can be used as a measure of safety against the accidental replacement of objects
+that may be costly to reproduce, such as database instance.
+
+SINCE this argument must be present in configuration for the protection to apply,
+note that this setting does not prevent the remote object from being destoryed if
+the resource block were removed from configuration entirely.
+
+
+lesson 63
+In Case where settingsof a remote object is modified by processes outside of Terraform,
+the Terraform would attempt to "fix" on the next run.
+
+In order to change this behavior and ignore the manually applied change, we can make
+ue of ignore_changes argument under lifecycle
+
+
+lesson 64
+Challenges with Count Meta-Argument
+
+
+Section 5
+
+68
+What if we want a complete end to end solution?
+provisioner are used to execute scripts on a local or remote machine as
+part of resource creation or destruction.
+
+lets take an example:
+On Creation of Web-Server, execute a script which installs Nginx web-server.
+
+
+69
+Types of provisioners
+
+70 
+Implementing remote-exec provisioners
+
+71
+Implementing local-exec provisioners
+
+72
+Creation-time & Destory-Time provisioners
+
+73
+failiure Behavior for Provisioners
+
+Allowed Values              Description
+continue                Ignore the error and continue with creation or destruction.
+fail                    Raise an error and stop applying (the default behavior). if this is a creation provisioner, taint the resource.
+
+
+resource "aws_instance" "web" {
+  # ...
+
+  provisioner "local-exec" {
+    command = "echo The server's IP address is ${self.private_ip}"
+    on_failure = continue
+  }
+}
+
+74
+Centralized structure
+
+75
+// code files related to lesson 76 
+
+76
+// code files related to lesson 75
+
+77
+
+
+78
+Accesssssing Child Module Outputs
+In a parent module, outputs of child modules are available in expressions as 
+module.<MODULE NAME>.<OUTPUT NAME>
+
+79
+even subnet Id we will have to fetch
+
+
+80
+Requirement for Publishing Modules in Terraform Registry
+- Publishing Modules
+- - Publish Modules to Terraform Registry
+https://registry.terraform.io/browse/modules
+
+Requirements for Publishing Modules
+GitHub
+Named
+Repositry description
+Standard module structure
+x.y.z tags for releases
+
+
+81
+Terraform Workspace
+
+
+83 
+Remote State Management
+
+85
+Security Challenges in Commiting TFState to Git
+
+87
+Terraform and .gitignore
+
+Documents Referred:
+GitHub gitignore repository:
+
+https://github.com/github/gitignore
+
+
+88
+Terraform Backends
+
+https://developer.hashicorp.com/terraform/language/settings/backends
+https://developer.hashicorp.com/terraform/language/settings/backends/configuration
+
+89
+Implementing S3 Backend
+
+https://developer.hashicorp.com/terraform/language/settings/backends/s3
+
+
+90
+State Locking
+
+TF has a "force-unlock" command to manually unlock the state if unlock failed.
+
+if you unlock the state when someone else is holding the lock it could cause multiple writers.
+
+Force unlock should only be used to unlock your own lock in the situation where automatic unlocking failed.
+
+91
+Integrating DynamoDB with S3 for state locking
+
+92
+Terraform State Management
+(state modify)
+
+
+93
+Cross-Project Collabration using Remote State
+
+terraform_remote_state
+
+94
+Implementing Remote State Connections
+
+95
+Overview of Terraform Import
+
+96
+Terraform Import Practical
+
+Doc Link:
+https://developer.hashicorp.com/terraform/language/import
+
+
+Resource: aws_security_group
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
+
+
+Resource: aws_security_group - in Python language
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group?lang=python
