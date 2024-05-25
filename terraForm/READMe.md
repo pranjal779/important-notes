@@ -225,3 +225,7 @@ check this lesson for workspaces:
 [time_sleep (Resource)](https://registry.terraform.io/providers/hashicorp/time/latest/docs/resources/sleep)  
 
 [AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+
+[Terraform Cloud Account SignIn Page](https://app.terraform.io/session)
+
+[Terraform Offerings](https://www.hashicorp.com/products/terraform/offerings)
