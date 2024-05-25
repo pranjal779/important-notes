@@ -214,3 +214,5 @@ check this lesson for workspaces:
 
 (5/24/24)
 [Vault AWS Module](https://registry.terraform.io/modules/hashicorp/vault/aws/latest)
+
+[Inject secrets into Terraform using the Vault provider](https://developer.hashicorp.com/terraform/tutorials/secrets/secrets-vault)
