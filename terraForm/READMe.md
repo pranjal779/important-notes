@@ -218,3 +218,6 @@ check this lesson for workspaces:
 [Inject secrets into Terraform using the Vault provider](https://developer.hashicorp.com/terraform/tutorials/secrets/secrets-vault)
 
 [Vault Provider](https://registry.terraform.io/providers/hashicorp/vault/latest/docs)
+
+(5/25/24)
+[hashi corp Terraform cloud](https://www.hashicorp.com/cloud)
