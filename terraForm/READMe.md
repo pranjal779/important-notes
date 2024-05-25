@@ -211,3 +211,6 @@ check this lesson for workspaces:
 [The terraform_remote_state Data Source](https://developer.hashicorp.com/terraform/language/state/remote-state-data)
 
 [Import](https://developer.hashicorp.com/terraform/language/import)
+
+(5/24/24)
+[Vault AWS Module](https://registry.terraform.io/modules/hashicorp/vault/aws/latest)
