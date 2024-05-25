@@ -231,3 +231,5 @@ check this lesson for workspaces:
 [Terraform Offerings](https://www.hashicorp.com/products/terraform/offerings)
 
 [Defining Sentinel Policies](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/sentinel)
+
+[remote](https://developer.hashicorp.com/terraform/language/settings/backends/remote)
