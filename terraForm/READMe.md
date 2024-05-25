@@ -229,3 +229,5 @@ check this lesson for workspaces:
 [Terraform Cloud Account SignIn Page](https://app.terraform.io/session)
 
 [Terraform Offerings](https://www.hashicorp.com/products/terraform/offerings)
+
+[Defining Sentinel Policies](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/sentinel)
