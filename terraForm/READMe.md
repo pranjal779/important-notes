@@ -234,3 +234,6 @@ check this lesson for workspaces:
 [Defining Sentinel Policies](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/sentinel)
 
 [remote](https://developer.hashicorp.com/terraform/language/settings/backends/remote)
+
+## Major Section - Terraform Challenges
+[terraform-challenges Repo](https://github.com/zealvora/kplabs-terraform-challenges.git)
