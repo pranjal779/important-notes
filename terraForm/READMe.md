@@ -219,5 +219,9 @@ check this lesson for workspaces:
 
 [Vault Provider](https://registry.terraform.io/providers/hashicorp/vault/latest/docs)
 
-(5/25/24)
+(5/25/24)  
 [hashi corp Terraform cloud](https://www.hashicorp.com/cloud)
+
+[time_sleep (Resource)](https://registry.terraform.io/providers/hashicorp/time/latest/docs/resources/sleep)  
+
+[AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
