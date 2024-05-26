@@ -243,3 +243,5 @@ check this lesson for workspaces:
 
 (5/26/24)  
 [The for_each Meta-Argument - Configuration Language](https://developer.hashicorp.com/terraform/language/meta-arguments/for_each)
+
+[length Function](https://developer.hashicorp.com/terraform/language/functions/length)
