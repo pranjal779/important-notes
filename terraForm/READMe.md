@@ -246,6 +246,6 @@ check this lesson for workspaces:
 
 [length Function](https://developer.hashicorp.com/terraform/language/functions/length)
 
-[Data Source: aws_caller_identity](https://docs.w3cub.com/terraform/providers/aws/d/caller_identity.html)
+[Data Source: aws_caller_identity - W3Schools](https://docs.w3cub.com/terraform/providers/aws/d/caller_identity.html)
 
-[Data Source: aws_caller_identity](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity)
+[Data Source: aws_caller_identity - Official terraform Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity)
