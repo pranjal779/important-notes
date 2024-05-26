@@ -237,3 +237,6 @@ check this lesson for workspaces:
 
 ## Major Section - Terraform Challenges
 [terraform-challenges Repo](https://github.com/zealvora/kplabs-terraform-challenges.git)
+
+
+[Terraform Versions | HashiCorp Releases - older terraform version](https://releases.hashicorp.com/terraform/)
