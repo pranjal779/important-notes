@@ -240,3 +240,6 @@ check this lesson for workspaces:
 
 
 [Terraform Versions | HashiCorp Releases - older terraform version](https://releases.hashicorp.com/terraform/)
+
+(5/26/24)  
+[The for_each Meta-Argument - Configuration Language](https://developer.hashicorp.com/terraform/language/meta-arguments/for_each)
