@@ -245,3 +245,7 @@ check this lesson for workspaces:
 [The for_each Meta-Argument - Configuration Language](https://developer.hashicorp.com/terraform/language/meta-arguments/for_each)
 
 [length Function](https://developer.hashicorp.com/terraform/language/functions/length)
+
+[Data Source: aws_caller_identity](https://docs.w3cub.com/terraform/providers/aws/d/caller_identity.html)
+
+[Data Source: aws_caller_identity](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity)
