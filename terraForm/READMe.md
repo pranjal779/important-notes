@@ -3,7 +3,9 @@
 
 [Study guide - Terraform Associate certification](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
 
-[Exam review - Terraform Associate certification](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-review-003)
+[Exam review - Terraform Associate certification](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-review-003)  
+
+[HashiCorp Terraform Associate (003) | Real Exam Questions & Answers -2023 | 100% Pass | Free PDF](https://www.youtube.com/watch?v=-RXtOzs1Gog&t=189s&ab_channel=CertyIQ)
 <hr>
 
 [GitHub Provider](https://registry.terraform.io/providers/integrations/github/latest/docs)
