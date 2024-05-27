@@ -21,6 +21,19 @@ Providers/hashicorp/aws/V5.46.0/Latest Version
 
 [AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
+-----------------
+(5-27-24)  
+Few <ins>aws</ins> modules dump for reference:
+[ec2-instance](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest)
+
+[iam](https://registry.terraform.io/modules/terraform-aws-modules/iam/aws/latest)  
+
+[vpc](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
+
+[eks](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest)
+
+-----------------
+
 [Resource: aws_vpc_security_group_ingress_rule](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc_security_group_ingress_rule.html)
 
 [Resource: aws_vpc_security_group_egress_rule](https://registry.terraform.io/providers/-/aws/latest/docs/resources/vpc_security_group_egress_rule)
