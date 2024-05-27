@@ -1,6 +1,7 @@
 [Andrew Brown-u/omenking](https://www.reddit.com/user/omenking/) -  
 [I passed the HashiCorp Terraform Certification with a 84%. Here's my Guide](https://www.reddit.com/r/Terraform/comments/pcrvk6/i_passed_the_hashicorp_terraform_certification/)
 
+[Study guide - Terraform Associate certification](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
 <hr>
 [GitHub Provider](https://registry.terraform.io/providers/integrations/github/latest/docs)
 
