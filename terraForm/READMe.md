@@ -5,6 +5,7 @@
 
 [Exam review - Terraform Associate certification](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-review-003)
 <hr>
+
 [GitHub Provider](https://registry.terraform.io/providers/integrations/github/latest/docs)
 
 [Resource: aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
