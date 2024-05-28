@@ -268,3 +268,7 @@ check this lesson for workspaces:
 [Data Source: aws_caller_identity - W3Schools](https://docs.w3cub.com/terraform/providers/aws/d/caller_identity.html)
 
 [Data Source: aws_caller_identity - Official terraform Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity)
+
+(5/28/24)  
+[Dynamic Block](https://www.terraform.io/language/expressions/dynamic-blocks)  
+Dynamic blocks allow you to generate a collection of resources based on a list of values. This is useful for creating repetitive resources, such as security group rules. 
