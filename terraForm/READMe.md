@@ -272,3 +272,6 @@ check this lesson for workspaces:
 (5/28/24)  
 [Dynamic Block](https://www.terraform.io/language/expressions/dynamic-blocks)  
 Dynamic blocks allow you to generate a collection of resources based on a list of values. This is useful for creating repetitive resources, such as security group rules. 
+
+(5/29/24)
+[Command: state mv](https://developer.hashicorp.com/terraform/cli/commands/state/mv)
