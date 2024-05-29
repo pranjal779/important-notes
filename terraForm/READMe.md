@@ -234,6 +234,9 @@ check this lesson for workspaces:
 
 [Import](https://developer.hashicorp.com/terraform/language/import)
 
+(5/29/24)
+[Command: import](https://developer.hashicorp.com/terraform/cli/commands/import)
+
 (5/24/24)  
 [Vault AWS Module](https://registry.terraform.io/modules/hashicorp/vault/aws/latest)
 
