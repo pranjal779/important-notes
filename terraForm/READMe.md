@@ -202,6 +202,9 @@ Provisioners
 check this lesson for workspaces:  
 [Implementing Terraform Workspace](https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%204%20-%20Terraform%20Modules%20%26%20Workspaces/kplabs-workspace.md)
 
+(5/29/24)
+[Workspaces](https://developer.hashicorp.com/terraform/language/state/workspaces#using-workspaces)
+
 (5/21/24)  
 [registry.terraform.io/providers/hashicorp/aws/latest/docs/RDS (Relational Database) - Resource: aws_db_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/db_instance.html)
 
