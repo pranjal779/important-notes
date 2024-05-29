@@ -68,3 +68,7 @@ With these environment variables set, Terraform will produce detailed logs of it
 
 I hope this explanation clarifies why setting the `TF_LOG` environment variable is necessary for logging and why the other options are not correct.
 
+
+Even when TF_LOG_PATH is set, TF_LOG must be set in order for any logging to be enabled.  
+
+https://www.terraform.io/cli/config/environment-variables#tf_log_path
