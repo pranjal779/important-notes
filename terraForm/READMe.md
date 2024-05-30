@@ -283,3 +283,6 @@ Dynamic blocks allow you to generate a collection of resources based on a list o
 
 (5/29/24)
 [Command: state mv](https://developer.hashicorp.com/terraform/cli/commands/state/mv)
+
+(5/30/24)  
+[HCP Terraform API Documentation](https://developer.hashicorp.com/terraform/cloud-docs/api-docs#authentication)
