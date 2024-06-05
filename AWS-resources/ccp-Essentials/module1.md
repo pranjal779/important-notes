@@ -19,3 +19,31 @@ A hybrid deployment connects infrastructure and applications between cloud-based
 However, a hybrid deployment is not equivalent to an on-premises deployment because it involves resources that are located in the cloud.  
 
 The AWS Cloud offers three cloud deployment models: cloud, hybrid, and on-premises. This response option is incorrect because the AWS Cloud is not equivalent to only an on-premises deployment.  
+
+
+How does the scale of cloud computing help you to save costs?  
+
+You do not have to invest in technology resources before using them.  
+
+Correctly unselected  
+The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.  
+
+Correctly selected  
+Accessing services on-demand helps to prevent excess or limited capacity.  
+ 
+Correctly unselected  
+You can quickly deploy applications to customers and provide them with low latency.  
+
+The correct response option is The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.  
+
+ 
+
+This answer describes how customers can benefit from massive economies of scale in cloud computing.  
+
+ 
+
+The other response options are incorrect because:  
+
+Not having to invest in technology resources before using them relates to Trade upfront expense for variable expense.  
+Accessing services on-demand to prevent excess or limited capacity relates to Stop guessing capacity.  
+Quickly deploying applications to customers and providing them with low latency relates to Go global in minutes.  
