@@ -87,3 +87,36 @@ Anticipate and adopt new, more efficient hardware and software offerings
 Use managed services
 
 Reduce the downstream impact of your cloud workloads
+
+-------------
+
+
+Which of the following principles align with the AWS Well-Architected Framework for cloud architecture design? Select all that apply.
+
+Ensuring system scalability
+
+SELECTED
+Scalability is a fundamental principle of cloud design recommended by AWS. It refers to the ability of a system to handle increases in load by adjusting resources, either through scaling up (adding more resources to an existing system) or scaling out (adding more instances of resources). This principle ensures that applications can maintain performance and availability as demand changes, which is central to the AWS cloud's value proposition of providing flexible and efficient computing resources.
+
+Prioritizing monolithic architectures
+
+This option is incorrect within the context of AWS's recommended cloud design principles. AWS and the AWS Well-Architected Framework advocate for architectures that are modular, scalable, and can evolve over time. Monolithic architectures, where the application is tightly integrated and deployed as a single unit, contrast with these principles. They can lead to challenges in scaling, updating, and maintaining the application. AWS encourages the use of microservices architecture, which involves breaking down applications into smaller, independent components that communicate over well-defined interfaces. This approach offers better scalability, reliability, and deployment flexibility, making it more aligned with cloud-native design practices.
+
+Managing infrastructure through code
+
+SELECTED
+This option is correct because Infrastructure as Code (IaC) is a key practice recommended by AWS for automating and managing the cloud infrastructure. IaC allows for the provisioning and management of infrastructure using code and templates, which improves consistency, reduces the potential for human error, and enables the rapid deployment of infrastructure changes. This practice supports the AWS Well-Architected Framework by promoting operational excellence and reliability.
+
+Design for failure
+
+SELECTED
+Designing for failure is correct and crucial in cloud architecture as it acknowledges that failures will occur and focuses on creating systems that are resilient and can recover gracefully. This principle aligns with the AWS recommendation to build reliable and fault-tolerant systems by using services that are designed to be highly available and by implementing strategies such as replication, backups, and failover mechanisms. This approach ensures that systems can continue to operate and maintain data integrity despite component failures.
+
+Tightly-coupled components
+
+This option is incorrect. Tightly coupled systems can become bottlenecks in cloud environments, where the ability to rapidly adapt to changing demands and to deploy new features quickly is crucial.
+
+Use of ephemeral resources
+
+SELECTED
+This principle is correct because it emphasizes the cloud's ability to provide resources that can be temporarily provisioned and easily disposed of, aligning with the AWS cloud's elasticity and cost management strategies. Ephemeral resources support scalability and cost-efficiency, allowing for the dynamic allocation and deallocation of resources based on demand. This approach reduces waste and ensures that resources are consumed judiciously, in line with AWS's recommendation to optimize for cost and performance.
