@@ -65,3 +65,26 @@ EXPLANATION
 By default, a VPC spans all of the Availability Zones in a Region.
 
 Overview of VPCs and subnets
+
+----------------------------
+
+Which is a significant financial benefit of shifting on-premises data center systems to AWS?
+
+Replaces upfront capital expenses (CAPEX) with low variable costs over time
+
+This statement is correct. When organizations move from on-premises data centers to cloud services like AWS, they shift from a CAPEX model to an OPEX model. In the CAPEX model, companies incur substantial upfront costs for purchasing and maintaining physical hardware and infrastructure. When they transition to the cloud, these upfront costs are significantly reduced or eliminated, as the cloud provider owns the infrastructure. Instead, the organization pays for the services it consumes, typically on a variable cost basis, which can adjust according to the organization's usage. This model provides flexibility and can lead to cost savings, particularly for organizations that experience fluctuating demands.
+
+Overview of Amazon Web Services
+
+Replaces variable operational expenses (OPEX) with low upfront capital expenses (CAPEX) over time
+
+This statement is incorrect as it suggests a reverse transition from the typical cloud migration pathway. Generally, cloud migration involves moving away from high CAPEX (associated with purchasing and maintaining on-premises hardware) to a model where costs are more operational and variable (OPEX). The cloud model primarily reduces CAPEX while introducing variable OPEX based on usage, not the other way around.
+
+CAPEX upfront costs are lower, adding increased privacy and security as well as computing power over time
+
+This statement is incorrect and conflates several aspects. First, the move to the cloud typically does not lower upfront CAPEX; instead, it shifts costs from CAPEX to OPEX. The mention of "increased privacy and security" is also misleading in this context, as the move to the cloud does not inherently increase privacy and security; these aspects depend on the specific implementations and configurations within the cloud environment. While cloud providers do offer robust security features, it's up to the organizations to configure and manage them correctly. As for "computing power," while cloud services do offer the ability to scale computing resources, this is not directly related to CAPEX or the initial financial comparison between on-premises and cloud setups.
+
+Replaces upfront operational expenses (OPEX) with low variable operational expenses (OPEX) over time
+
+SELECTED
+This statement is incorrect because it conflates operational expenses with themselves, which does not make sense in the context of financial modeling. Operational expenses (OPEX) are the ongoing costs for running a product, business, or system. In the context of data centers, OPEX includes costs like electricity, cooling, and IT labor. When moving to the cloud, these expenses are typically reduced as the cloud provider assumes responsibility for the physical infrastructure, leading to potentially lower operational costs for the organization. However, the organization still incurs operational expenses, now in the form of cloud service fees, which vary based on consumption and the services used.
