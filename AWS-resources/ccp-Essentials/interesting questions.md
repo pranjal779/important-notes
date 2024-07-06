@@ -16,3 +16,32 @@ In https://media.amazonwebservices.com/AWSCloudBest_Practices.pdf on Page 12 you
 Deploying an application across multiple Availability Zones and Regions
 
 Each AZ is a set of one or more data centers. By deploying your AWS resources to multiple Availability Zones , you are designing with failure with mind. So if one AZ were to go down , the other AZ’s would still be up and running and hence your application would be more fault tolerant.
+
+------------
+
+Where can a customer go to get more detail about Amazon Elastic Compute Cloud (Amazon EC2) billing activity that took place 3 months ago?
+
+AWS Trusted Advisor Dashboard
+
+SELECTED
+AWS Trusted Advisor inspects your AWS environment and makes recommendations when opportunities exist to save money, improve system availability and performance, or help close security gaps. Some cost optimization checks for Amazon EC2 instances are:
+
+Consolidation for Microsoft SQL
+Over-provisioned for Microsoft SQL Server
+Reserved Instance Lease Expiration
+Reserved Instance Optimization
+Low Utilization of EC2 Instances
+Resources:
+
+AWS Trusted Advisor
+Cost optimization
+Amazon EC2 Dashboard
+
+AWS Cloud Trail logs stored in Amazon Simple StorageService (Amazon S3)
+
+
+Correct ans > AWS Cost Explorer
+
+Cost Explorer is a free tool that you can use to view your costs. You can view data up to the last 12 months, forecast how much you are likely to spend for the next three months, and get recommendations for what Reserved Instances to purchase.
+
+Analyzing Your Costs with Cost Explorer
