@@ -45,3 +45,23 @@ Correct ans > AWS Cost Explorer
 Cost Explorer is a free tool that you can use to view your costs. You can view data up to the last 12 months, forecast how much you are likely to spend for the next three months, and get recommendations for what Reserved Instances to purchase.
 
 Analyzing Your Costs with Cost Explorer
+
+------------------
+
+Which of the following features of an Amazon VPC allows your VPC to span multiple Availability Zones?
+
+None of these
+
+Subnet
+
+SELECTED
+A subnet must reside within a single AZ
+
+Route Tables
+
+Network Access Control Lists
+
+EXPLANATION
+By default, a VPC spans all of the Availability Zones in a Region.
+
+Overview of VPCs and subnets
