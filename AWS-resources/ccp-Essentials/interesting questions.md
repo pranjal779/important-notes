@@ -88,3 +88,28 @@ Replaces upfront operational expenses (OPEX) with low variable operational expen
 
 SELECTED
 This statement is incorrect because it conflates operational expenses with themselves, which does not make sense in the context of financial modeling. Operational expenses (OPEX) are the ongoing costs for running a product, business, or system. In the context of data centers, OPEX includes costs like electricity, cooling, and IT labor. When moving to the cloud, these expenses are typically reduced as the cloud provider assumes responsibility for the physical infrastructure, leading to potentially lower operational costs for the organization. However, the organization still incurs operational expenses, now in the form of cloud service fees, which vary based on consumption and the services used.
+
+----------------------------
+
+Your design team is planning to develop an application that will be hosted on the AWS Cloud. One of the main non-functional requirements is:
+
+Reduce inter-dependencies so that failures in one component do not affect other components.
+
+Which of the following concepts does this requirement relate to?
+
+Decoupling
+
+SELECTED
+Correct. Decoupling refers to the practice of designing system components in such a way that they are minimally dependent on each other. This is crucial in ensuring that a failure in one component does not cascade and affect other parts of the system. In the context of the requirement to reduce inter-dependencies, decoupling is directly relevant because it aims to isolate components, thereby enhancing the system's resilience and reliability. By decoupling components, you allow each part of the application to function independently, reducing the risk of widespread system failures and simplifying maintenance and updates.
+
+Aggregation
+
+Incorrect. Aggregation is the process of combining multiple elements into a single entity. In software design, this often involves grouping data or functionalities together. While aggregation can simplify access and manipulation of data, it does not inherently address the issue of inter-dependencies between components. In fact, aggregation can sometimes increase dependencies, as components rely on aggregated data or services. Consequently, aggregation is not the concept that directly relates to the requirement of reducing inter-dependencies to avoid failure impact.
+
+Segregation
+
+Incorrect. Segregation refers to separating components or services to ensure they function independently. While similar to decoupling, segregation is more about the physical or logical separation of components, often for security or organizational reasons. Although segregation can help in isolating components and preventing failures from spreading, it is not as specifically focused on reducing inter-dependencies as decoupling. Decoupling is the broader and more relevant concept when it comes to designing systems where components are independently operable, thereby directly addressing the requirement to minimize the impact of component failures.
+
+Integration
+
+Incorrect. Integration involves combining different components or systems to work together as a cohesive whole. While integration is important for enabling different parts of an application to communicate and work together, it inherently increases inter-dependencies. This means that if one component fails, it could potentially disrupt the integrated system. Therefore, integration does not align with the requirement to reduce inter-dependencies and mitigate the impact of failures across components. Instead, integration focuses on connectivity and cooperation between parts, which contrasts with the goal of minimizing inter-dependencies.
