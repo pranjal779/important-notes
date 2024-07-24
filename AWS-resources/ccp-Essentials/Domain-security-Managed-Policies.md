@@ -19,8 +19,7 @@ PowerUserAccess
 SELECTED
 Provides full access to AWS services and resources, but does not allow management of Users and groups.
 
-EXPLANATION
-https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html
+[EXPLANATION](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html)
 
 AdministratorAccess - Provides full access to AWS services and resources.
 Billing - Grants permissions for billing and cost management. This includes viewing account usage and viewing and modifying budgets and payment methods.
