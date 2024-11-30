@@ -177,7 +177,7 @@ Does this clarify the confusion? Feel free to ask more!
 
 -----
 
-Yes, that's exactly correct! 🎉
+ 🎉
 
 Instead of using a list that would hold multiple repeated instances of the same word, we use a **dictionary** where:
 
