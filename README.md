@@ -32,7 +32,7 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 
 ### [How to make the ultimate Terminal Prompt on Windows 11](https://www.youtube.com/watch?v=VT2L1SXFq9U&t=20s&ab_channel=ScottHanselman)
 
-**[Read his blog]**(https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal)
+**[Read his blog](https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal)**
 
 ##### [Make Windows Terminal Look Better | Oh My Posh Guide](https://www.youtube.com/watch?v=-G6GbXGo4wo&t=226s&ab_channel=TroubleChute)
 
