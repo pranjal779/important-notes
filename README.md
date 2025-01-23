@@ -28,5 +28,8 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 
 [Interview links](https://www.redhat.com/en/blog/modern-continuous-integration-continuous-delivery-ci-cd-pipeline-for-traditional-provisioning-your-questions-answered-part-2)
 
+# Customize Your Terminal
 
-## [How to Customize WSL & CMD in Windows Terminal with Oh My Posh!](https://www.youtube.com/watch?v=lxNLJsDKyU4&ab_channel=JordiAdoumie)
+##### [Make Windows Terminal Look Better | Oh My Posh Guide](https://www.youtube.com/watch?v=-G6GbXGo4wo&t=226s&ab_channel=TroubleChute)
+
+##### [How to Customize WSL & CMD in Windows Terminal with Oh My Posh!](https://www.youtube.com/watch?v=lxNLJsDKyU4&ab_channel=JordiAdoumie)
