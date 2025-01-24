@@ -1,3 +1,5 @@
+## Ubuntu-22.04 command history
+
  pranj    ~   244ms⠀   history                                                   pwsh   61  22:49:29 
 
   Id     Duration CommandLine
@@ -41,6 +43,7 @@
   37        0.022 clear
   38        0.244 cmdhistory
 
+## tree not sure ubuntu or pwsh
 
  pranj    Python   main ≡   21ms⠀   cd ..                                     pwsh   49  23:21:19 
  pranj    My_Hackerrank_solutions_RE   main ≡   24ms⠀   tree .
@@ -97,6 +100,9 @@ Mode                LastWriteTime         Length Name
 -a---         1/23/2025   7:11 PM            322   string_formatting.py
 -a---          1/3/2025   9:39 PM           3151   TextWrap.py
 
+
+## PowerShell history
+
  pranj    2025   main ≡   3.13.1   47ms⠀   history                          pwsh   48  23:21:49 
 
   Id     Duration CommandLine
@@ -116,6 +122,8 @@ Mode                LastWriteTime         Length Name
 
  pranj    2025   main ≡   3.13.1   25ms⠀                                    pwsh   48  23:23:23 
 
+## Command Prompt history
+
     cmd                                                                                                    0ms 
 ╭─ 22:49:48 |  23 Jan, Thursday |   in  
 ╰─❯ history
@@ -128,3 +136,72 @@ Mode                LastWriteTime         Length Name
     cmd                                                                                                   98ms 
 ╭─ 22:49:53 |  23 Jan, Thursday |   in  
 ╰─❯
+
+
+# Ubuntu root history
+ WSL at   ♥ 04:23:38  CPU: 10.25% | RAM: 1/6GB   14ms 
+  home   history
+    1  sudo apt update
+    2  pwd
+    3  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+    4  sudo apt install unzip
+    5  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+    6  mkdir ~/bin
+    7  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+    8  eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
+    9  eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/jandedobbeleer.omp.json')"
+   10  oh-my-posh font install
+   11  oh-my-posh init {shell} --config /root/.cache/oh-my-posh/themes/{theme}.omp.json
+   12  oh-my-posh init {bash} --config /root/.cache/oh-my-posh/themes/123fsdCZX.omp.json
+   13  oh-my-posh get shell
+   14  eval "$(oh-my-posh init bash)"
+   15  sudo apt get update
+   16  sudo apt update
+   17  eval "$(oh-my-posh init bash)"
+   18  oh-my-posh get shell
+   19  eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
+   20  ls
+   21  cd bin
+   22  eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
+   23  cd ..
+   24  curl -s https://ohmyposh.dev/install.sh | bash -s
+   25  explorer.exe .
+   26  oh-my-posh get shell
+   27  sheel
+   28  shell
+   29  which shell
+   30  echo $SHELL
+   31  curl -s https://ohmyposh.dev/install.sh | bash -s
+   32  export PATH=$PATH:/root/.local/bin
+   33  curl -s https://ohmyposh.dev/install.sh | bash -s
+   34  oh-my-posh get shell
+   35  apt install oh-my-posh
+   36  ls
+   37  explorer.exe .
+   38  apt-get install oh-my-posh
+   39  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+   40  mkdir
+   41  mkdir ~/.bin
+   42  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+   43  mkdir ~/bin
+   44  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+   45  export PATH=$PATH:/root/.local/bin
+   46  dir
+   47  ls
+   48  ls -la
+   49  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin
+   50  oh-my-posh get shell
+   51  eval "$(oh-my-posh init bash)"
+   52  ping
+   53  ping .
+   54  ping localhost
+   55  oh-my-posh init bash --config /root/.cache/oh-my-posh/themes/wholespace.omp.json
+   56  eval "$(oh-my-posh init bash --config ~/wholespace.omp.json)"
+   57  eval "$(oh-my-posh init ~/.bashrc --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/wholespace.omp.json')"
+   58  eval "$(oh-my-posh init bash --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/wholespace.omp.json')"
+   59  ls
+   60  hkjsde
+   61  clear
+   62  history
+ WSL at   ♥ 04:23:42  CPU: 10.32% | RAM: 1/6GB   10ms 
+  home  
