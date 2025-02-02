@@ -43,3 +43,5 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 # Writing workflows
 ## GitHub Actions workflows can automate tasks throughout the software development lifecycle.
 [Github Actions](https://docs.github.com/en/actions/writing-workflows)
+
+[Understanding GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
