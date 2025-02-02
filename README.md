@@ -30,12 +30,6 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 
 # Customize Your Terminal
 
-
-# Writing workflows
-## GitHub Actions workflows can automate tasks throughout the software development lifecycle.
-[Github Actions](https://docs.github.com/en/actions/writing-workflows)
-
-
 ### [How to make the ultimate Terminal Prompt on Windows 11](https://www.youtube.com/watch?v=VT2L1SXFq9U&t=20s&ab_channel=ScottHanselman)
 
 **[Read his blog](https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal)**
@@ -43,3 +37,9 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 ##### [Make Windows Terminal Look Better | Oh My Posh Guide](https://www.youtube.com/watch?v=-G6GbXGo4wo&t=226s&ab_channel=TroubleChute)
 
 ##### [How to Customize WSL & CMD in Windows Terminal with Oh My Posh!](https://www.youtube.com/watch?v=lxNLJsDKyU4&ab_channel=JordiAdoumie)
+
+
+
+# Writing workflows
+## GitHub Actions workflows can automate tasks throughout the software development lifecycle.
+[Github Actions](https://docs.github.com/en/actions/writing-workflows)
