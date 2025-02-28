@@ -5,3 +5,8 @@
 [Documentation:Custom Payload/dialogflow-messenger](https://cloud.google.com/dialogflow/cx/docs/concept/integration/dialogflow-messenger)
 
 [Google Dialogflow w Fulfillment & Webhook + Python Flask!!](https://youtu.be/de-dv9-pJYk?si=Vy727PFkqqnBhshx)
+
+
+[MusicBrainz-Documentation](https://musicbrainz.org/doc/MusicBrainz_Documentation)
+
+[MusicBrainz-ApiDocumentation](https://musicbrainz.org/doc/MusicBrainz_API)
