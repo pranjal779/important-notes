@@ -4,3 +4,6 @@
 
 [October 9, 2024/#Databases-Learn Databases In-Depth](https://www.freecodecamp.org/news/learn-databases-in-depth/)  
 [tweet](https://x.com/freeCodeCamp/status/1884406362563604849)
+
+
+[stored procedure](https://www.w3schools.com/sql/sql_stored_procedures.asp)
