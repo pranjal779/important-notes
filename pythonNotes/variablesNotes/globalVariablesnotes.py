@@ -11,3 +11,15 @@ print("Python is " + x)
 
 # Python is fantastic
 # Python is awesome
+
+
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+# Python is fantastic
