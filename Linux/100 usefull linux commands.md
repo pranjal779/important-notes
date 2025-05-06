@@ -2,9 +2,6 @@
 
 # give me a list of 100 usefull linux commands
 
-I am not sure what will they ask
-other than Tell me about yourself
-
 Here is a curated list of 100 useful Linux commands and concepts you can prepare for your Senior System Operations Engineer interview, covering file management, system monitoring, networking, user management, scripting, and troubleshooting. These commands align well with typical interview expectations for systems roles like yours:
 
 ### File and Directory Management
