@@ -1,6 +1,6 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# give me a list of 100 usefull linux commands for this kind of interview if asked
+# give me a list of 100 usefull linux commands
 
 I am not sure what will they ask
 other than Tell me about yourself
