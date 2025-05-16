@@ -7,3 +7,6 @@
 
 
 [stored procedure](https://www.w3schools.com/sql/sql_stored_procedures.asp)
+
+
+[Redis Crash Course](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
