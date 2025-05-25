@@ -1,3 +1,58 @@
+Amazon CloudFront offers a multi-tier cache in the form of regional edge caches that improve latency. However, there are certain content types that bypass the regional edge cache, and go directly to the origin.
+
+Which of the following content types skip the regional edge cache? (Select two)
+
+Correct selection
+Dynamic content, as determined at request time (cache-behavior configured to forward all headers)
+
+Your selection is correct
+Proxy methods PUT/POST/PATCH/OPTIONS/DELETE go directly to the origin
+
+User-generated videos
+
+Your selection is incorrect
+Static content such as style sheets, JavaScript files
+
+E-commerce assets such as product photos
+
+Overall explanation
+Correct options:
+
+Dynamic content, as determined at request time (cache-behavior configured to forward all headers)
+
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+
+CloudFront points of presence (POPs) (edge locations) make sure that popular content can be served quickly to your viewers. CloudFront also has regional edge caches that bring more of your content closer to your viewers, even when the content is not popular enough to stay at a POP, to help improve performance for that content.
+
+Dynamic content, as determined at request time (cache-behavior configured to forward all headers), does not flow through regional edge caches, but goes directly to the origin. So this option is correct.
+
+Proxy methods PUT/POST/PATCH/OPTIONS/DELETE go directly to the origin
+
+Proxy methods PUT/POST/PATCH/OPTIONS/DELETE go directly to the origin from the POPs and do not proxy through the regional edge caches. So this option is also correct.
+
+How Amazon CloudFront Delivers Content:  via - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html
+![image](https://github.com/user-attachments/assets/b5616364-4baf-4164-b7f9-2d0901176801)
+
+
+Incorrect Options:
+
+E-commerce assets such as product photos
+
+User-generated videos
+
+Static content such as style sheets, JavaScript files
+
+The following type of content flows through the regional edge caches - user-generated content, such as video, photos, or artwork; e-commerce assets such as product photos and videos and static content such as style sheets, JavaScript files. Hence these three options are not correct.
+
+Reference:
+
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html
+
+Domain
+Design Secure Architectures
+
+--------------------
+
 A company manages a multi-tier social media application that runs on Amazon Elastic Compute Cloud (Amazon EC2) instances behind an Application Load Balancer. The instances run in an Amazon EC2 Auto Scaling group across multiple Availability Zones (AZs) and use an Amazon Aurora database. As an AWS Certified Solutions Architect – Associate, you have been tasked to make the application more resilient to periodic spikes in request rates.
 
 Which of the following solutions would you recommend for the given use-case? (Select two)
