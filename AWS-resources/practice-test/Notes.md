@@ -190,3 +190,62 @@ https://aws.amazon.com/kinesis/data-firehose/
 
 Domain
 Design Cost-Optimized Architectures
+
+---------------
+
+A video analytics organization has been acquired by a leading media company. The analytics organization has 10 independent applications with an on-premises data footprint of about 70 Terabytes for each application. The CTO of the media company has set a timeline of two weeks to carry out the data migration from on-premises data center to AWS Cloud and establish connectivity.
+
+Which of the following are the MOST cost-effective options for completing the data transfer and establishing connectivity? (Select two)
+
+Correct selection
+Setup AWS Site-to-Site VPN to establish on-going connectivity between the on-premises data center and AWS Cloud
+
+Setup AWS Direct Connect to establish connectivity between the on-premises data center and AWS Cloud
+
+Your selection is incorrect
+Order 70 AWS Snowball Edge Storage Optimized devices to complete the one-time data transfer
+
+Order 1 AWS Snowmobile to complete the one-time data transfer
+
+Your selection is correct
+Order 10 AWS Snowball Edge Storage Optimized devices to complete the one-time data transfer
+
+Overall explanation
+Correct options:
+
+Order 10 AWS Snowball Edge Storage Optimized devices to complete the one-time data transfer
+
+AWS Snowball Edge Storage Optimized is the optimal choice if you need to securely and quickly transfer dozens of terabytes to petabytes of data to AWS. It provides up to 80 Terabytes of usable HDD storage, 40 vCPUs, 1 TB of SATA SSD storage, and up to 40 Gigabytes network connectivity to address large scale data transfer and pre-processing use cases.
+
+As each Snowball Edge Storage Optimized device can handle 80 Terabytes of data, you can order 10 such devices to take care of the data transfer for all applications.
+
+Exam Alert:
+
+The original Snowball devices were transitioned out of service and Snowball Edge Storage Optimized are now the primary devices used for data transfer. You may see the Snowball device on the exam, just remember that the original Snowball device had 80 Terabytes of storage space.
+
+Setup AWS Site-to-Site VPN to establish on-going connectivity between the on-premises data center and AWS Cloud
+
+AWS Site-to-Site VPN enables you to securely connect your on-premises network or branch office site to your Amazon Virtual Private Cloud (Amazon VPC). You can securely extend your data center or branch office network to the cloud with an AWS Site-to-Site VPN connection. A VPC VPN Connection utilizes IPSec to establish encrypted network connectivity between your intranet and Amazon VPC over the Internet. VPN Connections can be configured in minutes and are a good solution if you have an immediate need, have low to modest bandwidth requirements, and can tolerate the inherent variability in Internet-based connectivity.
+
+Therefore this option is the right fit for the given use-case as the connectivity can be easily established within the given timeframe.
+
+Incorrect options:
+
+Order 1 AWS Snowmobile to complete the one-time data transfer - Each AWS Snowmobile has a total capacity of up to 100 petabytes. To migrate large datasets of 10 petabytes or more in a single location, you should use AWS Snowmobile. For datasets less than 10 petabytes or distributed in multiple locations, you should use Snowball. So AWS Snowmobile is not the right fit for this use-case.
+
+Setup AWS Direct Connect to establish connectivity between the on-premises data center and AWS Cloud - AWS Direct Connect lets you establish a dedicated network connection between your network and one of the AWS Direct Connect locations. Using industry-standard 802.1q VLANs, this dedicated connection can be partitioned into multiple virtual interfaces. AWS Direct Connect does not involve the Internet; instead, it uses dedicated, private network connections between your intranet and Amazon VPC. Direct Connect involves significant monetary investment and takes at least a month to set up, therefore it's not the correct fit for this use-case.
+
+Order 70 AWS Snowball Edge Storage Optimized devices to complete the one-time data transfer - As the data-transfer can be completed with just 10 AWS Snowball Edge Storage Optimized devices, there is no need to order 70 devices.
+
+References:
+
+https://aws.amazon.com/snowball/faqs/
+
+https://aws.amazon.com/vpn/
+
+https://aws.amazon.com/snowmobile/faqs/
+
+https://aws.amazon.com/directconnect/
+
+Domain
+Design Cost-Optimized Architectures
