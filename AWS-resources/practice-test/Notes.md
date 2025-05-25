@@ -97,3 +97,47 @@ https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/babelfish-compatibi
 
 Domain
 Design High-Performing Architectures
+
+--------------------
+
+A telecom company operates thousands of hardware devices like switches, routers, cables, etc. The real-time status data for these devices must be fed into a communications application for notifications. Simultaneously, another analytics application needs to read the same real-time status data and analyze all the connecting lines that may go down because of any device failures.
+
+As an AWS Certified Solutions Architect – Associate, which of the following solutions would you suggest, so that both the applications can consume the real-time status data concurrently?
+
+Correct answer
+Amazon Kinesis Data Streams
+
+Your answer is incorrect
+Amazon Simple Notification Service (SNS)
+
+Amazon Simple Queue Service (SQS) with Amazon Simple Notification Service (SNS)
+
+Amazon Simple Queue Service (SQS) with Amazon Simple Email Service (Amazon SES)
+
+Overall explanation
+Correct option:
+
+Amazon Kinesis Data Streams
+
+Amazon Kinesis Data Streams enables real-time processing of streaming big data. It provides ordering of records, as well as the ability to read and/or replay records in the same order to multiple Amazon Kinesis Applications. The Amazon Kinesis Client Library (KCL) delivers all records for a given partition key to the same record processor, making it easier to build multiple applications reading from the same Amazon Kinesis data stream (for example, to perform counting, aggregation, and filtering).
+
+AWS recommends Amazon Kinesis Data Streams for use cases with requirements that are similar to the following:
+
+Routing related records to the same record processor (as in streaming MapReduce). For example, counting and aggregation are simpler when all records for a given key are routed to the same record processor.
+Ordering of records. For example, you want to transfer log data from the application host to the processing/archival host while maintaining the order of log statements.
+Ability for multiple applications to consume the same stream concurrently. For example, you have one application that updates a real-time dashboard and another that archives data to Amazon Redshift. You want both applications to consume data from the same stream concurrently and independently.
+Ability to consume records in the same order a few hours later. For example, you have a billing application and an audit application that runs a few hours behind the billing application. Because Amazon Kinesis Data Streams stores data for up to 365 days, you can run the audit application up to 365 days behind the billing application.
+Incorrect options:
+
+Amazon Simple Notification Service (SNS) - Amazon Simple Notification Service (SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distributed systems, and serverless applications. Amazon SNS provides topics for high-throughput, push-based, many-to-many messaging. Amazon SNS is a notification service and cannot be used for real-time processing of data.
+
+Amazon Simple Queue Service (SQS) with Amazon Simple Notification Service (SNS) - Amazon Simple Queue Service (Amazon SQS) offers a reliable, highly scalable hosted queue for storing messages as they travel between computers. Amazon SQS lets you easily move data between distributed application components and helps you build applications in which messages are processed independently (with message-level ack/fail semantics), such as automated workflows. Since multiple applications need to consume the same data stream concurrently, Kinesis is a better choice when compared to the combination of SQS with SNS.
+
+Amazon Simple Queue Service (SQS) with Amazon Simple Email Service (Amazon SES) - As discussed above, Amazon Kinesis is a better option for this use case in comparison to Amazon SQS. Also, Amazon SES does not fit this use-case. Hence, this option is an incorrect answer.
+
+Reference:
+
+https://aws.amazon.com/kinesis/data-streams/faqs/
+
+Domain
+Design High-Performing Architectures
