@@ -249,3 +249,72 @@ https://aws.amazon.com/directconnect/
 
 Domain
 Design Cost-Optimized Architectures
+
+-----------------
+A company runs a data processing workflow that takes about 60 minutes to complete. The workflow can withstand disruptions and it can be started and stopped multiple times.
+
+Which is the most cost-effective solution to build a solution for the workflow?
+
+Correct answer
+Use Amazon EC2 spot instances to run the workflow processes
+
+Your answer is incorrect
+Use Amazon EC2 on-demand instances to run the workflow processes
+
+Use Amazon EC2 reserved instances to run the workflow processes
+
+Use AWS Lambda function to run the workflow processes
+
+Overall explanation
+Correct option:
+
+Use Amazon EC2 spot instances to run the workflow processes
+
+Amazon EC2 instance types:  via - https://aws.amazon.com/ec2/pricing/
+![image](https://github.com/user-attachments/assets/74c67add-a63e-42dc-8dcd-8e7835511248)
+
+
+Amazon EC2 Spot instances allow you to request spare Amazon EC2 computing capacity for up to 90% off the On-Demand price.
+
+Spot instances are recommended for:
+
+Applications that have flexible start and end times Applications that are feasible only at very low compute prices Users with urgent computing needs for large amounts of additional capacity
+
+For the given use case, spot instances offer the most cost-effective solution as the workflow can withstand disruptions and can be started and stopped multiple times.
+
+For example, considering a process that runs for an hour and needs about 1024 MB of memory, spot instance pricing for a t2.micro instance (having 1024 MB of RAM) is $0.0035 per hour.
+
+Spot instance pricing:  via - https://aws.amazon.com/ec2/spot/pricing/
+![image](https://github.com/user-attachments/assets/5e0348b2-c210-4f6d-953e-e47e0c37240c)
+
+
+Contrast this with the pricing of a Lambda function (having 1024 MB of allocated memory), which comes out to $0.0000000167 per 1ms or $0.06 per hour ($0.0000000167 * 1000 * 60 * 60 per hour).
+
+AWS Lambda function pricing:  via - https://aws.amazon.com/lambda/pricing/
+![image](https://github.com/user-attachments/assets/2f32874b-d4d9-4107-9967-169b4ad17b74)
+
+
+Thus, a spot instance turns out to be about 20 times cost effective than a Lambda function to meet the requirements of the given use case.
+
+Incorrect options:
+
+Use AWS Lambda function to run the workflow processes - As mentioned in the explanation above, a Lambda function turns out to be 20 times more expensive than a spot instance to meet the workflow requirements of the given use case, so this option is incorrect. You should also note that the maximum execution time of a Lambda function is 15 minutes, so the workflow process would be disrupted for sure. On the other hand, it is certainly possible that the workflow process can be completed in a single run on the spot instance (the average frequency of stop instance interruption across all Regions and instance types is <10%).
+
+Use Amazon EC2 on-demand instances to run the workflow processes
+
+Use Amazon EC2 reserved instances to run the workflow processes
+
+You should note that both on-demand and reserved instances are more expensive than spot instances. In addition, reserved instances have a term of 1 year or 3 years, so they are not suited for the given workflow. Therefore, both these options are incorrect.
+
+References:
+
+https://aws.amazon.com/ec2/pricing/
+
+https://aws.amazon.com/ec2/spot/pricing/
+
+https://aws.amazon.com/lambda/pricing/
+
+https://aws.amazon.com/ec2/spot/instance-advisor/
+
+Domain
+Design Cost-Optimized Architectures
