@@ -1,3 +1,57 @@
+A retail company's dynamic website is hosted using on-premises servers in its data center in the United States. The company is launching its website in Asia, and it wants to optimize the website loading times for new users in Asia. The website's backend must remain in the United States. The website is being launched in a few days, and an immediate solution is needed.
+
+What would you recommend?
+
+Your answer is incorrect
+Migrate the website to Amazon S3. Use S3 cross-region replication (S3 CRR) between AWS Regions in the US and Asia
+
+Correct answer
+Use Amazon CloudFront with a custom origin pointing to the on-premises servers
+
+Use Amazon CloudFront with a custom origin pointing to the DNS record of the website on Amazon Route 53
+
+Leverage a Amazon Route 53 geo-proximity routing policy pointing to on-premises servers
+
+Overall explanation
+Correct option:
+
+Use Amazon CloudFront with a custom origin pointing to the on-premises servers
+
+Amazon CloudFront is a web service that gives businesses and web application developers an easy and cost-effective way to distribute content with low latency and high data transfer speeds. Amazon CloudFront uses standard cache control headers you set on your files to identify static and dynamic content. You can use different origins for different types of content on a single site – e.g. Amazon S3 for static objects, Amazon EC2 for dynamic content, and custom origins for third-party content.
+
+Amazon CloudFront:  via - https://aws.amazon.com/cloudfront/
+![image](https://github.com/user-attachments/assets/de579d24-2377-4c40-bbf5-1325af89033e)
+
+
+An origin server stores the original, definitive version of your objects. If you're serving content over HTTP, your origin server is either an Amazon S3 bucket or an HTTP server, such as a web server. Your HTTP server can run on an Amazon Elastic Compute Cloud (Amazon EC2) instance or on a server that you manage; these servers are also known as custom origins.
+
+ via - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+ ![image](https://github.com/user-attachments/assets/0b6df36f-abe6-4213-a3bd-40c0506ab67e)
+
+
+Amazon CloudFront employs a global network of edge locations and regional edge caches that cache copies of your content close to your viewers. Amazon CloudFront ensures that end-user requests are served by the closest edge location. As a result, viewer requests travel a short distance, improving performance for your viewers. Therefore for the given use case, the users in Asia will enjoy a low latency experience while using the website even though the on-premises servers continue to be in the US.
+
+Incorrect options:
+
+Use Amazon CloudFront with a custom origin pointing to the DNS record of the website on Amazon Route 53 - This option has been added as a distractor. CloudFront cannot have a custom origin pointing to the DNS record of the website on Route 53.
+
+Migrate the website to Amazon S3. Use S3 cross-region replication (S3 CRR) between AWS Regions in the US and Asia - The use case states that the company operates a dynamic website. You can use Amazon S3 to host a static website. On a static website, individual web pages include static content. They might also contain client-side scripts. By contrast, a dynamic website relies on server-side processing, including server-side scripts, such as PHP, JSP, or ASP.NET. Amazon S3 does not support server-side scripting, but AWS has other resources for hosting dynamic websites. So this option is incorrect.
+
+Leverage a Amazon Route 53 geo-proximity routing policy pointing to on-premises servers - Since the on-premises servers continue to be in the US, so even using a Route 53 geo-proximity routing policy that directs the users in Asia to the on-premises servers in the US would not reduce the latency for the users in Asia. So this option is incorrect.
+
+References:
+
+https://aws.amazon.com/cloudfront/
+
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+
+Domain
+Design High-Performing Architectures
+
+--------------------
+
 An IT security consultancy is working on a solution to protect data stored in Amazon S3 from any malicious activity as well as check for any vulnerabilities on Amazon EC2 instances.
 
 As a solutions architect, which of the following solutions would you suggest to help address the given requirement?
