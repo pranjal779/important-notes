@@ -1,3 +1,47 @@
+Question 54
+Correct
+A gaming company uses Amazon Aurora as its primary database service. The company has now deployed 5 multi-AZ read replicas to increase the read throughput and for use as failover target. The replicas have been assigned the following failover priority tiers and corresponding instance sizes are given in parentheses: tier-1 (16 terabytes), tier-1 (32 terabytes), tier-10 (16 terabytes), tier-15 (16 terabytes), tier-15 (32 terabytes).
+
+In the event of a failover, Amazon Aurora will promote which of the following read replicas?
+
+Tier-10 (16 terabytes)
+
+Tier-1 (16 terabytes)
+
+Your answer is correct
+Tier-1 (32 terabytes)
+
+Tier-15 (32 terabytes)
+
+Overall explanation
+Correct option:
+
+Tier-1 (32 terabytes)
+
+Amazon Aurora features a distributed, fault-tolerant, self-healing storage system that auto-scales up to 128TB per database instance. It delivers high performance and availability with up to 15 low-latency read replicas, point-in-time recovery, continuous backup to Amazon S3, and replication across three Availability Zones (AZs).
+
+For Amazon Aurora, each Read Replica is associated with a priority tier (0-15). In the event of a failover, Amazon Aurora will promote the Read Replica that has the highest priority (the lowest numbered tier). If two or more Aurora Replicas share the same priority, then Amazon RDS promotes the replica that is largest in size. If two or more Aurora Replicas share the same priority and size, then Amazon Aurora promotes an arbitrary replica in the same promotion tier.
+
+Therefore, for this problem statement, the Tier-1 (32 terabytes) replica will be promoted.
+
+Incorrect options:
+
+Tier-15 (32 terabytes)
+
+Tier-1 (16 terabytes)
+
+Tier-10 (16 terabytes)
+
+Given the failover rules discussed earlier in the explanation, these three options are incorrect.
+
+References:
+
+https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html
+
+Domain
+Design Resilient Architectures
+
+-------------------------
 Question 40
 Incorrect
 A file-hosting service uses Amazon Simple Storage Service (Amazon S3) under the hood to power its storage offerings. Currently all the customer files are uploaded directly under a single Amazon S3 bucket. The engineering team has started seeing scalability issues where customer file uploads have started failing during the peak access hours with more than 5000 requests per second.
