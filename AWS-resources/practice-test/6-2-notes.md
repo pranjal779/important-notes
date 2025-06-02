@@ -1,3 +1,72 @@
+The DevOps team at a multi-national company is helping its subsidiaries standardize Amazon EC2 instances by using the same Amazon Machine Image (AMI). Some of these subsidiaries are in the same AWS region but use different AWS accounts whereas others are in different AWS regions but use the same AWS account as the parent company. The DevOps team has hired you as a solutions architect for this project.
+
+Which of the following would you identify as CORRECT regarding the capabilities of an Amazon Machine Image (AMI)? (Select three)
+
+Copying an Amazon Machine Image (AMI) backed by an encrypted snapshot results in an unencrypted target snapshot
+
+Your selection is correct
+Copying an Amazon Machine Image (AMI) backed by an encrypted snapshot cannot result in an unencrypted target snapshot
+
+You cannot copy an Amazon Machine Image (AMI) across AWS Regions
+
+Your selection is correct
+You can share an Amazon Machine Image (AMI) with another AWS account
+
+You cannot share an Amazon Machine Image (AMI) with another AWS account
+
+Your selection is correct
+You can copy an Amazon Machine Image (AMI) across AWS Regions
+
+Overall explanation
+Correct options:
+
+You can copy an Amazon Machine Image (AMI) across AWS Regions
+
+You can share an Amazon Machine Image (AMI) with another AWS account
+
+Copying an Amazon Machine Image (AMI) backed by an encrypted snapshot cannot result in an unencrypted target snapshot
+
+An Amazon Machine Image (AMI) provides the information required to launch an instance. An AMI includes the following:
+
+One or more Amazon EBS snapshots, or, for instance-store-backed AMIs, a template for the root volume of the instance.
+
+Launch permissions that control which AWS accounts can use the AMI to launch instances.
+
+A block device mapping that specifies the volumes to attach to the instance when it's launched.
+
+You can copy an AMI within or across AWS Regions using the AWS Management Console, the AWS Command Line Interface or SDKs, or the Amazon EC2 API, all of which support the CopyImage action. You can copy both Amazon EBS-backed AMIs and instance-store-backed AMIs. You can copy AMIs with encrypted snapshots and also change encryption status during the copy process. Therefore, the option - "You can copy an AMI across AWS Regions" - is correct.
+
+Copying AMIs across regions:  via - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html
+![image](https://github.com/user-attachments/assets/b0a99d64-c51a-484b-b346-25167b19e560)
+
+
+The following table shows encryption support for various AMI-copying scenarios. While it is possible to copy an unencrypted snapshot to yield an encrypted snapshot, you cannot copy an encrypted snapshot to yield an unencrypted one. Therefore, the option - "Copying an AMI backed by an encrypted snapshot cannot result in an unencrypted target snapshot" is correct.
+
+ via - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html
+ ![image](https://github.com/user-attachments/assets/cfd50bf7-6117-4fc8-a002-4ceb46f4ec4b)
+
+
+You can share an AMI with another AWS account. To copy an AMI that was shared with you from another account, the owner of the source AMI must grant you read permissions for the storage that backs the AMI, either the associated Amazon EBS snapshot (for an Amazon EBS-backed AMI) or an associated S3 bucket (for an instance store-backed AMI). Therefore, the option - "You can share an AMI with another AWS account" - is correct.
+
+Incorrect options:
+
+You cannot copy an Amazon Machine Image (AMI) across AWS Regions
+
+You cannot share an Amazon Machine Image (AMI) with another AWS account
+
+Copying an Amazon Machine Image (AMI) backed by an encrypted snapshot results in an unencrypted target snapshot
+
+These three options contradict the details provided in the explanation above.
+
+Reference:
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html
+
+Domain
+Design Secure Architectures
+
+---------------------------------
+
 A company wants to improve its gaming application by adding a leaderboard that uses a complex proprietary algorithm based on the participating user's performance metrics to identify the top users on a real-time basis. The technical requirements mandate high elasticity, low latency, and real-time processing to deliver customizable user data for the community of users. The leaderboard would be accessed by millions of users simultaneously.
 
 Which of the following options support the case for using Amazon ElastiCache to meet the given requirements? (Select two)
