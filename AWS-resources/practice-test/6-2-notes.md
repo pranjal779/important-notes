@@ -1,3 +1,62 @@
+The DevOps team at an IT company is provisioning a two-tier application in a VPC with a public subnet and a private subnet. The team wants to use either a Network Address Translation (NAT) instance or a Network Address Translation (NAT) gateway in the public subnet to enable instances in the private subnet to initiate outbound IPv4 traffic to the internet but needs some technical assistance in terms of the configuration options available for the Network Address Translation (NAT) instance and the Network Address Translation (NAT) gateway.
+
+As a solutions architect, which of the following options would you identify as CORRECT? (Select three)
+
+Your selection is incorrect
+NAT gateway supports port forwarding
+
+Your selection is incorrect
+Security Groups can be associated with a NAT gateway
+
+NAT gateway can be used as a bastion server
+
+Correct selection
+Security Groups can be associated with a NAT instance
+
+Your selection is correct
+NAT instance can be used as a bastion server
+
+Correct selection
+NAT instance supports port forwarding
+
+Overall explanation
+Correct options:
+
+NAT instance can be used as a bastion server
+
+Security Groups can be associated with a NAT instance
+
+NAT instance supports port forwarding
+
+A NAT instance or a NAT Gateway can be used in a public subnet in your VPC to enable instances in the private subnet to initiate outbound IPv4 traffic to the Internet.
+
+How NAT Gateway works:  via - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
+
+How NAT Instance works:  via - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html
+
+Please see this high-level summary of the differences between NAT instances and NAT gateways relevant to the options described in the question:
+
+ via - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html
+
+Incorrect options:
+
+NAT gateway supports port forwarding
+
+Security Groups can be associated with a NAT gateway
+
+NAT gateway can be used as a bastion server
+
+These three options contradict the details provided in the explanation above, so these options are incorrect.
+
+Reference:
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html
+
+Domain
+Design High-Performing Architectures
+
+---------------
+
 A retail company has connected its on-premises data center to the AWS Cloud via AWS Direct Connect. The company wants to be able to resolve Domain Name System (DNS) queries for any resources in the on-premises network from the AWS VPC and also resolve any DNS queries for resources in the AWS VPC from the on-premises network.
 
 As a solutions architect, which of the following solutions can be combined to address the given use case? (Select two)
