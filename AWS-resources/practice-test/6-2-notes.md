@@ -1,3 +1,57 @@
+A healthcare startup is modernizing its monolithic Python-based analytics application by transitioning to a microservices architecture on AWS. As a pilot, the team wants to refactor one module into a standalone microservice that can handle hundreds of requests per second. They are seeking an AWS-native solution that supports Python, scales automatically with traffic, and requires minimal infrastructure management and operational overhead to build, test, and deploy the service efficiently.
+
+Which AWS solution best meets these requirements?
+
+Your answer is incorrect
+Deploy the microservice in an AWS Fargate task using Amazon ECS. Package the code in a Docker container image with a Python runtime and configure ECS Service Auto Scaling to respond to CPU utilization metrics
+
+Use Amazon EC2 Spot Instances in an Auto Scaling group. Launch the Python application as a background service and install all required dependencies at instance startup
+
+Correct answer
+Use AWS Lambda to run the Python-based microservice. Integrate it with Amazon API Gateway for HTTP access and enable provisioned concurrency for performance during peak loads
+
+Use AWS App Runner to build and deploy the Python application directly from a GitHub repository. Allow App Runner to manage traffic scaling and deployments
+
+Overall explanation
+Correct option:
+
+Use AWS Lambda to run the Python-based microservice. Integrate it with Amazon API Gateway for HTTP access and enable provisioned concurrency for performance during peak loads
+
+AWS Lambda is a fully managed serverless compute service that natively supports Python runtimes. It is ideal for event-driven and API-based microservices. Lambda automatically scales based on request volume, requires no server provisioning or patching, and integrates easily with API Gateway for RESTful access. The company can also enable provisioned concurrency to reduce cold start latency for high-throughput workloads. This approach aligns perfectly with the requirement for minimal infrastructure and high scalability.
+
+ via - https://aws.amazon.com/blogs/compute/creating-low-latency-high-volume-apis-with-provisioned-concurrency/
+ ![image](https://github.com/user-attachments/assets/a4a71225-a92e-4215-b8b8-b63a91c0bf02)
+
+
+ via - https://aws.amazon.com/blogs/compute/creating-low-latency-high-volume-apis-with-provisioned-concurrency/
+ ![image](https://github.com/user-attachments/assets/5054f8f9-66dd-4aca-9a61-2540290ff1ef)
+
+
+Incorrect options:
+
+Deploy the microservice in an AWS Fargate task using Amazon ECS. Package the code in a Docker container image with a Python runtime and configure ECS Service Auto Scaling to respond to CPU utilization metrics - AWS Fargate is a serverless container service that works with ECS and supports auto scaling, but it requires containerization of the application, Dockerfile management, and more setup complexity than Lambda. Although suitable for microservices, it involves more operational overhead, especially during initial development and testing phases.
+
+Use AWS App Runner to build and deploy the Python application directly from a GitHub repository. Allow App Runner to manage traffic scaling and deployments - AWS App Runner provides simple deployment from source code or container images and supports Python apps via containerized runtimes. However, App Runner is more suitable for long-running web applications rather than event-driven functions. It also incurs costs during idle time and requires setting up build and deployment configurations, which may not be ideal for rapid experimentation.
+
+Use Amazon EC2 Spot Instances in an Auto Scaling group. Launch the Python application as a background service and install all required dependencies at instance startup - While Spot Instances are cost-effective, they are not reliable for production workloads due to the risk of interruption. Additionally, managing EC2 Auto Scaling groups and instance health checks introduces high operational overhead, which contradicts the goal of minimal infrastructure and low maintenance.
+
+References:
+
+https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway.html
+
+https://aws.amazon.com/blogs/compute/creating-low-latency-high-volume-apis-with-provisioned-concurrency/
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html
+
+https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html
+
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html
+
+Domain
+Design High-Performing Architectures
+
+----------------
+
 An e-commerce company uses Microsoft Active Directory to provide users and groups with access to resources on the on-premises infrastructure. The company has extended its IT infrastructure to AWS in the form of a hybrid cloud. The engineering team at the company wants to run directory-aware workloads on AWS for a SQL Server-based application. The team also wants to configure a trust relationship to enable single sign-on (SSO) for its users to access resources in either domain.
 
 As a solutions architect, which of the following AWS services would you recommend for this use-case?
