@@ -35,6 +35,9 @@ To resolve DNS queries for any resources in the on-premises network from the AWS
 
 Resolver Outbound Endpoint:  via - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html
 
+![image](https://github.com/user-attachments/assets/004952fc-cd7c-4fe4-9159-5a2262d95ca9)
+
+
 Incorrect options:
 
 Create an outbound endpoint on Amazon Route 53 Resolver and then DNS resolvers on the on-premises network can forward DNS queries to Amazon Route 53 Resolver via this endpoint - DNS resolvers on the on-premises network can forward DNS queries to Amazon Route 53 Resolver via an inbound endpoint. Hence, this option is incorrect.
