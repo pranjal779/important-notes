@@ -1,3 +1,58 @@
+A company wants to improve its gaming application by adding a leaderboard that uses a complex proprietary algorithm based on the participating user's performance metrics to identify the top users on a real-time basis. The technical requirements mandate high elasticity, low latency, and real-time processing to deliver customizable user data for the community of users. The leaderboard would be accessed by millions of users simultaneously.
+
+Which of the following options support the case for using Amazon ElastiCache to meet the given requirements? (Select two)
+
+Your selection is correct
+Use Amazon ElastiCache to improve latency and throughput for read-heavy application workloads
+
+Correct selection
+Use Amazon ElastiCache to improve the performance of compute-intensive workloads
+
+Use Amazon ElastiCache to run highly complex JOIN queries
+
+Use Amazon ElastiCache to improve latency and throughput for write-heavy application workloads
+
+Your selection is incorrect
+Use Amazon ElastiCache to improve the performance of Extract-Transform-Load (ETL) workloads
+
+Overall explanation
+Correct option:
+
+Use Amazon ElastiCache to improve latency and throughput for read-heavy application workloads
+
+Use Amazon ElastiCache to improve the performance of compute-intensive workloads
+
+Amazon ElastiCache allows you to run in-memory data stores in the AWS cloud. Amazon ElastiCache is a popular choice for real-time use cases like Caching, Session Stores, Gaming, Geospatial Services, Real-Time Analytics, and Queuing.
+
+ via - https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/elasticache-use-cases.html 
+ ![image](https://github.com/user-attachments/assets/29b1b3cb-8141-457c-a8cf-ba13ddc60af8)
+
+
+Amazon ElastiCache can be used to significantly improve latency and throughput for many read-heavy application workloads (such as social networking, gaming, media sharing, leaderboard, and Q&A portals) or compute-intensive workloads (such as a recommendation engine) by allowing you to store the objects that are often read in the cache.
+
+Overview of Amazon ElastiCache features:  via - https://aws.amazon.com/elasticache/features/
+![image](https://github.com/user-attachments/assets/74ce9c3c-44c6-42dd-81dd-1ce6950c3ef9)
+
+
+Incorrect options:
+
+Use Amazon ElastiCache to improve latency and throughput for write-heavy application workloads - As mentioned earlier in the explanation, Amazon ElastiCache can be used to significantly improve latency and throughput for many read-heavy application workloads. Caching is not a good fit for write-heavy applications as the cache goes stale at a very fast rate.
+
+Use Amazon ElastiCache to improve the performance of Extract-Transform-Load (ETL) workloads - ETL workloads involve reading and transforming high-volume data which is not a good fit for caching. You should use AWS Glue or Amazon EMR to facilitate ETL workloads.
+
+Use Amazon ElastiCache to run highly complex JOIN queries - Complex JSON queries can be run on relational databases such as Amazon RDS or Amazon Aurora. Amazon ElastiCache is not a good fit for this use case.
+
+References:
+
+https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/elasticache-use-cases.html
+
+https://aws.amazon.com/elasticache/features/
+
+Domain
+Design High-Performing Architectures
+
+----------------------
+
 A national logistics company has a dedicated AWS Direct Connect connection from its corporate data center to AWS. Within its AWS account, the company operates 25 Amazon VPCs in the same Region, each supporting different regional distribution services. The VPCs were configured with non-overlapping CIDR blocks and currently use private VIFs for Direct Connect access to on-premises resources. As the architecture scales, the company wants to enable communication across all VPCs and the on-premises environment. The solution must scale efficiently, support full-mesh connectivity, and reduce the complexity of maintaining separate private VIFs for each VPC.
 
 Which combination of solutions will best fulfill these requirements with the least amount of operational overhead? (Select two)
