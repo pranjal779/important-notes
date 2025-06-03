@@ -1,3 +1,49 @@
+A company has its application servers in the public subnet that connect to the Amazon RDS instances in the private subnet. For regular maintenance, the Amazon RDS instances need patch fixes that need to be downloaded from the internet.
+
+Considering the company uses only IPv4 addressing and is looking for a fully managed service, which of the following would you suggest as an optimal solution?
+
+Configure a Network Address Translation instance (NAT instance) in the public subnet of the VPC
+
+Your answer is incorrect
+Configure the Internet Gateway of the VPC to be accessible to the private subnet resources by changing the route tables
+
+Configure an Egress-only internet gateway for the resources in the private subnet of the VPC
+
+Correct answer
+Configure a Network Address Translation gateway (NAT gateway) in the public subnet of the VPC
+
+Overall explanation
+Correct option:
+
+Configure a Network Address Translation gateway (NAT gateway) in the public subnet of the VPC
+
+You can use a Network Address Translation gateway (NAT gateway) to enable instances in a private subnet to connect to the internet or other AWS services, but prevent the internet from initiating a connection with those instances. To create a NAT gateway, you must specify the public subnet in which the NAT gateway should reside.
+
+You must also specify an Elastic IP address to associate with the NAT gateway when you create it. The Elastic IP address cannot be changed after you associate it with the NAT Gateway. After you've created a NAT gateway, you must update the route table associated with one or more of your private subnets to point internet-bound traffic to the NAT gateway. This enables instances in your private subnets to communicate with the internet. If you no longer need a NAT gateway, you can delete it. Deleting a NAT gateway disassociates its Elastic IP address, but does not release the address from your account.
+
+VPC architecture with NAT:  via - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
+
+Incorrect options:
+
+Configure an Egress-only internet gateway for the resources in the private subnet of the VPC - An Egress-only internet gateway is an Internet Gateway that supports IPv6 traffic, so this option is not correct for the given use-case.
+
+Configure a Network Address Translation instance (NAT instance) in the public subnet of the VPC - You can use a network address translation (NAT) instance in a public subnet in your VPC to enable instances in the private subnet to initiate outbound IPv4 traffic to the internet or other AWS services, but prevent the instances from receiving inbound traffic initiated by someone on the internet. NAT instances are not a managed service, it has to be managed and maintained by the customer.
+
+Configure the Internet Gateway of the VPC to be accessible to the private subnet resources by changing the route tables - Internet Gateway cannot be used directly with a private subnet. It is not possible to set up this configuration, without a NAT instance or a NAT gateway in the public subnet.
+
+References:
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html
+
+https://docs.aws.amazon.com/vpc/latest/userguide/egress-only-internet-gateway.html
+
+Domain
+Design Secure Architectures
+
+---------------------------------
+
 A media company wants a low-latency way to distribute live sports results which are delivered via a proprietary application using UDP protocol.
 
 As a solutions architect, which of the following solutions would you recommend such that it offers the BEST performance for this use case?
