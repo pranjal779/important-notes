@@ -1,4 +1,292 @@
+The database backend for a retail company's website is hosted on Amazon RDS for MySQL having a primary instance and three read replicas to support read scalability. The company has mandated that the read replicas should lag no more than 1 second behind the primary instance to provide the best possible user experience. The read replicas are falling further behind during periods of peak traffic spikes, resulting in a bad user experience as the searches produce inconsistent results.
 
+You have been hired as an AWS Certified Solutions Architect - Associate to reduce the replication lag as much as possible with minimal changes to the application code or the effort required to manage the underlying resources.
+
+Which of the following will you recommend?
+
+Your answer is incorrect
+Set up an Amazon ElastiCache for Redis cluster in front of the MySQL database. Update the website to check the cache before querying the read replicas
+
+Correct answer
+Set up database migration from Amazon RDS MySQL to Amazon Aurora MySQL. Swap out the MySQL read replicas with Aurora Replicas. Configure Aurora Auto Scaling
+
+Host the MySQL primary database on a memory-optimized Amazon EC2 instance. Spin up additional compute-optimized Amazon EC2 instances to host the read replicas
+
+Set up database migration from Amazon RDS MySQL to Amazon DynamoDB. Provision a large number of read capacity units (RCUs) to support the required throughput and enable Auto-Scaling
+
+Overall explanation
+Correct option:
+
+Set up database migration from Amazon RDS MySQL to Amazon Aurora MySQL. Swap out the MySQL read replicas with Aurora Replicas. Configure Aurora Auto Scaling
+
+Aurora features a distributed, fault-tolerant, and self-healing storage system that is decoupled from compute resources and auto-scales up to 128 TiB per database instance. It delivers high performance and availability with up to 15 low-latency read replicas, point-in-time recovery, continuous backup to Amazon Simple Storage Service (Amazon S3), and replication across three Availability Zones (AZs).
+
+Since Amazon Aurora Replicas share the same data volume as the primary instance in the same AWS Region, there is virtually no replication lag. The replica lag times are in the 10s of milliseconds (compared to the replication lag of seconds in the case of MySQL read replicas). Therefore, this is the right option to ensure that the read replicas lag no more than 1 second behind the primary instance.
+
+Aurora Replicas:  via - https://aws.amazon.com/rds/aurora/faqs/
+
+Incorrect options:
+
+Host the MySQL primary database on a memory-optimized Amazon EC2 instance. Spin up additional compute-optimized Amazon EC2 instances to host the read replicas - Hosting the MySQL primary database and the read replicas on the Amazon EC2 instances would result in significant overhead to manage the underlying resources such as OS patching, database patching, etc. So this option is incorrect.
+
+Set up an Amazon ElastiCache for Redis cluster in front of the MySQL database. Update the website to check the cache before querying the read replicas - Introducing a caching layer would result in significant changes to the application code, so this option is incorrect.
+
+Set up database migration from Amazon RDS MySQL to Amazon DynamoDB. Provision a large number of read capacity units (RCUs) to support the required throughput and enable Auto-Scaling - Introducing a NoSQL database, such as Amazon DynamoDB, would result in significant changes to the application code since the database queries would have to be re-written for Amazon DynamoDB. Therefore, this option is incorrect.
+
+Reference:
+
+https://aws.amazon.com/rds/aurora/faqs/
+
+Domain
+Design High-Performing Architectures
+
+---------------------------------------
+
+The DevOps team at an IT company has created a custom VPC (V1) and attached an Internet Gateway (I1) to the VPC. The team has also created a subnet (S1) in this custom VPC and added a route to this subnet's route table (R1) that directs internet-bound traffic to the Internet Gateway. Now the team launches an Amazon EC2 instance (E1) in the subnet S1 and assigns a public IPv4 address to this instance. Next the team also launches a Network Address Translation (NAT) instance (N1) in the subnet S1.
+
+Under the given infrastructure setup, which of the following entities is doing the Network Address Translation for the Amazon EC2 instance E1?
+
+Your answer is correct
+Internet Gateway (I1)
+
+Network Address Translation (NAT) instance (N1)
+
+Route Table (R1)
+
+Subnet (S1)
+
+Overall explanation
+Correct option:
+
+Internet Gateway (I1)
+
+An Internet Gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.
+
+An Internet Gateway serves two purposes: to provide a target in your VPC route tables for internet-routable traffic and to perform network address translation (NAT) for instances that have been assigned public IPv4 addresses. Therefore, for instance E1, the Network Address Translation is done by Internet Gateway I1.
+
+Additionally, an Internet Gateway supports IPv4 and IPv6 traffic. It does not cause availability risks or bandwidth constraints on your network traffic.
+
+To enable access to or from the internet for instances in a subnet in a VPC, you must do the following:
+
+Attach an Internet gateway to your VPC.
+
+Add a route to your subnet's route table that directs internet-bound traffic to the internet gateway. If a subnet is associated with a route table that has a route to an internet gateway, it's known as a public subnet. If a subnet is associated with a route table that does not have a route to an internet gateway, it's known as a private subnet.
+
+Ensure that instances in your subnet have a globally unique IP address (public IPv4 address, Elastic IP address, or IPv6 address).
+
+Ensure that your network access control lists and security group rules allow the relevant traffic to flow to and from your instance.
+
+Internet Gateway Overview:  via - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+
+Incorrect options:
+
+Network Address Translation (NAT) instance (N1) - You can use a network address translation (NAT) instance in a public subnet in your VPC to enable instances in the private subnet to initiate outbound IPv4 traffic to the Internet or other AWS services, but prevent the instances from receiving inbound traffic initiated by someone on the Internet. As the instance E1 is in a public subnet, therefore this option is not correct.
+
+Subnet (S1)
+
+Route Table (R1)
+
+A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. A subnet is a range of IP addresses in your VPC. A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Therefore neither Subnet nor Route Table can be used for Network Address Translation.
+
+References:
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html
+
+Domain
+Design Resilient Architectures
+
+--------------------------
+
+A media startup is looking at hosting their web application on AWS Cloud. The application will be accessed by users from different geographic regions of the world to upload and download video files that can reach a maximum size of 10 gigabytes. The startup wants the solution to be cost-effective and scalable with the lowest possible latency for a great user experience.
+
+As a Solutions Architect, which of the following will you suggest as an optimal solution to meet the given requirements?
+
+Use Amazon EC2 with Amazon ElastiCache for faster distribution of content, while Amazon S3 can be used as a storage service
+
+Use Amazon S3 for hosting the web application and use Amazon CloudFront for faster distribution of content to geographically dispersed users
+
+Use Amazon EC2 with AWS Global Accelerator for faster distribution of content, while using Amazon S3 as storage service
+
+Your answer is correct
+Use Amazon S3 for hosting the web application and use Amazon S3 Transfer Acceleration (Amazon S3TA) to reduce the latency that geographically dispersed users might face
+
+Overall explanation
+Correct option:
+
+Use Amazon S3 for hosting the web application and use Amazon S3 Transfer Acceleration (Amazon S3TA) to reduce the latency that geographically dispersed users might face
+
+Amazon S3 Transfer Acceleration (S3TA) can speed up content transfers to and from Amazon S3 by as much as 50-500% for long-distance transfer of larger objects. Customers who have either web or mobile applications with widespread users or applications hosted far away from their S3 bucket can experience long and variable upload and download speeds over the Internet. S3 Transfer Acceleration (S3TA) reduces the variability in Internet routing, congestion, and speeds that can affect transfers, and logically shortens the distance to S3 for remote applications.
+
+S3TA improves transfer performance by routing traffic through Amazon CloudFront’s globally distributed Edge Locations and over AWS backbone networks, and by using network protocol optimizations.
+
+For applications interacting with your Amazon S3 buckets through the S3 API from outside of your bucket’s region, S3TA helps avoid the variability in Internet routing and congestion. It does this by routing your uploads and downloads over the AWS global network infrastructure, so you get the benefit of AWS network optimizations.
+
+Incorrect options:
+
+Use Amazon S3 for hosting the web application and use Amazon CloudFront for faster distribution of content to geographically dispersed users - Amazon S3 with Amazon CloudFront is a very powerful way of distributing static content to geographically dispersed users with low latency speeds. If you have objects that are smaller than 1GB or if the data set is less than 1GB in size, you should consider using Amazon CloudFront's PUT/POST commands for optimal performance. The given use case has data larger than 1GB and hence S3 Transfer Acceleration is a better option.
+
+ via - https://aws.amazon.com/s3/faqs/
+
+Use Amazon EC2 with AWS Global Accelerator for faster distribution of content, while using Amazon S3 as storage service- AWS Global Accelerator is a networking service that sends your user’s traffic through Amazon Web Service’s global network infrastructure, improving your internet user performance by up to 60%. With AWS Global Accelerator, you are provided two global static customer-facing IPs to simplify traffic management. On the back end, add or remove your AWS application origins, such as Network Load Balancers, Application Load Balancers, Elastic IPs, and Amazon EC2 Instances, without making user-facing changes. As discussed, AWS Global Accelerator is meant for a different use case and is not meant for increasing the speed of Amazon S3 uploads or downloads.
+
+Use Amazon EC2 with Amazon ElastiCache for faster distribution of content, while Amazon S3 can be used as a storage service - Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-Source compatible in-memory data stores in the cloud. Build data-intensive apps or boost the performance of your existing databases by retrieving data from high throughput and low latency in-memory data stores. Amazon ElastiCache is a popular choice for real-time use cases like Caching, Session Stores, Gaming, Geospatial Services, Real-Time Analytics, and Queuing. Amazon S3 Transfer Acceleration is a better performing option than opting for Amazon EC2 with Amazon ElastiCache, which is not meant to address the given use-case.
+
+Reference:
+
+[https://aws.amazon.com/s3/transfer-acceleration/](https://aws.amazon.com/s3/transfer-acceleration
+
+https://aws.amazon.com/s3/faqs/
+
+Domain
+Design High-Performing Architectures
+
+---------------------
+
+A social media startup uses AWS Cloud to manage its IT infrastructure. The engineering team at the startup wants to perform weekly database rollovers for a MySQL database server using a serverless cron job that typically takes about 5 minutes to execute the database rollover script written in Python. The database rollover will archive the past week’s data from the production database to keep the database small while still keeping its data accessible.
+
+As a solutions architect, which of the following would you recommend as the MOST cost-efficient and reliable solution?
+
+Provision an Amazon EC2 scheduled reserved instance to run the database rollover script to be run via an OS-based weekly cron expression
+
+Create a time-based schedule option within an AWS Glue job to invoke itself every week and run the database rollover script
+
+Provision an Amazon EC2 spot instance to run the database rollover script to be run via an OS-based weekly cron expression
+
+Your answer is correct
+Schedule a weekly Amazon EventBridge event cron expression to invoke an AWS Lambda function that runs the database rollover job
+
+Overall explanation
+Correct option:
+
+Schedule a weekly Amazon EventBridge event cron expression to invoke an AWS Lambda function that runs the database rollover job
+
+AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume. AWS Lambda supports standard rate and cron expressions for frequencies of up to once per minute.
+
+Schedule expressions using rate or cron: 
+![image](https://github.com/user-attachments/assets/d75f94e6-e1dd-4dc9-9b86-f8ef649910a0)
+
+
+Incorrect options:
+
+Create a time-based schedule option within an AWS Glue job to invoke itself every week and run the database rollover script - AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. AWS Glue job is meant to be used for batch ETL data processing and it's not the right fit for running a database rollover script. Although AWS Glue is also serverless, AWS Lambda is a more cost-effective option compared to AWS Glue.
+
+Provision an Amazon EC2 spot instance to run the database rollover script to be run via an OS-based weekly cron expression - A Spot Instance is an unused Amazon EC2 instance that is available for less than the On-Demand price. Because Spot Instances enable you to request unused Amazon EC2 instances at steep discounts, you can lower your Amazon EC2 costs significantly (up to 90% off the On-Demand price). As the Spot Instance runs whenever capacity is available, there is no guarantee that the weekly job will be executed during the defined time window. Additionally, the given use-case requires a serverless solution, therefore this option is incorrect.
+
+Provision an Amazon EC2 scheduled reserved instance to run the database rollover script to be run via an OS-based weekly cron expression - Scheduled Reserved Instances run on a part-time basis. Scheduled Reserved Instances option allows you to use reserve capacity on a recurring daily, weekly, and monthly schedules. Scheduled Reserved Instances are available for one-year terms at 5-10% below On-Demand rates. As the given use-case requires a serverless solution, therefore this option is incorrect.
+
+References:
+
+https://aws.amazon.com/lambda/
+
+https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html
+
+Domain
+Design Cost-Optimized Architectures
+
+--------------
+
+The engineering team at an e-commerce company wants to migrate from Amazon Simple Queue Service (Amazon SQS) Standard queues to FIFO (First-In-First-Out) queues with batching.
+
+As a solutions architect, which of the following steps would you have in the migration checklist? (Select three)
+
+Convert the existing standard queue into a FIFO (First-In-First-Out) queue
+
+Your selection is correct
+Make sure that the throughput for the target FIFO (First-In-First-Out) queue does not exceed 3,000 messages per second
+
+Make sure that the throughput for the target FIFO (First-In-First-Out) queue does not exceed 300 messages per second
+
+Your selection is correct
+Make sure that the name of the FIFO (First-In-First-Out) queue ends with the .fifo suffix
+
+Your selection is correct
+Delete the existing standard queue and recreate it as a FIFO (First-In-First-Out) queue
+
+Make sure that the name of the FIFO (First-In-First-Out) queue is the same as the standard queue
+
+Overall explanation
+Correct options:
+
+Delete the existing standard queue and recreate it as a FIFO (First-In-First-Out) queue
+
+Make sure that the name of the FIFO (First-In-First-Out) queue ends with the .fifo suffix
+
+Make sure that the throughput for the target FIFO (First-In-First-Out) queue does not exceed 3,000 messages per second
+
+Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. Amazon SQS eliminates the complexity and overhead associated with managing and operating message oriented middleware, and empowers developers to focus on differentiating work. Using Amazon SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.
+
+Amazon SQS offers two types of message queues. Standard queues offer maximum throughput, best-effort ordering, and at-least-once delivery. SQS FIFO queues are designed to guarantee that messages are processed exactly once, in the exact order that they are sent.
+
+By default, FIFO queues support up to 3,000 messages per second with batching, or up to 300 messages per second (300 send, receive, or delete operations per second) without batching. Therefore, using batching you can meet a throughput requirement of upto 3,000 messages per second.
+
+The name of a FIFO queue must end with the .fifo suffix. The suffix counts towards the 80-character queue name limit. To determine whether a queue is FIFO, you can check whether the queue name ends with the suffix.
+
+If you have an existing application that uses standard queues and you want to take advantage of the ordering or exactly-once processing features of FIFO queues, you need to configure the queue and your application correctly. You can't convert an existing standard queue into a FIFO queue. To make the move, you must either create a new FIFO queue for your application or delete your existing standard queue and recreate it as a FIFO queue.
+
+Incorrect options:
+
+Convert the existing standard queue into a FIFO (First-In-First-Out) queue
+
+Make sure that the name of the FIFO (First-In-First-Out) queue is the same as the standard queue - The name of a FIFO queue must end with the .fifo suffix.
+
+Make sure that the throughput for the target FIFO (First-In-First-Out) queue does not exceed 300 messages per second - By default, FIFO queues support up to 3,000 messages per second with batching.
+
+References:
+
+https://aws.amazon.com/sqs/faqs/
+
+https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html
+
+Domain
+Design Resilient Architectures
+
+---------------
+
+A leading online gaming company is migrating its flagship application to AWS Cloud for delivering its online games to users across the world. The company would like to use a Network Load Balancer to handle millions of requests per second. The engineering team has provisioned multiple instances in a public subnet and specified these instance IDs as the targets for the NLB.
+
+As a solutions architect, can you help the engineering team understand the correct routing mechanism for these target instances?
+
+Traffic is routed to instances using the primary elastic IP address specified in the primary network interface for the instance
+
+Traffic is routed to instances using the instance ID specified in the primary network interface for the instance
+
+Your answer is incorrect
+Traffic is routed to instances using the primary public IP address specified in the primary network interface for the instance
+
+Correct answer
+Traffic is routed to instances using the primary private IP address specified in the primary network interface for the instance
+
+Overall explanation
+Correct option:
+
+Traffic is routed to instances using the primary private IP address specified in the primary network interface for the instance
+
+A Network Load Balancer functions at the fourth layer of the Open Systems Interconnection (OSI) model. It can handle millions of requests per second. After the load balancer receives a connection request, it selects a target from the target group for the default rule. It attempts to open a TCP connection to the selected target on the port specified in the listener configuration.
+
+Request Routing and IP Addresses -
+
+If you specify targets using an instance ID, traffic is routed to instances using the primary private IP address specified in the primary network interface for the instance. The load balancer rewrites the destination IP address from the data packet before forwarding it to the target instance.
+
+If you specify targets using IP addresses, you can route traffic to an instance using any private IP address from one or more network interfaces. This enables multiple applications on an instance to use the same port. Note that each network interface can have its security group. The load balancer rewrites the destination IP address before forwarding it to the target.
+
+Incorrect options:
+
+Traffic is routed to instances using the primary public IP address specified in the primary network interface for the instance - If you specify targets using an instance ID, traffic is routed to instances using the primary private IP address specified in the primary network interface for the instance. So public IP address cannot be used to route the traffic to the instance.
+
+Traffic is routed to instances using the primary elastic IP address specified in the primary network interface for the instance - If you specify targets using an instance ID, traffic is routed to instances using the primary private IP address specified in the primary network interface for the instance. So elastic IP address cannot be used to route the traffic to the instance.
+
+Traffic is routed to instances using the instance ID specified in the primary network interface for the instance - You cannot use instance ID to route traffic to the instance. This option is just added as a distractor.
+
+References:
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-target-groups.html
+
+Domain
+Design High-Performing Architectures
 
 -------------------------------
 
