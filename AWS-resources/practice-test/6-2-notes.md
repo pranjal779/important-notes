@@ -1,3 +1,61 @@
+The development team at a retail company wants to optimize the cost of Amazon EC2 instances. The team wants to move certain nightly batch jobs to spot instances. The team has hired you as a solutions architect to provide the initial guidance.
+
+Which of the following would you identify as CORRECT regarding the capabilities of spot instances? (Select three)
+
+Correct selection
+When you cancel an active spot request, it does not terminate the associated instance
+
+Spot Fleets cannot maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated
+
+Your selection is incorrect
+When you cancel an active spot request, it terminates the associated instance as well
+
+Your selection is correct
+If a spot request is persistent, then it is opened again after your Spot Instance is interrupted
+
+If a spot request is persistent, then it is opened again after you stop the Spot Instance
+
+Your selection is correct
+Spot Fleets can maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated
+
+Overall explanation
+Correct options:
+
+If a spot request is persistent, then it is opened again after your Spot Instance is interrupted
+
+A Spot Instance is an unused Amazon EC2 instance that is available for less than the On-Demand price. Because Spot Instances enable you to request unused Amazon EC2 instances at steep discounts, you can lower your Amazon EC2 costs significantly. The hourly price for a Spot Instance is called a Spot price. The Spot price of each instance type in each Availability Zone is set by Amazon EC2 and adjusted gradually based on the long-term supply of and demand for Spot Instances.
+
+A Spot Instance request is either one-time or persistent. If the spot request is persistent, the request is opened again after your Spot Instance is interrupted. If the request is persistent and you stop your Spot Instance, the request only opens after you start your Spot Instance.
+
+How Spot requests work:  via - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-requests.html
+
+Spot Fleets can maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated
+
+A Spot Fleet is a set of Spot Instances and optionally On-Demand Instances that is launched based on criteria that you specify. The Spot Fleet selects the Spot capacity pools that meet your needs and launches Spot Instances to meet the target capacity for the fleet. By default, Spot Fleets are set to maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated. You can submit a Spot Fleet as a one-time request, which does not persist after the instances have been terminated. You can include On-Demand Instance requests in a Spot Fleet request.
+
+When you cancel an active spot request, it does not terminate the associated instance
+
+If your Spot Instance request is active and has an associated running Spot Instance, or your Spot Instance request is disabled and has an associated stopped Spot Instance, canceling the request does not terminate the instance; you must terminate the running Spot Instance manually. Moreover, to cancel a persistent Spot request and terminate its Spot Instances, you must cancel the Spot request first and then terminate the Spot Instances.
+
+Incorrect options:
+
+When you cancel an active spot request, it terminates the associated instance as well - If your Spot Instance request is active and has an associated running Spot Instance, then canceling the request does not terminate the instance; you must terminate the running Spot Instance manually. So, this option is incorrect.
+
+If a spot request is persistent, then it is opened again after you stop the Spot Instance - If the request is persistent and you stop your Spot Instance, the request only opens after you start your Spot Instance. So, this option is incorrect.
+
+Spot Fleets cannot maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated - As mentioned above, Spot Fleets can maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated.
+
+References:
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-requests.html
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html
+
+Domain
+Design Cost-Optimized Architectures
+
+---------------------------
+
 A company has set up AWS Organizations to manage several departments running their own AWS accounts. The departments operate from different countries and are spread across various AWS Regions. The company wants to set up a consistent resource provisioning process across departments so that each resource follows pre-defined configurations such as using a specific type of Amazon EC2 instances, specific IAM roles for AWS Lambda functions, etc.
 
 As a solutions architect, which of the following options would you recommend for this use-case?
