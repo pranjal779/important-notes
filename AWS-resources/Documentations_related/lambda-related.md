@@ -1,0 +1,1 @@
+[New for AWS Lambda – Container Image Support](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/?sc_icampaign=rnk_adopt_oct-console-sign-out-lambda&sc_ichannel=ha&sc_icontent=awssm-9866_ado_rank_signout&sc_iplace=signout&trk=ha_awssm-9866_ado_rank_signout)
