@@ -3,3 +3,7 @@
 [Yt playlist: Python Quick Tips: Visually Explained](https://www.youtube.com/playlist?list=PL8HmoRTjTSlH5tdpBPgn-Q5UwK4wRRo43)
 
 [Update Conda](https://stackoverflow.com/questions/57701571/what-is-the-right-way-to-update-anaconda-and-conda-base-environments)
+
+
+## Books
+[Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
