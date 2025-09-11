@@ -8,5 +8,8 @@
 ## Books
 [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
+[PyDOCs](https://docs.python.org/3/index.html)
 
-[Requests;HTTP](https://requests.readthedocs.io/en/latest/)
+[Requests:HTTP](https://requests.readthedocs.io/en/latest/)
+
+[The Python Standard Library](https://docs.python.org/3/library/index.html)
