@@ -7,3 +7,6 @@
 
 ## Books
 [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
+
+[Requests;HTTP](https://requests.readthedocs.io/en/latest/)
