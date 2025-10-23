@@ -47,3 +47,7 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 [Github Actions](https://docs.github.com/en/actions/writing-workflows)
 
 [Understanding GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
+
+
+
+**[Best YouTube Channels to Learn Cloud Computing](https://www.placementpreparation.io/blog/best-youtube-channels-to-learn-cloud-computing/)**
