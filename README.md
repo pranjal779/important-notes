@@ -52,3 +52,11 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 -------
 
 **[Best YouTube Channels to Learn Cloud Computing](https://www.placementpreparation.io/blog/best-youtube-channels-to-learn-cloud-computing/)**
+
+
+------
+
+[AWS Outage Explained with root cause in simple words](https://www.youtube.com/watch?v=bHZup_marhk&t=467s)
+
+[AWS Outage: It’s always DNS, but… sometimes it’s overloaded network hardware
+Incident "originated from within the EC2 internal network" -THE STACK](https://www.thestack.technology/aws-outage-cause-network/)
