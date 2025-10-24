@@ -2,6 +2,8 @@
 🧭 Your Plan for Day 1–2 — Azure Foundations (Smart Path)
 🎯 Goal:
 
+[Quickstart: Deploy a Python (Django, Flask, or FastAPI) web app to Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python)
+
 By the end of Day 2, you’ll know what each of these services is and how to use them practically:
 
 Resource Group
