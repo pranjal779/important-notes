@@ -14,3 +14,5 @@
 [AWS Outage Explained with root cause in simple words by Abhishek Veeramalla](https://youtu.be/bHZup_marhk?si=YuTTGxL556WRmV8F)
 
 <img width="2458" height="1313" alt="Screenshot 2025-10-23 003103" src="https://github.com/user-attachments/assets/f9ebc7f9-2d5c-4d24-be9a-7bbc391fe4de" />
+
+----
