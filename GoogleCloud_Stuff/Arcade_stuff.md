@@ -7,3 +7,5 @@
 [Optimizing Cost with Google Cloud Storage](https://www.skills.google/games/6670/labs/41736)
 
 [Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub](https://www.skills.google/games/6670/labs/41737)
+
+[Setting Up Cost Control with Quota](https://www.skills.google/games/6670/labs/41738)
