@@ -15,3 +15,5 @@
 [Cloud Natural Language API: Qwik Start](https://www.skills.google/games/6669/labs/41716)
 
 [Bracketology with Google Machine Learning](https://www.skills.google/games/6669/labs/41717)
+
+[Classify Images of Cats and Dogs using Transfer Learning](https://www.skills.google/games/6669/labs/41718)
