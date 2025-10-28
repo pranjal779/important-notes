@@ -17,3 +17,5 @@
 [Bracketology with Google Machine Learning](https://www.skills.google/games/6669/labs/41717)
 
 [Classify Images of Cats and Dogs using Transfer Learning](https://www.skills.google/games/6669/labs/41718)
+
+[Speech to Text Transcription with the Cloud Speech API](https://www.skills.google/games/6669/labs/41719)
