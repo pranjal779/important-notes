@@ -9,3 +9,5 @@
 [Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub](https://www.skills.google/games/6670/labs/41737)
 
 [Setting Up Cost Control with Quota](https://www.skills.google/games/6670/labs/41738)
+
+[Protecting Sensitive Data in Gen AI Model Responses](https://www.skills.google/games/6669/labs/41715)
