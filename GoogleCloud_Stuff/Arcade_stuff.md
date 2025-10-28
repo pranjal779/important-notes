@@ -13,3 +13,5 @@
 [Protecting Sensitive Data in Gen AI Model Responses](https://www.skills.google/games/6669/labs/41715)
 
 [Cloud Natural Language API: Qwik Start](https://www.skills.google/games/6669/labs/41716)
+
+[Bracketology with Google Machine Learning](https://www.skills.google/games/6669/labs/41717)
