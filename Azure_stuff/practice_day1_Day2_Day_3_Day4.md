@@ -259,7 +259,7 @@ terraform {
 
 provider "azurerm" {
     resource_provider_registrations = "none"
-    subscription_id =  "659a72ac-83ca-4bb9-8696-08e466878922"
+    subscription_id =  "<insert Id here after running az account show>"
     features {}
 }
 
