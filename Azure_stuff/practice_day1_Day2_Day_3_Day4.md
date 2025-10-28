@@ -243,7 +243,50 @@ If not installed:
 
 ### Step 2: Create Files
 
-#### `main.tf`
+#### `main.tf` - 2 options for the code
+
+##### file option 2 (which worked)
+
+```hcl
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=4.1.0"
+    }
+  }
+}
+
+provider "azurerm" {
+    resource_provider_registrations = "none"
+    subscription_id =  "659a72ac-83ca-4bb9-8696-08e466878922"
+    features {}
+}
+
+resource "azurerm_resource_group" "practice_rg" {
+    name = "rg-terraform-practice"
+    location = "centralus"
+}
+
+resource "azurerm_app_service_plan" "plan" {
+  name                = "tf-appservice-plan"
+  location            = azurerm_resource_group.practice_rg.location
+  resource_group_name = azurerm_resource_group.practice_rg.name
+  sku {
+    tier = "Free"
+    size = "F1"
+  }
+}
+
+resource "azurerm_app_service" "webapp" {
+  name                = "tf-flask-webapp"
+  location            = azurerm_resource_group.practice_rg.location
+  resource_group_name = azurerm_resource_group.practice_rg.name
+  app_service_plan_id = azurerm_app_service_plan.plan.id
+}
+```
+
+###### file option 1 (original)
 
 ```hcl
 provider "azurerm" {
