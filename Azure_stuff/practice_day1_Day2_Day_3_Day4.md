@@ -286,7 +286,7 @@ resource "azurerm_app_service" "webapp" {
 }
 ```
 
-###### file option 1 (original)
+##### file option 1 (original)
 
 ```hcl
 provider "azurerm" {
