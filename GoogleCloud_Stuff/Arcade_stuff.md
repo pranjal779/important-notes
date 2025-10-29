@@ -19,3 +19,5 @@
 [Classify Images of Cats and Dogs using Transfer Learning](https://www.skills.google/games/6669/labs/41718)
 
 [Speech to Text Transcription with the Cloud Speech API](https://www.skills.google/games/6669/labs/41719)
+
+[Extract, Analyze, and Translate Text from Images with the Cloud ML APIs](https://www.skills.google/games/6669/labs/41720)
