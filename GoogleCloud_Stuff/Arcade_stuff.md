@@ -1,3 +1,5 @@
+# Google Skills Arcade Certification Zone October 2025
+
 [Getting Started with Firebase Cloud Firestore](https://www.skills.google/games/6670/labs/41731)
 
 [Configuring IAM Permissions with gcloud](https://www.skills.google/games/6670/labs/41734)
@@ -10,6 +12,10 @@
 
 [Setting Up Cost Control with Quota](https://www.skills.google/games/6670/labs/41738)
 
+## Work Meets Play: AI Assured
+
+[Deploy and Test a Visual Inspection AI Component Anomaly Detection Solution](https://www.skills.google/games/6669/labs/41713)
+
 [Protecting Sensitive Data in Gen AI Model Responses](https://www.skills.google/games/6669/labs/41715)
 
 [Cloud Natural Language API: Qwik Start](https://www.skills.google/games/6669/labs/41716)
@@ -21,3 +27,5 @@
 [Speech to Text Transcription with the Cloud Speech API](https://www.skills.google/games/6669/labs/41719)
 
 [Extract, Analyze, and Translate Text from Images with the Cloud ML APIs](https://www.skills.google/games/6669/labs/41720)
+
+[Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API](https://www.skills.google/games/6669/labs/41721)
