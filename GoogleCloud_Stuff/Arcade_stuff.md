@@ -29,3 +29,7 @@
 [Extract, Analyze, and Translate Text from Images with the Cloud ML APIs](https://www.skills.google/games/6669/labs/41720)
 
 [Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API](https://www.skills.google/games/6669/labs/41721)
+
+## Safe & Sound
+
+[Configuring Networks via gcloud](https://www.skills.google/games/6669/labs/41722)
