@@ -37,3 +37,7 @@
 [Managing a GKE Multi-tenant Cluster with Namespaces](https://www.skills.google/games/6669/labs/41723)
 
 [Orchestrating the Cloud with Kubernetes](https://www.skills.google/games/6669/labs/41725)
+
+## Ops Optimized
+
+[Exploring Cost-optimization for GKE Virtual Machines](https://www.skills.google/games/6669/labs/41726)
