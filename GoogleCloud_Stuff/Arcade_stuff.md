@@ -33,3 +33,5 @@
 ## Safe & Sound
 
 [Configuring Networks via gcloud](https://www.skills.google/games/6669/labs/41722)
+
+[Managing a GKE Multi-tenant Cluster with Namespaces](https://www.skills.google/games/6669/labs/41723)
