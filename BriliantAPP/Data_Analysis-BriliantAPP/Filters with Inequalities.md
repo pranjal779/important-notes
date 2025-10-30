@@ -1,0 +1,29 @@
+# Level 5 - Filters with Inequalities
+
+<img width="865" height="1343" alt="image" src="https://github.com/user-attachments/assets/c715c730-070a-48d7-ad34-c4d1a8c5036a" />
+<img width="933" height="1272" alt="image" src="https://github.com/user-attachments/assets/20d96afd-a67b-4c62-b024-dd18be597aa3" />
+<img width="885" height="710" alt="image" src="https://github.com/user-attachments/assets/1a270022-f133-49ab-be76-3d61edff7cc2" />
+<img width="910" height="1110" alt="image" src="https://github.com/user-attachments/assets/29f2aa59-44a4-41b5-9589-214c4ae932f4" />
+<img width="888" height="777" alt="image" src="https://github.com/user-attachments/assets/adf6750c-6ff3-426e-88df-00c84fa887a4" />
+<img width="1072" height="1247" alt="image" src="https://github.com/user-attachments/assets/8a19d910-4dfe-4e7e-8302-ec11216610a5" />
+<img width="1177" height="1392" alt="image" src="https://github.com/user-attachments/assets/ec3951bd-0a22-45ff-8b85-0fca693e665e" />
+<img width="1033" height="1373" alt="image" src="https://github.com/user-attachments/assets/24abb7c2-8be4-4442-99c6-732aa59f01d8" />
+<img width="1067" height="1368" alt="image" src="https://github.com/user-attachments/assets/e52dd1b1-8311-4d04-9143-ccf52d31192f" />
+<img width="958" height="1123" alt="image" src="https://github.com/user-attachments/assets/3602d58c-bd77-4aa9-9fbf-2d5601f6e11c" />
+<img width="1035" height="1182" alt="image" src="https://github.com/user-attachments/assets/0824fb27-ee51-4e0f-8ad8-7ca70c820cb4" />
+<img width="868" height="1438" alt="image" src="https://github.com/user-attachments/assets/f8f5e845-f3f2-4e82-a791-1a1f31e0ea8d" />
+<img width="1037" height="1218" alt="image" src="https://github.com/user-attachments/assets/d1e7777d-68bf-4cfc-9c16-55a637b206b8" />
+<img width="1015" height="1212" alt="image" src="https://github.com/user-attachments/assets/12ccbe69-9181-4e36-8cc6-98d8ec602261" />
+<img width="1170" height="498" alt="image" src="https://github.com/user-attachments/assets/b34e01ed-e70b-47fd-9b01-b52e3c4e7ab5" />
+<img width="1006" height="867" alt="image" src="https://github.com/user-attachments/assets/38a51139-bf91-40a6-a7e5-d079157ced71" />
+<img width="1000" height="1107" alt="image" src="https://github.com/user-attachments/assets/3f3d64e0-2934-4426-97ae-30ec1f2fcc45" />
+<img width="1057" height="1388" alt="image" src="https://github.com/user-attachments/assets/28e18ef4-404e-4517-908d-1629081137fe" />
+<img width="1022" height="1372" alt="image" src="https://github.com/user-attachments/assets/20a7a592-aebf-4e7b-92bf-211e149d3890" />
+<img width="1030" height="1272" alt="image" src="https://github.com/user-attachments/assets/5ef4f3d2-fbdf-4e50-81d0-7155e7269828" />
+<img width="1027" height="1201" alt="image" src="https://github.com/user-attachments/assets/5737792c-4cd3-423f-8069-e9867eb52768" />
+<img width="1052" height="1238" alt="image" src="https://github.com/user-attachments/assets/263c5dcd-cfad-4ed9-b3df-8a30beba1bb0" />
+<img width="1062" height="1416" alt="image" src="https://github.com/user-attachments/assets/48de98b1-725b-4eb3-975c-ba342cfbc310" />
+<img width="1116" height="1155" alt="image" src="https://github.com/user-attachments/assets/a9234a71-ef7e-4e58-b2e4-5d3b728bbeeb" />
+<img width="997" height="1147" alt="image" src="https://github.com/user-attachments/assets/c4f96b5c-1f37-4e28-8cd0-aa148152b5c4" />
+<img width="1145" height="1406" alt="image" src="https://github.com/user-attachments/assets/21f7dc6f-cd98-4196-9f1c-d7ad0bd059ff" />
+<img width="1135" height="1378" alt="image" src="https://github.com/user-attachments/assets/13f06455-b45c-409a-a41d-02ea4ba1e342" />
