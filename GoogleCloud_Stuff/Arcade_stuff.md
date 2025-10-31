@@ -30,7 +30,7 @@
 
 [Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API](https://www.skills.google/games/6669/labs/41721)
 
-## Safe & Sound
+### Safe & Sound
 
 [Configuring Networks via gcloud](https://www.skills.google/games/6669/labs/41722)
 
@@ -38,7 +38,7 @@
 
 [Orchestrating the Cloud with Kubernetes](https://www.skills.google/games/6669/labs/41725)
 
-## Ops Optimized
+### Ops Optimized
 
 [Exploring Cost-optimization for GKE Virtual Machines](https://www.skills.google/games/6669/labs/41726)
 
