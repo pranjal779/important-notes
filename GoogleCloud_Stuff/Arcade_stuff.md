@@ -48,9 +48,11 @@
 
 - [Hitachi: Using visual inspection AI for quality control and achieving 100% accuracy](https://www.skills.google/games/6669/documents/41728)
 
-### Arcade Base Camp
+## Arcade Base Camp
 
 [Arcade Base Camp](https://www.skills.google/games/6551)
+
+### Welcome to Base Camp
 
 [mini lab : Cloud Storage : 2](https://www.skills.google/games/6551/labs/41062)
 
