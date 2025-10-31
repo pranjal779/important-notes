@@ -47,3 +47,11 @@
 [Understanding and Combining GKE Autoscaling Strategies](https://www.skills.google/games/6669/labs/41727)
 
 - [Hitachi: Using visual inspection AI for quality control and achieving 100% accuracy](https://www.skills.google/games/6669/documents/41728)
+
+### Arcade Base Camp
+
+[Arcade Base Camp](https://www.skills.google/games/6551)
+
+[mini lab : Cloud Storage : 2](https://www.skills.google/games/6551/labs/41062)
+
+
