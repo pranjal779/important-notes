@@ -56,4 +56,6 @@
 
 [mini lab : Cloud Storage : 2](https://www.skills.google/games/6551/labs/41062)
 
+[Building a High-throughput VPN](https://www.skills.google/games/6551/labs/41063)
+
 
