@@ -1,5 +1,8 @@
 # Level 5 - Grouping Data
 
+<img width="842" height="1008" alt="image" src="https://github.com/user-attachments/assets/9c3f4613-d43d-4863-bb3f-550900b964a1" />
+
+
 <img width="1025" height="857" alt="image" src="https://github.com/user-attachments/assets/20fbe8ad-4771-402d-b871-aeffa13eebc9" />
 <img width="1006" height="1113" alt="image" src="https://github.com/user-attachments/assets/21acc4df-44ec-4dcc-afc8-b8a2a236e691" />
 <img width="1013" height="1221" alt="image" src="https://github.com/user-attachments/assets/78b58e7d-75f4-4862-8d19-c7c02b2bb4ca" />
