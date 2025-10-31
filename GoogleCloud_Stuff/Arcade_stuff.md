@@ -12,7 +12,9 @@
 
 [Setting Up Cost Control with Quota](https://www.skills.google/games/6670/labs/41738)
 
-## [Work Meets Play: AI Assured](https://www.skills.google/games/6669)
+## Work Meets Play: AI Assured
+
+- [Work Meets Play: AI Assured](https://www.skills.google/games/6669)
 
 [Deploy and Test a Visual Inspection AI Component Anomaly Detection Solution](https://www.skills.google/games/6669/labs/41713)
 
