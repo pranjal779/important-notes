@@ -60,3 +60,11 @@ link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-use-s3
 
 [AWS Outage: It’s always DNS, but… sometimes it’s overloaded network hardware
 Incident "originated from within the EC2 internal network" -THE STACK](https://www.thestack.technology/aws-outage-cause-network/)
+
+
+--------------
+
+# 🔥🔥🔥 Youtube Videos to Watch 🔥🔥🔥
+
+<img width="577" height="453" alt="Screenshot 2025-10-30 142149" src="https://github.com/user-attachments/assets/4cb5079d-2ab7-4813-ac6f-cdd089798505" />
+
