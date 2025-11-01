@@ -79,3 +79,4 @@
 ### Conversations & Creations
 
 - [Arcade Chatbot: Interactive Film-bot](https://www.skills.google/games/6554/labs/41108)
+- [Arcade Chatbot: Interactive French Language-bot](https://www.skills.google/games/6554/labs/41110)
