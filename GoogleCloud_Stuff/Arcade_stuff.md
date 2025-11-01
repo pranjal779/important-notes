@@ -73,3 +73,9 @@
 [Arcade Hero: Enter the Artifact Registry Maven](https://www.skills.google/games/6551/labs/41071)
 
 [Arcade Hero: Enter the Artifact Registry NPM](https://www.skills.google/games/6551/labs/41072)
+
+## Game - Level 3: Generative AI
+
+### Conversations & Creations
+
+- [Arcade Chatbot: Interactive Film-bot](https://www.skills.google/games/6554/labs/41108)
