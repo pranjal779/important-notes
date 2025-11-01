@@ -71,3 +71,5 @@
 [Arcade Hero: Enter the Artifact Registry Container](https://www.skills.google/games/6551/labs/41070)
 
 [Arcade Hero: Enter the Artifact Registry Maven](https://www.skills.google/games/6551/labs/41071)
+
+[Arcade Hero: Enter the Artifact Registry NPM](https://www.skills.google/games/6551/labs/41072)
