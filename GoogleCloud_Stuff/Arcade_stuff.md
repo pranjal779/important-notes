@@ -63,3 +63,5 @@
 [App Engine: Qwik Start - Python](https://www.skills.google/games/6551/labs/41065)
 
 [App Engine: Qwik Start - PHP](https://www.skills.google/games/6551/labs/41066)
+
+[App Engine: Qwik Start - Go](https://www.skills.google/games/6551/labs/41067)
