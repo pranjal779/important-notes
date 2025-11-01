@@ -83,3 +83,5 @@
 - [Arcade Chatbot: Interactive French Language-bot](https://www.skills.google/games/6554/labs/41110)
 - [Arcade Chatbot: Interactive Spanish Language-bot](https://www.skills.google/games/6554/labs/41111)
 - [Arcade Chatbot: Interactive Hindi Language-bot](https://www.skills.google/games/6554/labs/41112)
+- [Arcade Chatbot: Interactive Mandarin Language-bot](https://www.skills.google/games/6554/labs/41113)
+- [Arcade Chatbot: Interactive Portuguese Language-bot](https://www.skills.google/games/6554/labs/41114)
