@@ -58,4 +58,4 @@
 
 [Building a High-throughput VPN](https://www.skills.google/games/6551/labs/41063)
 
-
+[Classify Text into Categories with the Natural Language API](https://www.skills.google/games/6551/labs/41064)
