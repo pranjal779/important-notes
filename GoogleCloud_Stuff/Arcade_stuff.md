@@ -67,3 +67,5 @@
 [App Engine: Qwik Start - Go](https://www.skills.google/games/6551/labs/41067)
 
 [Cloud Storage: Qwik Start - Cloud Console](https://www.skills.google/games/6551/labs/41068)
+
+[Arcade Hero: Enter the Artifact Registry Container](https://www.skills.google/games/6551/labs/41070)
