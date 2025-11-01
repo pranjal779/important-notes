@@ -69,3 +69,5 @@
 [Cloud Storage: Qwik Start - Cloud Console](https://www.skills.google/games/6551/labs/41068)
 
 [Arcade Hero: Enter the Artifact Registry Container](https://www.skills.google/games/6551/labs/41070)
+
+[Arcade Hero: Enter the Artifact Registry Maven](https://www.skills.google/games/6551/labs/41071)
