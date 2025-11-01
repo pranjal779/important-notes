@@ -86,3 +86,7 @@
 - [Arcade Chatbot: Interactive Mandarin Language-bot](https://www.skills.google/games/6554/labs/41113)
 - [Arcade Chatbot: Interactive Portuguese Language-bot](https://www.skills.google/games/6554/labs/41114)
 - [Arcade Hero: Building Blocks Cloud Run functions III](https://www.skills.google/games/6554/labs/41115)
+
+### Prep with AI
+
+- [Arcade Hero: Building Blocks Cloud Run functions IV](https://www.skills.google/games/6554/labs/41116)
