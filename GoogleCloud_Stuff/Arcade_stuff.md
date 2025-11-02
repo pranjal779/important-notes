@@ -98,3 +98,4 @@
 
 - [APIs Explorer: App Engine](https://www.skills.google/games/6559/labs/41148)
 - [mini lab : Cloud Storage : 3](https://www.skills.google/games/6559/labs/41149)
+- [Secure a Public Storage Bucket - gcloud](https://www.skills.google/games/6559/labs/41150)
