@@ -8,4 +8,5 @@
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
 - The Arcade Trivia November Week 1
+   - [IAM Custom Roles](https://www.skills.google/games/6874/labs/42691)
    - [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874/labs/42694)
