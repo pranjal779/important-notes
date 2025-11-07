@@ -11,6 +11,8 @@
 
 # I've missed more than 9,000 shots during my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed. - Michael Jordan
 
+#### Looking at code you wrote more than two weeks ago is like looking at code you are seeing for the first time. - Dan Hurvitz
+
 # important-notes
 any notes for anything
 
