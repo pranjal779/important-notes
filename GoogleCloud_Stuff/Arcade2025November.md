@@ -4,6 +4,7 @@
   - [Deploy a Hugo Website with Cloud Build and Firebase Pipeline](https://www.skills.google/games/6878/labs/42716)
   - [Cloud Natural Language API: Qwik Start](https://www.skills.google/games/6878/labs/42717)
   - [App Engine: Qwik Start - Java](https://www.skills.google/games/6878/labs/42718)
+  - [Cloud IAM: Qwik Start](https://www.skills.google/games/6878/labs/42719)
  
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
