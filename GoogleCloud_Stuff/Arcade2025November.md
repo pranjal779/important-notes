@@ -6,6 +6,7 @@
   - [App Engine: Qwik Start - Java](https://www.skills.google/games/6878/labs/42718)
   - [Cloud IAM: Qwik Start](https://www.skills.google/games/6878/labs/42719)
   - [Orchestrating the Cloud with Kubernetes](https://www.skills.google/games/6878/labs/42720)
+  - [Improving Network Performance I](https://www.skills.google/games/6878/labs/42721)
  
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
