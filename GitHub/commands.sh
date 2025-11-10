@@ -29,3 +29,8 @@ gh pr create --file "The bug is fixed" --body "Everything works again"
 #shebang files
 # #!/bin/badges
 
+
+# remote command
+git remote -v
+git remote add "<repo link>
+
