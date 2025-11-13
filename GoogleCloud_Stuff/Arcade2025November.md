@@ -10,6 +10,7 @@
     - optional Lab Videos on the topic (extra knowledge)
       1. [Compute Engine and the Egress problem (Cloud Performance Atlas)](https://www.youtube.com/watch?v=I36InKS1oZQ)
       2. [The External IP Problem (Cloud Performance Atlas)](https://www.youtube.com/watch?v=i5uhsbmkQ48)
+  - [Fundamentals of Cloud Logging](https://www.skills.google/games/6878/labs/42722)
  
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
