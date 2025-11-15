@@ -17,3 +17,5 @@
 - The Arcade Trivia November Week 1
    - [IAM Custom Roles](https://www.skills.google/games/6874/labs/42691)
    - [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874/labs/42694)
+   - [Flutter Qwik Start](https://www.skills.google/games/6874/labs/42692)
+   - [Build a Two Screen Flutter Application](https://www.skills.google/games/6874/labs/42693)
