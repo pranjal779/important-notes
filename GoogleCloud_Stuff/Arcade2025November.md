@@ -19,3 +19,9 @@
    - [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874/labs/42694)
    - [Flutter Qwik Start](https://www.skills.google/games/6874/labs/42692)
    - [Build a Two Screen Flutter Application](https://www.skills.google/games/6874/labs/42693)
+ 
+
+[Google Skills Arcade Trivia November 2025 Week 2](https://www.skills.google/games/6875)
+- The Arcade Trivia November Week 2
+  - [Cloud Run Functions: Qwik Start - Console](https://www.skills.google/games/6875/labs/42697)
+  - [Cloud Run Functions: Qwik Start - Command Line](https://www.skills.google/games/6875/labs/42698) 
