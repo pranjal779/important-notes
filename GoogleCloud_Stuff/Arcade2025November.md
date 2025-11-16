@@ -13,7 +13,8 @@
   - [Fundamentals of Cloud Logging](https://www.skills.google/games/6878/labs/42722)
 
  - Level up
-    - [Use Go Code to Work with Google Cloud Data Sources](https://www.skills.google/games/6878/labs/42723) 
+    - [Use Go Code to Work with Google Cloud Data Sources](https://www.skills.google/games/6878/labs/42723)
+    - [Log Analytics on Google Cloud](https://www.skills.google/games/6878/labs/42724)
  
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
