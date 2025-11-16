@@ -16,6 +16,7 @@
     - [Use Go Code to Work with Google Cloud Data Sources](https://www.skills.google/games/6878/labs/42723)
     - [Log Analytics on Google Cloud](https://www.skills.google/games/6878/labs/42724)
     - [gcloud for Network Configuration](https://www.skills.google/games/6878/labs/42725)
+    - [bq for Google BigQuery](https://www.skills.google/games/6878/labs/42726)
  
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
