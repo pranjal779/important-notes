@@ -1,5 +1,20 @@
-k8s
+# k8s & Google Cloud Commands
 
 Getting started with Docker and Kubernetes: A beginners guide
 Oct 03, 2019 - 18 min read
 https://www.educative.io/blog/docker-kubernetes-beginners-guide
+
+gcloud compute networks describe privatenet
+
+gcloud compute networks list
+
+gcloud compute networks subnets describe SUBNET_NAME \
+    --region="us-east1"
+
+
+student@4103d5a04b00:~$ gcloud compute firewall-rules create labnet-allow-internal --network=labnet --action=ALLOW --rules=icmp,tcp:22 --source-ranges=0.0.0.0/0
+Creating firewall...⠹Created [https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-02-b4aed4c54f3e/global/firewalls/labnet-allow-internal].
+Creating firewall...done.                                                                                    
+NAME                   NETWORK  DIRECTION  PRIORITY  ALLOW        DENY  DISABLED
+labnet-allow-internal  labnet   INGRESS    1000      icmp,tcp:22        False
+student@4103d5a04b00:~$ 
