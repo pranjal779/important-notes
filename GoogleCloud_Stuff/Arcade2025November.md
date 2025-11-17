@@ -18,6 +18,7 @@
     - [gcloud for Network Configuration](https://www.skills.google/games/6878/labs/42725)
     - [bq for Google BigQuery](https://www.skills.google/games/6878/labs/42726)
     - [Google Workspace Admin: Getting Started](https://www.skills.google/games/6878/labs/42727)
+    - [Creating a Persistent Disk](https://www.skills.google/games/6878/labs/42728)
  
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
