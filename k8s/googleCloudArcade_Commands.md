@@ -14,3 +14,17 @@ student_01_02ea6d1de01c@cloudshell:~/microservices-demo (qwiklabs-gcp-03-ce76d00
 student_01_02ea6d1de01c@cloudshell:~/microservices-demo (qwiklabs-gcp-03-ce76d0050505)$ 
 
 
+
+**[Creating a Persistent Disk](https://www.skills.google/games/6878/labs/42728)**
+
+gcloud compute instances create gcelab --zone $ZONE --machine-type e2-standard-2
+
+gcloud compute disks create mydisk --size=200GB \
+--zone $ZONE
+
+
+gcloud compute instances attach-disk gcelab --disk mydisk --zone $ZONE
+
+
+gcloud compute ssh gcelab --zone $ZONE
+
