@@ -1,0 +1,32 @@
+# Level 1 - Understanding Probability - The Past And The Future
+
+<img width="858" height="1192" alt="image" src="https://github.com/user-attachments/assets/2fb1bd98-6ac4-4bbc-9b9c-8aa490a1810a" />
+<img width="842" height="752" alt="image" src="https://github.com/user-attachments/assets/a48e5215-615f-48d7-8e99-ba4b37e620bf" />
+<img width="950" height="1022" alt="image" src="https://github.com/user-attachments/assets/4e2a7a85-b67f-4240-9109-9b9594e9ba22" />
+<img width="962" height="1197" alt="image" src="https://github.com/user-attachments/assets/5c1bfc3e-3583-46f5-a45f-b0ecf5699f1e" />
+<img width="980" height="692" alt="image" src="https://github.com/user-attachments/assets/94a56578-3b7f-47c5-8403-c4ca2f1a9468" />
+<img width="997" height="331" alt="image" src="https://github.com/user-attachments/assets/d6198316-3c4c-41ed-8380-f230f26f4f9c" />
+<img width="1001" height="590" alt="image" src="https://github.com/user-attachments/assets/726d2b79-4c79-4416-964f-1fbf6d115c38" />
+<img width="962" height="1081" alt="image" src="https://github.com/user-attachments/assets/a8f2cb5c-349c-4f81-b198-d104e13fac76" />
+<img width="900" height="1162" alt="image" src="https://github.com/user-attachments/assets/9d65edf7-704b-48ec-b376-d6e4052e6313" />
+<img width="920" height="1203" alt="image" src="https://github.com/user-attachments/assets/8fb32750-d4e1-412d-9e83-5bd47941d197" />
+<img width="988" height="1091" alt="image" src="https://github.com/user-attachments/assets/b97f9c95-e7cb-4346-b315-7c48625f65cb" />
+<img width="993" height="1113" alt="image" src="https://github.com/user-attachments/assets/56779c86-19c7-452a-9fc0-06bb046548ce" />
+<img width="958" height="1193" alt="image" src="https://github.com/user-attachments/assets/d2df4e0d-b162-458e-aba6-2b0b6bb974cd" />
+<img width="1010" height="1187" alt="image" src="https://github.com/user-attachments/assets/b958f2dc-f4be-49ef-9978-10f288173ff3" />
+<img width="1032" height="778" alt="image" src="https://github.com/user-attachments/assets/737a0dfe-d854-4f92-99e5-868ca6795fe8" />
+<img width="1087" height="1202" alt="image" src="https://github.com/user-attachments/assets/88da09f0-cce5-4f57-ba28-776b7439696f" />
+<img width="918" height="1093" alt="image" src="https://github.com/user-attachments/assets/ef95cd2b-76c0-4355-b7e5-4143e856c271" />
+<img width="1051" height="527" alt="image" src="https://github.com/user-attachments/assets/4560a1c1-8822-4eb5-bcd7-66dffcfccf61" />
+<img width="897" height="395" alt="image" src="https://github.com/user-attachments/assets/0257ffec-a906-412b-8979-81f502fa33d1" />
+<img width="971" height="813" alt="image" src="https://github.com/user-attachments/assets/843a3004-4d92-4b4f-9925-b63fe03b324b" />
+<img width="928" height="892" alt="image" src="https://github.com/user-attachments/assets/b9711540-e32b-4569-bdd6-24ff94353330" />
+<img width="975" height="893" alt="image" src="https://github.com/user-attachments/assets/6558d3cc-8608-4f71-bfcb-6cbd0f5724cf" />
+<img width="981" height="1190" alt="image" src="https://github.com/user-attachments/assets/3e9ed7de-a0c7-4ca4-a7d9-a816f27e89f0" />
+<img width="970" height="935" alt="image" src="https://github.com/user-attachments/assets/395cae82-e8f5-4f99-9be6-9bb77950b71b" />
+<img width="1038" height="1198" alt="image" src="https://github.com/user-attachments/assets/80dad9d8-3746-4c07-8318-2be0637a0cb7" />
+<img width="1085" height="960" alt="image" src="https://github.com/user-attachments/assets/dedbe739-6886-462d-b393-7a9c23cec8cb" />
+<img width="1016" height="1195" alt="image" src="https://github.com/user-attachments/assets/3b81eedb-ce88-4b23-b5fc-b39e400a9ef3" />
+<img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/130f6297-0403-463f-a2f3-56a09b487f09" />
+<img width="1122" height="866" alt="image" src="https://github.com/user-attachments/assets/12300820-26de-4679-8c79-074bc918c467" />
+<img width="992" height="1182" alt="image" src="https://github.com/user-attachments/assets/a576a44e-818e-4f71-baa6-0f3c305bb60c" />
