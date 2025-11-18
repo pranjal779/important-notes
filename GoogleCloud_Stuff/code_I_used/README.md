@@ -21,3 +21,8 @@ echo "This is IP address: $IP_ADDRESS"
 curl http://$IP_ADDRESS
 
 ```
+
+
+```sh
+gcloud compute ssh source-instance --zone=$ZONE
+```
