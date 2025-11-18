@@ -45,6 +45,11 @@
   - [Create a Custom Network and Apply Firewall Rules](https://www.skills.google/games/6876/labs/42704)
   - [Setting up a Private Kubernetes Cluster](https://www.skills.google/games/6876/labs/42705)
   - [Google Skills Arcade Trivia November 2025 Week 3](https://www.skills.google/games/6876/labs/42706)
- 
+
+ [Google Skills Arcade Trivia November 2025 Week 4](https://www.skills.google/games/6877)
+ - [Monitoring Multiple Projects with Cloud Monitoring](https://www.skills.google/games/6877/labs/42709)
+ - [gcloud and kubectl for Google Kubernetes Engine](https://www.skills.google/games/6877/labs/42710)
+ - [Manage Storage Configuration using gsutil](https://www.skills.google/games/6877/labs/42711)
+ - [Google Skills Arcade Trivia November 2025 Week 4](https://www.skills.google/games/6877/labs/42712)
 
 
