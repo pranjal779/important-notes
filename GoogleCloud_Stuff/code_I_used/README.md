@@ -30,3 +30,6 @@ gcloud compute ssh source-instance --zone=$ZONE
 ```sh
 kubectl get nodes --output yaml | grep -A4 addresses
 ```
+
+
+<img width="2115" height="1091" alt="image" src="https://github.com/user-attachments/assets/c352c6cc-8c99-46c3-8f2a-bc4e36466f48" />
