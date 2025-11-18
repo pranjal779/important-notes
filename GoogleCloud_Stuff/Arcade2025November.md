@@ -36,6 +36,7 @@
   - [Cloud Run Functions: Qwik Start - Console](https://www.skills.google/games/6875/labs/42697)
   - [Cloud Run Functions: Qwik Start - Command Line](https://www.skills.google/games/6875/labs/42698)
   - [Build a Serverless App with Cloud Run that Creates PDF Files](https://www.skills.google/games/6875/labs/42699)
+  - [Google Skills Arcade Trivia November 2025 Week 2](https://www.skills.google/games/6875/labs/42700)
  
 
 
