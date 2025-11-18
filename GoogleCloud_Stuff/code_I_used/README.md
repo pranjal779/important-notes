@@ -26,3 +26,7 @@ curl http://$IP_ADDRESS
 ```sh
 gcloud compute ssh source-instance --zone=$ZONE
 ```
+
+```sh
+kubectl get nodes --output yaml | grep -A4 addresses
+```
