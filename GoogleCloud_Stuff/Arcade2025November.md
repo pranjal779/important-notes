@@ -20,6 +20,7 @@
     - [Google Workspace Admin: Getting Started](https://www.skills.google/games/6878/labs/42727)
     - [Creating a Persistent Disk](https://www.skills.google/games/6878/labs/42728)
     - [Hello Node Kubernetes](https://www.skills.google/games/6878/labs/42729)
+    - [Networking 101](https://www.skills.google/games/6878/labs/42730)
  
 
 [Google Skills Arcade Trivia November 2025 Week 1](https://www.skills.google/games/6874)
