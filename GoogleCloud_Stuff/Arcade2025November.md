@@ -39,4 +39,12 @@
   - [Google Skills Arcade Trivia November 2025 Week 2](https://www.skills.google/games/6875/labs/42700)
  
 
+[Google Skills Arcade Trivia November 2025 Week 3](https://www.skills.google/games/6876)
+- The Arcade Trivia November Week 3
+  - [Cloud Monitoring: Qwik Start](https://www.skills.google/games/6876/labs/42703)
+  - [Create a Custom Network and Apply Firewall Rules](https://www.skills.google/games/6876/labs/42704)
+  - [Setting up a Private Kubernetes Cluster](https://www.skills.google/games/6876/labs/42705)
+  - [Google Skills Arcade Trivia November 2025 Week 3](https://www.skills.google/games/6876/labs/42706)
+ 
+
 
