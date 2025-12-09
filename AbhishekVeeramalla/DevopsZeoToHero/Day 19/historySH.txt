@@ -1,0 +1,80 @@
+follow this repo: https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/tree/main
+
+ubuntu@ip-172-31-4-155:~$ ps -ef | grep jenkins
+jenkins     4003       1 24 07:32 ?        00:00:15 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
+ubuntu      4140    1153  0 07:33 pts/0    00:00:00 grep --color=auto jenkins
+ubuntu@ip-172-31-4-155:~$
+
+
+cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+
+Grant Jenkins user and Ubuntu user permission to docker deamon.
+sudo su - 
+usermod -aG docker jenkins
+usermod -aG docker ubuntu
+systemctl restart docker
+
+
+
+ubuntu@ip-172-31-4-155:~$ sudo su - jenkins
+jenkins@ip-172-31-4-155:~$
+
+jenkins@ip-172-31-4-155:~$ docker run hello-world
+docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Head "http://%2Fvar%2Frun%2Fdocker.sock/_ping": dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+jenkins@ip-172-31-4-155:~$ exit
+logout
+
+root@ip-172-31-4-155:~# usermod -aG docker jenkins
+root@ip-172-31-4-155:~# su - jeenkins
+su: user jeenkins does not exist or the user entry does not contain all the required fields
+root@ip-172-31-4-155:~# su - jenkins
+jenkins@ip-172-31-4-155:~$ docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+e6590344b1a5: Pull complete
+Digest: sha256:d715f14f9eca90df9asfd0987ad0fad9f8a3aa4d099adeb4729f679006bf5ea12407
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+jenkins@ip-172-31-4-155:~$
+
+jenkins@ip-172-31-4-155:~$ ls
+config.xml                                      jenkins.telemetry.Correlator.xml  secret.key.not-so-secret
+hudson.model.UpdateCenter.xml                   jobs                              secrets
+hudson.plugins.git.GitTool.xml                  logs                              updates
+identity.key.enc                                nodeMonitors.xml                  userContent
+jenkins.install.InstallUtil.lastExecVersion     plugins                           users
+jenkins.install.UpgradeWizard.state             queue.xml.bak
+jenkins.model.JenkinsLocationConfiguration.xml  secret.key
+jenkins@ip-172-31-4-155:~$
+
+jenkins@ip-172-31-4-155:~$ ps -ef | grep docker
+root         858       1  0 10:02 ?        00:00:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+jenkins     2175    2137  0 11:05 pts/5    00:00:00 grep docker
+jenkins@ip-172-31-4-155:~$
+
+http://34.236.134.51:8080/
+
