@@ -1,3 +1,6 @@
+<img width="768" height="1114" alt="image" src="https://github.com/user-attachments/assets/555d3b3e-cbe6-4ec6-b4c8-9f4b1d0caa1d" />
+
+
 [Andrew Brown-u/omenking](https://www.reddit.com/user/omenking/) -  
 [I passed the HashiCorp Terraform Certification with a 84%. Here's my Guide](https://www.reddit.com/r/Terraform/comments/pcrvk6/i_passed_the_hashicorp_terraform_certification/)
 
