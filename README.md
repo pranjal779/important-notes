@@ -70,3 +70,6 @@ Incident "originated from within the EC2 internal network" -THE STACK](https://w
 
 <img width="577" height="453" alt="Screenshot 2025-10-30 142149" src="https://github.com/user-attachments/assets/4cb5079d-2ab7-4813-ac6f-cdd089798505" />
 
+
+[<img width="557" height="428" alt="image" src="https://github.com/user-attachments/assets/773b5747-3cae-4cf4-abe4-507d96410bcb" />](https://youtu.be/ReNqPp3EmYk?si=mcahSelHG0qwi2vq)
+
