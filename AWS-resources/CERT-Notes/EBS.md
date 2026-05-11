@@ -7,3 +7,5 @@ Based on the image and transcript provided, here are the key takeaways regarding
 - **Multi-Attach Exception:** Some specialized EBS volume types allow for "Multi-Attach," which permits connecting a single volume to multiple instances in the same AZ.   
 
 
+<img width="452" height="692" alt="image" src="https://github.com/user-attachments/assets/8b4c485a-2b95-4594-9bee-f1ba47029395" />
+<img width="2527" height="1386" alt="image" src="https://github.com/user-attachments/assets/c83da000-776a-44cb-afdc-3bcbe3359c18" />
