@@ -48,6 +48,10 @@
 <img width="2447" height="1217" alt="image" src="https://github.com/user-attachments/assets/e166baee-7b8c-4a08-ad95-89dfa155345e" />
 
 
+# 85 
+
+
+# 86 Auto Scaling Groups - Scaling Policies Hands On
 
 
 
