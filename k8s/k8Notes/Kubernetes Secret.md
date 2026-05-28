@@ -421,3 +421,314 @@ Kubernetes is VERY unforgiving with:
 * syntax
 
 Everybody fights these issues initially.
+
+
+
+---------
+
+You actually made **2 mistakes** in this YAML.
+
+One caused the Pod to stay in `ContainerCreating`.
+
+The second would have caused the container to crash even after fixing the Secret.
+
+Let’s go line by line.
+
+---
+
+# Your YAML
+
+```yaml
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: secret-devops
+
+spec:
+  containers:
+    - name: secret-container-devops
+      image: fedora:latest
+      command: ["/bin/bash", "-c", "sleep"]
+
+      volumeMounts:
+        - name: secret-volume
+          readOnly: true
+          mountPath: /opt/cluster
+
+  volumes:
+    - name: secret-volume
+      secret:
+        secretName: secret-devops
+```
+
+---
+
+# Mistake #1 (BIGGEST ONE)
+
+This line:
+
+```yaml
+secretName: secret-devops
+```
+
+was wrong.
+
+Because your Secret was named:
+
+```bash
+kubectl create secret generic ecommerce --from-file=/opt/ecommerce.txt
+```
+
+So the Secret name became:
+
+```text
+ecommerce
+```
+
+NOT:
+
+```text
+secret-devops
+```
+
+---
+
+# Correct Version
+
+```yaml
+secretName: ecommerce
+```
+
+---
+
+# Why Kubernetes Failed
+
+Kubernetes tried:
+
+```text
+Mount Secret → secret-devops
+```
+
+But that Secret did not exist.
+
+So volume mounting failed.
+
+Therefore:
+
+* container never started
+* pod stuck in `ContainerCreating`
+
+That is why this happened:
+
+```text
+MountVolume.SetUp failed:
+secret "secret-devops" not found
+```
+
+---
+
+# Mistake #2 (Sleep Command)
+
+This line:
+
+```yaml
+command: ["/bin/bash", "-c", "sleep"]
+```
+
+is incomplete.
+
+Because:
+
+```bash
+sleep
+```
+
+needs a duration.
+
+Examples:
+
+```bash
+sleep 1000
+```
+
+or:
+
+```bash
+sleep infinity
+```
+
+Without duration:
+
+* container starts
+* sleep command fails immediately
+* container exits
+
+---
+
+# Correct Version
+
+```yaml
+command: ["/bin/bash", "-c", "sleep infinity"]
+```
+
+OR simpler:
+
+```yaml
+command: ["sleep", "3600"]
+```
+
+---
+
+# What Would Have Happened
+
+If you fixed ONLY the Secret:
+
+```yaml
+secretName: ecommerce
+```
+
+then:
+
+* volume mount succeeds
+* container starts
+* BUT `sleep` fails
+* container exits immediately
+
+Then pod status would become something like:
+
+```text
+CrashLoopBackOff
+```
+
+instead of `ContainerCreating`.
+
+---
+
+# Fully Correct YAML
+
+This is the proper final version:
+
+```yaml
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: secret-devops
+
+spec:
+  containers:
+    - name: secret-container-devops
+      image: fedora:latest
+
+      command: ["/bin/bash", "-c", "sleep infinity"]
+
+      volumeMounts:
+        - name: secret-volume
+          mountPath: /opt/cluster
+          readOnly: true
+
+  volumes:
+    - name: secret-volume
+      secret:
+        secretName: ecommerce
+```
+
+---
+
+# Then This Would Work
+
+```bash
+kubectl apply -f pod.yaml
+```
+
+Check:
+
+```bash
+kubectl get pods
+```
+
+You should see:
+
+```text
+1/1 Running
+```
+
+Then:
+
+```bash
+kubectl exec -it secret-devops -- bash
+```
+
+Inside container:
+
+```bash
+cd /opt/cluster
+
+ls
+
+cat ecommerce.txt
+```
+
+Output:
+
+```text
+5ecur3
+```
+
+---
+
+# Very Important Kubernetes Understanding
+
+You learned something huge here:
+
+## Pod startup depends on ALL dependencies succeeding
+
+This includes:
+
+* Secrets
+* ConfigMaps
+* Volumes
+* Images
+* Commands
+
+If ANY critical step fails:
+
+* pod never reaches Running
+
+---
+
+# Small YAML Observation
+
+This part was actually PERFECT:
+
+```yaml
+volumeMounts:
+  - name: secret-volume
+```
+
+matched correctly with:
+
+```yaml
+volumes:
+  - name: secret-volume
+```
+
+Many beginners mismatch those names too.
+
+You got that part right.
+
+---
+
+# What You’re Starting To Learn Now
+
+You are slowly entering:
+
+* Kubernetes debugging
+* Container lifecycle understanding
+* YAML troubleshooting
+* Volume mounting
+* Secret consumption
+
+These are REAL DevOps/Kubernetes engineering skills.
+
