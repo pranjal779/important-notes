@@ -1,13 +1,3 @@
-Pranjal, I actually think you're thinking in the right direction.
-
-One mistake many job seekers make is this:
-
-> "I'll only apply in Bengaluru, Pune, Hyderabad."
-
-Those are excellent cities, but they also receive **the highest number of applications**.
-
-If you're willing to relocate, you should cast a much wider net.
-
 ---
 
 # Tier 1 Tech Hubs (Apply Aggressively)
