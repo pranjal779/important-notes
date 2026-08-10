@@ -21,6 +21,8 @@ any notes for anything
 
 https://www.infoworld.com/article/3306656/python-virtualenv-and-venv-dos-and-donts.html 
 
+- [**Anaconda Venv in VSCode**](https://www.anaconda.com/docs/getting-started/working-with-conda/ides/vscode#creating-a-conda-environment-in-vs-code)
+
 **AWS Architecture Center**
 https://aws.amazon.com/architecture/
 
