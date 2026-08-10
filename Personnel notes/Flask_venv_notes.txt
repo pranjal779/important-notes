@@ -13,3 +13,81 @@ or
 https://stackoverflow.com/a/51500040/7848995
 
 might help
+
+
+
+---
+
+https://code.visualstudio.com/docs/python/environments
+
+You are mixing up two different ways to create environments: Conda and Python's built-in venv. You only need to use one method. [1, 2, 3, 4] 
+Here is the quick memory refresh for both methods so you can choose.
+## Method 1: Using Conda (Recommended since you have Anaconda)
+Conda handles both Python versions and packages. Run these commands in your terminal: [5, 6] 
+
+   1. Create the environment:
+   
+   conda create --name myenv python=3.10
+   
+   (Replace myenv with your project name and 3.10 with your version)
+   2. Activate it:
+   
+   conda activate myenv
+   
+   3. Deactivate when done:
+   
+   conda deactivate
+   
+   [7, 8, 9, 10] 
+
+------------------------------
+## Method 2: Using Built-in Python venv
+This creates a local environment folder inside your project directory. [11] 
+
+   1. Navigate to your project folder:
+   
+   cd path/to/your/project
+   
+   [12] 
+   2. Create the environment:
+   
+   python -m venv venv
+   
+   (The second venv is just the name of the folder it creates) [13, 14] 
+   3. Activate it:
+   * Windows (Command Prompt): venv\Scripts\activate.bat
+      * Windows (PowerShell): venv\Scripts\Activate.ps1
+      * macOS / Linux: source venv/bin/activate [15, 16, 17, 18, 19] 
+   4. Deactivate when done:
+   
+   deactivate
+   
+   [20] 
+
+------------------------------
+## Shortcuts inside VS Code
+If you do not want to type commands, open your project folder in VS Code, press Ctrl+Shift+P (or Cmd+Shift+P), search for Python: Create Environment..., and just click Conda or Venv. VS Code will handle the commands for you automatically. [21, 22] 
+Which of these two methods do you prefer to use for your current project, and do you need help installing specific libraries into it?
+
+[1] [https://realpython.com](https://realpython.com/python-virtual-environments-a-primer/)
+[2] [https://www.fabriziomusacchio.com](https://www.fabriziomusacchio.com/blog/2022-10-31-pip/)
+[3] [https://medium.com](https://medium.com/@shouke.wei/part-1-setting-up-python-environment-for-a-flet-data-app-a8e97f1da396)
+[4] [https://apxml.com](https://apxml.com/courses/python-llm-workflows/chapter-2-python-environment-setup-llm/virtual-environments-venv-conda)
+[5] [https://towardsdatascience.com](https://towardsdatascience.com/comprehensive-guide-to-python-virtual-environments-using-conda-for-data-scientists-6ebea645c5b/)
+[6] [https://yyahn.com](https://yyahn.com/dviz-course/m01-intro/lab01/)
+[7] [https://apxml.com](https://apxml.com/courses/python-llm-workflows/chapter-2-python-environment-setup-llm/virtual-environments-venv-conda)
+[8] [https://teachbooks.io](https://teachbooks.io/manual/installation-and-setup/git_bash_conda_vs-code.html)
+[9] [https://guide.repacss.org](https://guide.repacss.org/software/miniforge.html)
+[10] [https://nbisweden.github.io](https://nbisweden.github.io/workshop-reproducible-research/pages/conda.html)
+[11] [https://code.tutsplus.com](https://code.tutsplus.com/understanding-virtual-environments-in-python--cms-28272t)
+[12] [https://medium.com](https://medium.com/@balakrishna0106/a-beginners-guide-to-getting-started-with-python-074bc74de120)
+[13] [https://dev.to](https://dev.to/dev_neil_a/how-to-setting-up-and-using-a-python-virtual-environment-5oc)
+[14] [https://dev.to](https://dev.to/lucaslm/python-virtual-environments-4o5g)
+[15] [https://apxml.com](https://apxml.com/courses/python-llm-workflows/chapter-2-python-environment-setup-llm/virtual-environments-venv-conda)
+[16] [https://apxml.com](https://apxml.com/courses/fastapi-ml-deployment/chapter-1-intro-fastapi-api-fundamentals/setup-development-environment)
+[17] [https://fernando-mc.github.io](https://fernando-mc.github.io/python3-workshop/part5.html)
+[18] [https://discuss.python.org](https://discuss.python.org/t/no-able-to-activate-a-virtual-env-on-pycharm/67551)
+[19] [https://kdaimon-8.medium.com](https://kdaimon-8.medium.com/start-using-uv-python-package-manager-688d78af8857)
+[20] [https://idea.rpi.edu](https://idea.rpi.edu/sites/default/files/2022-03/Working_with_Python3_on_the_IDEA_Cluster.pdf)
+[21] [https://www.reddit.com](https://www.reddit.com/r/manim/comments/1iaaa8z/issue_local_environnement_on_vs_code_manimce_v0190/)
+[22] [https://python.datalumina.com](https://python.datalumina.com/getting-started/packages-and-pip)
