@@ -8,3 +8,4 @@
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d1167f7e-8cbf-4773-b4da-f2565f47b679" />
 
+[<img width="500" height="500" alt="Arcade Simulator: Network Security Engineer-Aug 11, 2026" src="https://github.com/user-attachments/assets/4e755c1d-56e9-4f72-a51d-57999e28a72f" />](https://www.skills.google/public_profiles/c6f6b970-44b0-4e4a-8cc7-e5035174e458/badges/26618027)
