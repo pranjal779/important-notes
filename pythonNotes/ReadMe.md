@@ -15,3 +15,5 @@
 [The Python Standard Library](https://docs.python.org/3/library/index.html)
 
 [<img width="1082" height="198" alt="image" src="https://github.com/user-attachments/assets/16be6fc4-1507-4c0e-ad58-79a6d2ba0cc4" />](https://youtu.be/-IvNzmrcyUM?si=qzxYCN_TLrIhDpnF)
+
+[<img width="1727" height="1190" alt="image" src="https://github.com/user-attachments/assets/8dc93665-cb64-49e0-a78e-605a1bef34c3" />](https://www.youtube.com/@karinadatascientist)
