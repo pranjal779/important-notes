@@ -98,11 +98,27 @@ https://skillbuilder.aws/learn/ND78HW21FD/aws-simulearn-autohealing-and-scaling-
 ---
 
 <img width="2441" height="1157" alt="image" src="https://github.com/user-attachments/assets/916cb9d7-710a-4e31-a6a8-30a2ea74d153" />
+<img width="2457" height="1143" alt="image" src="https://github.com/user-attachments/assets/e9ac7262-52bb-4965-b830-66ccb4da1ee6" />
+<img width="2341" height="1001" alt="image" src="https://github.com/user-attachments/assets/e70ceca6-4502-4577-9336-6ba2cf1266d8" />
+<img width="2507" height="515" alt="image" src="https://github.com/user-attachments/assets/2ecca235-07da-4115-815f-712928421654" />
+<img width="1552" height="1140" alt="image" src="https://github.com/user-attachments/assets/d99024d7-2088-4b8f-a3ec-d79ce9a9b302" />
+<img width="1803" height="1221" alt="image" src="https://github.com/user-attachments/assets/b9d4073e-4501-47fd-9656-7f0bae47dfd3" />
+
+---
+
+## Step 3 DIY Section
+
+<img width="1941" height="1218" alt="image" src="https://github.com/user-attachments/assets/1f5d2300-3ba5-43e6-9f3e-adae199579ee" />
+<img width="1923" height="1221" alt="image" src="https://github.com/user-attachments/assets/e30fd823-c9b7-451b-b633-bc67c8817977" />
+
+---
+
+<img width="2107" height="1182" alt="image" src="https://github.com/user-attachments/assets/55aef9a2-7aaf-4ebf-bf96-6105fb03c946" />
+<img width="1795" height="1027" alt="image" src="https://github.com/user-attachments/assets/9582be4d-d071-407d-a279-af8117655a74" />
+<img width="1500" height="888" alt="Auto-HealingandScalingApplications" src="https://github.com/user-attachments/assets/ba7d4e1d-f3f3-43c9-b84d-7fb8857aeca1" />
 
 
-
-
-
+---
 
 
 
