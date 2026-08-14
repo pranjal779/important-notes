@@ -9,3 +9,5 @@
 [<img width="823" height="198" alt="image" src="https://github.com/user-attachments/assets/d4073a67-790e-478a-9491-33b5dd8ef013" />](https://youtu.be/6ezUjaiyR6k?si=mwV_SMJ9u9AjkKl8)
 
 [<img width="1888" height="987" alt="image" src="https://github.com/user-attachments/assets/6bafdd5d-7dab-44b1-8577-b888c7edb832" />](https://nervous-ocicat-528.notion.site/Data-Playbook-4e9369f74caf432185eb2c8d62c49b29)
+
+[<img width="1082" height="198" alt="image" src="https://github.com/user-attachments/assets/16be6fc4-1507-4c0e-ad58-79a6d2ba0cc4" />](https://youtu.be/-IvNzmrcyUM?si=qzxYCN_TLrIhDpnF)
