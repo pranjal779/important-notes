@@ -4,6 +4,9 @@
 
 [Azure Project: Quickstart - Deploy a Python (Django, Flask, or FastAPI) web app to Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python)
 
+
+[<img width="1727" height="1190" alt="image" src="https://github.com/user-attachments/assets/8dc93665-cb64-49e0-a78e-605a1bef34c3" />](https://www.youtube.com/@karinadatascientist)
+
 [<img width="810" height="197" alt="image" src="https://github.com/user-attachments/assets/e969eb2b-a05b-47d9-923a-a1548b7d27e5" />](https://youtu.be/xXIIPsjMHI4?si=WyDk_KbozTuVhOdx)
 
 [<img width="823" height="198" alt="image" src="https://github.com/user-attachments/assets/d4073a67-790e-478a-9491-33b5dd8ef013" />](https://youtu.be/6ezUjaiyR6k?si=mwV_SMJ9u9AjkKl8)
