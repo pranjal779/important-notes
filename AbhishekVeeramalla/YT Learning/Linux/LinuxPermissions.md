@@ -1,3 +1,6 @@
+[<img width="915" height="650" alt="image" src="https://github.com/user-attachments/assets/3b86b938-ae92-4ca6-a35f-0f902103b721" />](https://www.youtube.com/channel/UC16daAmFGfoEZmhFhY1m40A)
+
+
 [Linux File Permissions Interactive Tutorial](https://youtu.be/Dorv9TC-z54?si=ujaJXSSTxzXO-N0L)
 
 <img width="1810" height="1212" alt="image" src="https://github.com/user-attachments/assets/3cdf3a41-9cf4-422d-98cd-3d24db5c1430" />
