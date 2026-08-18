@@ -7,3 +7,7 @@
 
 [Solutions Architect - Associate Program Guide - PDF](https://d3pnq78j1ybu70.cloudfront.net/apcr/APCR-SAA/APCR_SAA_ProgramGuide_.pdf)
 
+
+[Begin your AWS journey with new free AWS Builder Labs learning plan on AWS Skill Builder](https://aws.amazon.com/blogs/training-and-certification/begin-your-aws-journey-with-new-free-aws-builder-labs-learning-plan-on-aws-skill-builder/)
+
+[Category: AWS Training and Certification](https://aws.amazon.com/blogs/training-and-certification/category/aws-training-and-certification/)
