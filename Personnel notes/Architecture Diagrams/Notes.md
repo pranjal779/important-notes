@@ -51,6 +51,14 @@ This is the most important step. Use pen and paper first. Draw your actors on th
 
 **Blog App Context:**
 
+```
+graph TD
+    User[Public User] -->|Reads posts| BlogApp[Personal Blog System]
+    Admin[Admin] -->|Creates/Edits posts| BlogApp
+    BlogApp -->|Sends emails| EmailSvc[Email Service]
+
+```
+
 ```mermaid
 graph TD
     User[Public User] -->|Reads posts| BlogApp[Personal Blog System]
@@ -87,6 +95,29 @@ C4Container
     Rel(c_backend, s_auth, "Validates users", "OIDC/JWT")
     Rel(c_frontend, s_cdn, "Fetches images", "HTTPS")
 
+```
+
+```
+C4Container
+    Person(p_public, "Public User", "A user reading blog posts.")
+    Person(p_admin, "Admin", "The blog author.")
+    
+    System_Boundary(b, "Blog System") {
+        Container(c_frontend, "Web App", "React/Next.js", "Provides the UI.")
+        Container(c_backend, "API Application", "Go / Python", "Handles logic, authentication.")
+        ContainerDb(db, "Database", "PostgreSQL", "Stores posts, user profiles.")
+    }
+    
+    System_Ext(s_auth, "Auth0", "Authentication Service")
+    System_Ext(s_cdn, "CDN", "Image Delivery")
+
+    Rel(p_public, c_frontend, "Views site", "HTTPS")
+    Rel(p_admin, c_frontend, "Manages site", "HTTPS")
+    
+    Rel(c_frontend, c_backend, "Makes API calls to", "HTTPS/JSON")
+    Rel(c_backend, db, "Reads/Writes data", "SQL")
+    Rel(c_backend, s_auth, "Validates users", "OIDC/JWT")
+    Rel(c_frontend, s_cdn, "Fetches images", "HTTPS")
 ```
 
 #### **Step 5: Define Communication and Interaction**
