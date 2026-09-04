@@ -16,3 +16,6 @@
 <img width="2458" height="1313" alt="Screenshot 2025-10-23 003103" src="https://github.com/user-attachments/assets/f9ebc7f9-2d5c-4d24-be9a-7bbc391fe4de" />
 
 ----
+
+[Amazon Ditches Microservices for Monolith: Decoding Prime Video's Architectural Shift](https://dev.to/amplication/amazon-ditches-microservices-for-monolith-decoding-prime-videos-architectural-shift-5bk6)
+[The Amazon Prime Video Monolith Shift: Dissecting Microservices, Serverless, and the Real-World Cost](https://medium.com/@abhishekranjandev/the-amazon-prime-video-monolith-shift-dissecting-microservices-serverless-and-the-real-world-ec18e429ad6f)
