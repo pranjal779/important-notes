@@ -1,0 +1,1 @@
+[Terraform Projects for Beginners: Deploy Dynamic Web Application on AWS with Terraform, Docker, Amazon ECR, and ECS 💻🌩️🛠️🐳📦 - 34 videos](https://www.youtube.com/playlist?list=PL184oVW5ERMCirZu6wRL2NmUENHixB4mt)
