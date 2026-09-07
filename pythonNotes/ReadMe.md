@@ -4,6 +4,11 @@
 
 [Update Conda](https://stackoverflow.com/questions/57701571/what-is-the-right-way-to-update-anaconda-and-conda-base-environments)
 
+## LinkedIn Links
+
+[<img width="682" height="1037" alt="image" src="https://github.com/user-attachments/assets/364db2a8-7684-46aa-8cb3-5e126435e27e" />](https://lnkd.in/p/g7Svxk7a)
+
+
 
 ## Books
 [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
