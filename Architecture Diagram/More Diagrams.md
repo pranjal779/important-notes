@@ -4,3 +4,7 @@
 
 ### Day 67 of 100DaysOfDevops
 <img width="1130" height="768" alt="1787756870120" src="https://github.com/user-attachments/assets/273d2708-ab3c-4623-9114-a208868c40f9" />
+
+
+### Day 80 of 100DaysOfDevops
+<img width="1160" height="1356" alt="ChatGPT Image Sep 7, 2026, 10_23_43 PM" src="https://github.com/user-attachments/assets/2eabd24f-d0a8-4beb-913d-42198af9aa63" />
