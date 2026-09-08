@@ -1,3 +1,5 @@
+# Genral Overview
+
 To manage more than two AWS regions (us-east-1, us-east-2, and us-west-1) in Terraform, you must define aliased provider blocks because Terraform requires explicit provider configurations for each separate region. 
 
 Amazon Web Services (AWS) +2
@@ -96,4 +98,45 @@ resource "aws_s3_bucket" "bucket_west_1" {
 [5] https://controlmonkey.io/resource/terraform-variables-guide/
 [6] https://discuss.hashicorp.com/t/how-to-dynamically-pass-region-to-providers-within-module/54294
 [7] https://stackoverflow.com/questions/70999249/multi-region-deployment-using-terraform-providers
+
+-----
+
+# VPC_CIDR in Variables.tf
+
+To manage multiple regions with different VPC CIDR blocks, define vpc_cidr_blocks in variables.tf as a map where each key is an AWS region name and each value is the corresponding CIDR block. HashiCorp Developer
+
+1. Define the Variable in variables.tf
+```hcl
+variable "vpc_cidr_blocks" {
+  type = map(string)
+  description = "Map of region names to their respective VPC CIDR blocks"
+  default = {
+    "us-east-1" = "10.1.0.0/16"
+    "us-west-2" = "10.2.0.0/16"
+  }
+}
+
+```
+
+2. Consume the Variable in main.tf using for_each
+Use for_each on the provider or a module/resource with a region argument. With modern Terraform AWS provider configurations, you can pass the region dynamically: Terraform Registry
+
+```hcl
+
+resource "aws_vpc" "main" {
+  for_each   = var.vpc_cidr_blocks
+  region     = each.key
+  cidr_block = each.value
+
+  tags = {
+    Name = "vpc-${each.key}"
+  }
+}
+
+```
+
+[1] https://developer.hashicorp.com/terraform/tutorials/configuration-language/for-each
+[2] https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc_ipv4_cidr_block_association
+
+---
 
