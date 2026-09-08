@@ -65,3 +65,31 @@ Are you trying to design a new network layout, or are you running into an IP ove
 [VPC CIDR blocks - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html)
 
 [Subnet CIDR blocks](https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html)
+
+---
+
+No, AMI IDs are specific to each AWS region, meaning the actual Ubuntu AMI ID changes from one region to another. [1, 2]  
+However, Canonical's Owner ID (the AWS account number that publishes the official images) is the same across all regions. [3]  
+Key Details 
+
+• Canonical Owner ID: 099720109477 (This exact number stays identical everywhere and is used to filter official Ubuntu builds). 
+• AMI ID (ami-xxxxxx): Completely different per region. An Ubuntu 22.04 image in us-east-1 will have a different ID than the same version in ap-south-1. [1, 2, 3, 4]  
+
+How to Find the Right ID Dynamically 
+Instead of hardcoding region-specific AMI IDs, use one of these methods: 
+
+• Filter by Owner ID: Use owner 099720109477 in your scripts, Terraform (aws_ami data source), or AWS CLI (ec2 describe-images) to fetch the latest regional ID dynamically.
+• SSM Parameter Store: Query Canonical's public parameters under /aws/service/canonical/ubuntu/... to automatically resolve the correct ID for your current region. [1, 2, 5, 6, 7]  
+
+Would you like an example of how to dynamically look up the latest Ubuntu AMI using Terraform or the AWS CLI? 
+AI responses may include mistakes.
+
+[1] https://oneuptime.com/blog/post/2026-02-23-terraform-dynamic-ami-lookup/view
+[2] https://stackoverflow.com/questions/63633785/terraform-error-launching-source-instance-invalidamiid-malformed
+[3] https://oneuptime.com/blog/post/2026-03-02-deploy-ubuntu-aws-ec2-best-practices/view
+[4] https://askubuntu.com/questions/53582/how-do-i-know-what-ubuntu-ami-to-launch-on-ec2
+[5] https://ubuntu.com/aws/docs/aws-how-to/instances/build-cloudformation-templates/
+[6] https://ubuntu.com/aws/docs/aws-how-to/instances/build-cloudformation-templates/
+[7] https://askubuntu.com/questions/53582/how-do-i-know-what-ubuntu-ami-to-launch-on-ec2
+
+
