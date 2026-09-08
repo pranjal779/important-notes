@@ -2,3 +2,6 @@
 <img width="1746" height="978" alt="Screenshot 2025-10-11 080528" src="https://github.com/user-attachments/assets/2bb3baad-037a-4cd5-ad10-b3195b66eada" />
 
 ![Recording 2025-10-12 155932](https://github.com/user-attachments/assets/bb823e34-7f71-4201-abd3-1a2b36c8b8db)
+
+
+[AWS Networking (VPCs, Subnets, CIDR) and Terraform Integration](https://kevonmayers31.medium.com/aws-networking-vpcs-subnets-cidr-and-terraform-integration-97faf8710746)
