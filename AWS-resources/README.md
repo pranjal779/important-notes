@@ -8,6 +8,8 @@
 
 [https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/)
 
+[AWS Networking (VPCs, Subnets, CIDR) and Terraform Integration](https://kevonmayers31.medium.com/aws-networking-vpcs-subnets-cidr-and-terraform-integration-97faf8710746)
+
 
 # AWS US-East-1 outage
 
