@@ -15,6 +15,8 @@
 
 https://www.mindmeister.com/app/map/3471885158?t=lE6MXlXHYC
 
+https://github.com/vicjor/aws-saa-c03
+
 
 # AWS US-East-1 outage
 
