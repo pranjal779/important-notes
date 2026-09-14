@@ -11,6 +11,11 @@
 [AWS Networking (VPCs, Subnets, CIDR) and Terraform Integration](https://kevonmayers31.medium.com/aws-networking-vpcs-subnets-cidr-and-terraform-integration-97faf8710746)
 
 
+# AWS SAA Exam Notes
+
+https://www.mindmeister.com/app/map/3471885158?t=lE6MXlXHYC
+
+
 # AWS US-East-1 outage
 
 [AWS Outage Explained with root cause in simple words by Abhishek Veeramalla](https://youtu.be/bHZup_marhk?si=YuTTGxL556WRmV8F)
