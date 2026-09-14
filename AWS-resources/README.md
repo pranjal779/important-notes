@@ -17,6 +17,8 @@ https://www.mindmeister.com/app/map/3471885158?t=lE6MXlXHYC
 
 https://github.com/vicjor/aws-saa-c03
 
+https://psychedelic-cuticle-e74.notion.site/AWS-Solutions-Architect-Associate-SAA-C03-917631d1eb354a1f9bb355154879358d
+
 
 # AWS US-East-1 outage
 
