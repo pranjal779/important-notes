@@ -77,3 +77,9 @@ Incident "originated from within the EC2 internal network" -THE STACK](https://w
 
 [<img width="557" height="428" alt="image" src="https://github.com/user-attachments/assets/773b5747-3cae-4cf4-abe4-507d96410bcb" />](https://youtu.be/ReNqPp3EmYk?si=mcahSelHG0qwi2vq)
 
+
+[Linux on Windows......Windows on Linux](https://www.youtube.com/watch?v=vxTW22y8zV8)
+
+[<img width="1595" height="362" alt="image" src="https://github.com/user-attachments/assets/29fde46a-92d0-41cf-b68f-4e8ea30a985a" />](https://www.youtube.com/watch?v=vxTW22y8zV8)
+
+
