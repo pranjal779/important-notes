@@ -19,6 +19,13 @@ https://github.com/vicjor/aws-saa-c03
 
 https://psychedelic-cuticle-e74.notion.site/AWS-Solutions-Architect-Associate-SAA-C03-917631d1eb354a1f9bb355154879358d
 
+https://www.reddit.com/r/AWSCertifications/s/gq1pYeZt96
+
+## People who passed AWS Certifications
+
+[<img width="1020" height="1107" alt="image" src="https://github.com/user-attachments/assets/ea73e420-bd05-4761-b811-0d3c477e6db9" />](https://www.reddit.com/r/AWSCertifications/s/AJXbpHMChS)
+
+
 
 # AWS US-East-1 outage
 
