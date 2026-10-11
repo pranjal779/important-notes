@@ -9,3 +9,6 @@
 
 
 [gashok13193/DevOps-Docs/Kubernetes/Answer any scenario.md](https://github.com/gashok13193/DevOps-Docs/blob/main/Kubernetes/Answer%20any%20scenario.md)
+
+[<img width="987" height="615" alt="image" src="https://github.com/user-attachments/assets/cc1924fb-d921-46f9-a670-544b54f46a40" />](https://github.com/gashok13193/DevOps-Docs.git)
+[gashok13193/DevOps-Docs](https://github.com/gashok13193/DevOps-Docs.git)
