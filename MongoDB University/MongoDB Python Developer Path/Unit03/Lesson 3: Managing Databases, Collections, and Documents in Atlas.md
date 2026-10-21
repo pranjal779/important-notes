@@ -25,3 +25,31 @@
 <img width="442" height="397" alt="image" src="https://github.com/user-attachments/assets/a791cda9-d9e0-45f8-a929-7a26d7d9a053" />
 
 
+## Lab: Managing Databases, Collections, and Documents in Atlas
+
+<img width="937" height="295" alt="image" src="https://github.com/user-attachments/assets/55f8d0dd-bd03-4257-b46e-885c8a8f8743" />
+
+<img width="2522" height="1111" alt="image" src="https://github.com/user-attachments/assets/9dda33ca-f7cd-46d8-b7ea-8de8ba00069a" />
+<img width="1823" height="531" alt="image" src="https://github.com/user-attachments/assets/7bc7848f-c45f-4308-9484-98ebd8f9fb46" />
+<img width="1237" height="243" alt="image" src="https://github.com/user-attachments/assets/101406bb-0669-4b1b-a383-d80b3ad8b04e" />
+<img width="1493" height="453" alt="image" src="https://github.com/user-attachments/assets/0cd77c4d-8739-4faf-924a-bfdd11c272ea" />
+<img width="787" height="950" alt="image" src="https://github.com/user-attachments/assets/50e4f912-ee6c-49a9-9f7e-3c0a522b67c7" />
+<img width="345" height="332" alt="image" src="https://github.com/user-attachments/assets/2d9a2e3f-fe36-449e-926a-ab9d9ec5da4c" />
+<img width="1423" height="1036" alt="image" src="https://github.com/user-attachments/assets/4b0e2c45-f51b-4efe-9a72-9519ebe1329f" />
+<img width="1420" height="957" alt="image" src="https://github.com/user-attachments/assets/ea9373bc-8876-4d51-a18d-f38c246e29f3" />
+<img width="1440" height="798" alt="image" src="https://github.com/user-attachments/assets/13ee6a98-c450-404a-9820-b2f521cd973b" />
+<img width="1135" height="776" alt="image" src="https://github.com/user-attachments/assets/f1b37647-6bf1-4b38-8e1d-e287eb380b47" />
+<img width="1426" height="1037" alt="image" src="https://github.com/user-attachments/assets/0eb7e597-ebea-484e-98ed-ad77c1f659ee" />
+<img width="1081" height="617" alt="image" src="https://github.com/user-attachments/assets/15570f61-8fd3-4f93-9a5d-df2197fb9c05" />
+<img width="1081" height="617" alt="image" src="https://github.com/user-attachments/assets/2d043735-c467-4a9a-b895-f46e4189780f" />
+<img width="2095" height="672" alt="image" src="https://github.com/user-attachments/assets/c7db6f02-a6a9-47f6-aae3-9ac4a377cb4f" />
+<img width="2131" height="567" alt="image" src="https://github.com/user-attachments/assets/4de6faaa-761e-4eb4-8d4d-0c63676b6ea1" />
+<img width="2527" height="1076" alt="image" src="https://github.com/user-attachments/assets/af7c101a-4f32-4fe0-a98b-21cafdc66fe9" />
+<img width="2522" height="1097" alt="image" src="https://github.com/user-attachments/assets/a995b2d9-797e-4bf5-8eb9-69a2b2be70ed" />
+<img width="1533" height="553" alt="image" src="https://github.com/user-attachments/assets/a9e0ea98-06e2-4573-9900-d5c3cbad6c5e" />
+
+
+## Quiz
+
+<img width="1508" height="702" alt="image" src="https://github.com/user-attachments/assets/3418a4cf-a6e5-45c0-a570-29893ddb74cf" />
+<img width="1517" height="651" alt="image" src="https://github.com/user-attachments/assets/8e3a03a5-974f-4ddc-9bee-0270ceacbff6" />
