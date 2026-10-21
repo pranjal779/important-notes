@@ -19,41 +19,27 @@
 <img width="1027" height="1056" alt="image" src="https://github.com/user-attachments/assets/c1d54103-2ce0-43de-8349-12394d3ed322" />
 <img width="1037" height="1037" alt="image" src="https://github.com/user-attachments/assets/5328d53f-feab-4a28-bdc1-090d5194bce8" />
 <img width="1947" height="1200" alt="image" src="https://github.com/user-attachments/assets/673e0008-95d2-4c3c-9d40-72b7d23617ac" />
+
+
+## Variables In Scripts
+
 <img width="742" height="1142" alt="image" src="https://github.com/user-attachments/assets/2f97ad28-bd1e-4ee5-ac72-0ad6aed931ed" />
 <img width="1062" height="1045" alt="image" src="https://github.com/user-attachments/assets/937258a7-0456-452f-b3f2-2c7f31042ca0" />
 <img width="1117" height="1066" alt="image" src="https://github.com/user-attachments/assets/d287df75-0a04-4de1-bce3-11ebe155223b" />
 <img width="980" height="1022" alt="image" src="https://github.com/user-attachments/assets/d4d9748a-a7f9-4216-a64f-cc5287c29e6b" />
 <img width="1052" height="1037" alt="image" src="https://github.com/user-attachments/assets/0af65f70-1116-4a29-b14e-659790f242d9" />
 <img width="1073" height="1056" alt="image" src="https://github.com/user-attachments/assets/b9e2b062-5b82-47c8-a89c-7ad77959919b" />
+<img width="722" height="1215" alt="image" src="https://github.com/user-attachments/assets/852d8f14-ab16-4ddb-83ea-bd043d37a53d" />
+<img width="2000" height="1437" alt="image" src="https://github.com/user-attachments/assets/1e98ca45-afce-476f-9976-133e21e66dca" />
 
+## User Input in Scripts
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="740" height="1110" alt="image" src="https://github.com/user-attachments/assets/2b220a86-264a-4669-8219-e2be367c5a51" />
+<img width="1037" height="1037" alt="image" src="https://github.com/user-attachments/assets/3e50509a-2378-4fa5-aa28-9b06d3524cc9" />
+<img width="1021" height="1055" alt="image" src="https://github.com/user-attachments/assets/1588f87b-5b09-4321-b996-7ab296ede272" />
+<img width="1027" height="1032" alt="image" src="https://github.com/user-attachments/assets/ac6f01bc-c415-439d-b231-7fba5f388687" />
+<img width="1042" height="1047" alt="image" src="https://github.com/user-attachments/assets/02959075-bd4a-4045-b0ae-19b483ff5fd3" />
+<img width="1008" height="1046" alt="image" src="https://github.com/user-attachments/assets/908183e0-193d-4ac3-823d-8599124e4a09" />
 
 
 
