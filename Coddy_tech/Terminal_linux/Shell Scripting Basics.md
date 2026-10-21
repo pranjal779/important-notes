@@ -40,6 +40,50 @@
 <img width="1027" height="1032" alt="image" src="https://github.com/user-attachments/assets/ac6f01bc-c415-439d-b231-7fba5f388687" />
 <img width="1042" height="1047" alt="image" src="https://github.com/user-attachments/assets/02959075-bd4a-4045-b0ae-19b483ff5fd3" />
 <img width="1008" height="1046" alt="image" src="https://github.com/user-attachments/assets/908183e0-193d-4ac3-823d-8599124e4a09" />
+<img width="1087" height="1357" alt="image" src="https://github.com/user-attachments/assets/ab9b779c-04ca-4b9a-abaa-dbeea01d7ad2" />
+
+
+```sh
+user:/home$ touch greeter.sh
+user:/home$ echo '#/bin/bash' > greeter.sh
+user:/home$ echo 'read -p "What is your favorite color? " color' >> greeter.sh
+user:/home$ echo "Nice! $color is a great color!" >> greeter.sh
+user:/home$ cat greeter.sh
+#/bin/bash
+read -p "What is your favorite color? " color
+Nice!  is a great color!
+user:/home$ echo "blue" | ./greeter.sh
+sh: ./greeter.sh: Permission denied
+user:/home$ chmod 400 ./greeter.sh
+user:/home$ ls -l
+total 4
+-r-------- 1 1097 1097 82 Oct 21 15:32 greeter.sh
+user:/home$ ls -ll
+total 4
+-r-------- 1 1097 1097 82 Oct 21 15:32 greeter.sh
+user:/home$ ls -a
+.
+..
+.cache
+.tmp
+greeter.sh
+user:/home$ ls
+greeter.sh
+user:/home$ chmod +x ./greeter.sh
+user:/home$ ls -l
+total 4
+-r-x--x--x 1 1097 1097 82 Oct 21 15:32 greeter.sh
+user:/home$ 
+```
+
+<img width="1975" height="927" alt="image" src="https://github.com/user-attachments/assets/3d2529b3-8e45-43ba-b7d7-83fbfccbcc7a" />
+<img width="2023" height="1211" alt="image" src="https://github.com/user-attachments/assets/b9095968-4055-41be-bf90-9da73c75c539" />
+
+
+
+
+
+
 
 
 
