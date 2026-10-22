@@ -80,6 +80,15 @@ user:/home$
 <img width="2023" height="1211" alt="image" src="https://github.com/user-attachments/assets/b9095968-4055-41be-bf90-9da73c75c539" />
 
 
+## If Statement
+
+<img width="737" height="1232" alt="image" src="https://github.com/user-attachments/assets/63cbe707-164c-435a-9bb2-829d4c7f24cb" />
+<img width="995" height="1025" alt="image" src="https://github.com/user-attachments/assets/d1da1a6e-e4a8-41dc-811d-72d732dd7644" />
+<img width="1011" height="1033" alt="image" src="https://github.com/user-attachments/assets/983f8c95-b62d-417d-b44d-efe0deb8d3e6" />
+<img width="972" height="1022" alt="image" src="https://github.com/user-attachments/assets/84e29c63-788a-4e39-aee1-20f4286303ad" />
+<img width="1037" height="1036" alt="image" src="https://github.com/user-attachments/assets/e93db176-d586-4815-9dfa-7ffa1beb74e8" />
+<img width="1041" height="1030" alt="image" src="https://github.com/user-attachments/assets/77715ebf-516d-4f12-bf0a-a713ed54a023" />
+<img width="1000" height="1042" alt="image" src="https://github.com/user-attachments/assets/0e4f4c3c-5dca-4dad-963d-d24ce9eb24f8" />
 
 
 
