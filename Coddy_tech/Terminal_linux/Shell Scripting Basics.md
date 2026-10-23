@@ -98,9 +98,20 @@ user:/home$
 
 ## For Loop
 
+<img width="1165" height="1133" alt="image" src="https://github.com/user-attachments/assets/1de7c261-c062-4ff6-8a69-49fcc429ca44" />
+<img width="1016" height="1045" alt="image" src="https://github.com/user-attachments/assets/1514ffca-bcf7-4e45-a911-1aceb33a6691" />
+<img width="1037" height="1012" alt="image" src="https://github.com/user-attachments/assets/4da6c6fa-a68a-4bd5-a70e-84b8c24b80f1" />
+<img width="1026" height="1012" alt="image" src="https://github.com/user-attachments/assets/a71860a9-ffbe-4400-921a-38f956fa14a8" />
+<img width="1037" height="1045" alt="image" src="https://github.com/user-attachments/assets/e63cb3d6-9a9a-4869-9b84-47a232df6c13" />
+<img width="1003" height="1043" alt="image" src="https://github.com/user-attachments/assets/d9f26077-c704-4edb-b8f6-081081f5aba1" />
+<img width="733" height="931" alt="image" src="https://github.com/user-attachments/assets/6a6d20bc-c539-4475-98e7-7e53e7283843" />
+<img width="2041" height="1196" alt="image" src="https://github.com/user-attachments/assets/18dc5e01-5ab1-4457-917e-9be0ac952dcd" />
+<img width="1962" height="1425" alt="image" src="https://github.com/user-attachments/assets/9f403230-0c10-4ef3-935b-0d2d9e0beca2" />
+<img width="1041" height="505" alt="image" src="https://github.com/user-attachments/assets/87c812c2-7916-4809-9ecb-3dfadebc5cbf" />
+<img width="1918" height="1431" alt="image" src="https://github.com/user-attachments/assets/6e39974c-b3a7-4983-82af-148a641d1ec0" />
 
 
-
+## While Loop
 
 
 
