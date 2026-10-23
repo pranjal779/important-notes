@@ -113,6 +113,37 @@ user:/home$
 
 ## While Loop
 
+<img width="1112" height="1112" alt="image" src="https://github.com/user-attachments/assets/776d1b64-719d-4d54-9455-09709f21df89" />
+<img width="1028" height="1020" alt="image" src="https://github.com/user-attachments/assets/7531baa8-4196-410d-9600-81e43d0a1008" />
+<img width="1005" height="1040" alt="image" src="https://github.com/user-attachments/assets/dbd25d2d-4209-4adf-b32f-00c7edac0224" />
+<img width="1018" height="1063" alt="image" src="https://github.com/user-attachments/assets/37ab8619-c827-403b-8df7-780688e5b548" />
+<img width="1027" height="1027" alt="image" src="https://github.com/user-attachments/assets/dfc79fe2-42dc-4b6d-962e-2b44a1f2b26d" />
+<img width="1031" height="1036" alt="image" src="https://github.com/user-attachments/assets/a19a4aa5-a6f8-4369-9d20-7082dcfb0463" />
+<img width="1033" height="1083" alt="image" src="https://github.com/user-attachments/assets/c3479408-16da-4237-addb-aa60ac5a3e62" />
+<img width="706" height="520" alt="image" src="https://github.com/user-attachments/assets/663425e8-a737-47cd-b8c5-466236c5db24" />
+<img width="2152" height="1222" alt="image" src="https://github.com/user-attachments/assets/041c1c42-6446-4049-bff3-3124c927bfd9" />
+
+
+## Recap - Number Guesser
+
+<img width="1015" height="1427" alt="image" src="https://github.com/user-attachments/assets/b7e45e7b-c4d3-45a3-82f5-775ccb6b8614" />
+<img width="861" height="817" alt="image" src="https://github.com/user-attachments/assets/150d08d6-5185-4798-b8db-d5b86086b1cf" />
+<img width="736" height="847" alt="image" src="https://github.com/user-attachments/assets/cd00d071-57bf-4b06-88a6-6880ac3dd056" />
+<img width="892" height="1103" alt="image" src="https://github.com/user-attachments/assets/55adde4c-d845-41c0-8be7-3e256cf92aa8" />
+<img width="1993" height="1437" alt="image" src="https://github.com/user-attachments/assets/5092f5ba-89d3-41fd-a85f-adfe2afb51d5" />
+<img width="2140" height="1436" alt="image" src="https://github.com/user-attachments/assets/11f22e1e-bf08-46c4-b0ef-00a2c0cf3296" />
+
+<img width="742" height="1386" alt="image" src="https://github.com/user-attachments/assets/210be2fd-c88d-49cd-a465-5bc33cabcc69" />
+
+
+
+
+
+
+
+
+
+
 
 
 ---
