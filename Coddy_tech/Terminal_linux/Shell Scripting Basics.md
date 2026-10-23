@@ -89,7 +89,14 @@ user:/home$
 <img width="1037" height="1036" alt="image" src="https://github.com/user-attachments/assets/e93db176-d586-4815-9dfa-7ffa1beb74e8" />
 <img width="1041" height="1030" alt="image" src="https://github.com/user-attachments/assets/77715ebf-516d-4f12-bf0a-a713ed54a023" />
 <img width="1000" height="1042" alt="image" src="https://github.com/user-attachments/assets/0e4f4c3c-5dca-4dad-963d-d24ce9eb24f8" />
+<img width="1002" height="1011" alt="image" src="https://github.com/user-attachments/assets/6df305fa-e26a-4e6e-bfef-640a699e090b" />
+<img width="626" height="502" alt="image" src="https://github.com/user-attachments/assets/100cbc46-17a4-436e-b0b1-797ad05a4ba6" />
+<img width="1563" height="1052" alt="image" src="https://github.com/user-attachments/assets/c5e282d0-274e-48f4-b60c-9bd9af53495d" />
+<img width="1475" height="1106" alt="image" src="https://github.com/user-attachments/assets/bed2e3a3-5006-4dd2-a55e-896a769d903f" />
+<img width="1528" height="1437" alt="image" src="https://github.com/user-attachments/assets/c11ec53e-b29b-4aee-8bd1-1e720993677c" />
 
+
+## For Loop
 
 
 
