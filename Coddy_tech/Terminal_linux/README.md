@@ -1,4 +1,6 @@
-.<img width="895" height="1282" alt="image" src="https://github.com/user-attachments/assets/7264de09-0a42-48a3-8806-b329a1672b70" />
+# TERMINAL Path
+
+<img width="895" height="1282" alt="image" src="https://github.com/user-attachments/assets/7264de09-0a42-48a3-8806-b329a1672b70" />
 
 
 [Terminal Fundamentals Certification](https://coddy.tech/certifications/iMxsDh-terminal-JRk84c)
