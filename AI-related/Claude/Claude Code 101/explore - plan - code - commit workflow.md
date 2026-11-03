@@ -8,3 +8,5 @@ https://academy.claude.com/courses/claude-code-101/the-explore-plan-code-commit-
 <img width="1187" height="1115" alt="image" src="https://github.com/user-attachments/assets/d77dd2b4-70ae-48f9-8049-b624a4ce1c8a" />
 <img width="1145" height="1101" alt="image" src="https://github.com/user-attachments/assets/27406b9a-4e5b-454a-b65e-8818c549e872" />
 <img width="1177" height="1007" alt="image" src="https://github.com/user-attachments/assets/bee5aa2a-8a7a-4eb2-b686-eb8442dee891" />
+
+
