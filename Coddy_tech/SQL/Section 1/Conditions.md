@@ -66,15 +66,16 @@
 <img width="2141" height="1141" alt="image" src="https://github.com/user-attachments/assets/c9fb59a2-cfc8-48da-8424-e49a2a7c138c" />
 
 
+## Mastery 4
 
+<img width="717" height="532" alt="image" src="https://github.com/user-attachments/assets/8f274a75-3fd0-475f-a82b-9a39783584ef" />
+<img width="2423" height="1152" alt="image" src="https://github.com/user-attachments/assets/79be9b7e-e455-44eb-abcd-44cfc6feebbe" />
 
+## Mastery 5 - Boolean
 
+<img width="733" height="477" alt="image" src="https://github.com/user-attachments/assets/aa5ff1e7-7257-48f6-8102-976bbc2c4591" />
+<img width="2441" height="1161" alt="image" src="https://github.com/user-attachments/assets/0639deca-8cb0-4b4b-9986-eb38d15e272e" />
+<img width="2520" height="1067" alt="image" src="https://github.com/user-attachments/assets/0f08ab09-5085-48cd-b954-afaa42c53701" />
 
-
-
-
-
-
-
-
+<img width="810" height="1382" alt="image" src="https://github.com/user-attachments/assets/87912a73-9d19-4d40-a214-48081a89ed0e" />
 
