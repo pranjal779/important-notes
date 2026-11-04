@@ -38,8 +38,25 @@
 <img width="1982" height="1225" alt="image" src="https://github.com/user-attachments/assets/0aae2f69-1ba9-4609-ac7d-9fc93f6a6689" />
 
 
+## Add A Second Recipe
+
+<img width="750" height="428" alt="image" src="https://github.com/user-attachments/assets/9879f6fe-9f15-4a73-9fbb-1224ae5d7e48" />
+<img width="1065" height="1048" alt="image" src="https://github.com/user-attachments/assets/598b2fde-ec38-4426-8b13-5bbbe34622b5" />
+<img width="1058" height="1037" alt="image" src="https://github.com/user-attachments/assets/83ac4ac5-816a-4953-91cb-7077db10edbd" />
+<img width="1042" height="1026" alt="image" src="https://github.com/user-attachments/assets/9918206a-49d5-4972-908c-294853709fcf" />
+<img width="1947" height="1202" alt="image" src="https://github.com/user-attachments/assets/1e5d3652-31c1-4c50-b45e-4a688ce2cc43" />
+<img width="2047" height="1126" alt="image" src="https://github.com/user-attachments/assets/60da7e88-4227-4525-a246-c77088985dfc" />
 
 
+## Inspect The History
+
+<img width="760" height="702" alt="image" src="https://github.com/user-attachments/assets/9225a754-cdd8-4582-9777-0f5bccc9c334" />
+<img width="1102" height="1002" alt="image" src="https://github.com/user-attachments/assets/098518c3-b126-4e08-aa7b-d9e9233bfbb0" />
+<img width="1016" height="1036" alt="image" src="https://github.com/user-attachments/assets/d199e76b-4d3f-4002-abb7-b6d72c5e5119" />
+<img width="1102" height="1016" alt="image" src="https://github.com/user-attachments/assets/f6e5bb38-0659-4287-9550-852edc5f68c4" />
+<img width="970" height="1038" alt="image" src="https://github.com/user-attachments/assets/3c2c6606-0be6-48b4-b431-05237a843866" />
+<img width="1102" height="1047" alt="image" src="https://github.com/user-attachments/assets/79685f45-7e47-438b-b520-84e7ad64400c" />
+<img width="1152" height="1040" alt="image" src="https://github.com/user-attachments/assets/0ef3d994-bf93-487b-b231-65409e0ed114" />
 
 
 
