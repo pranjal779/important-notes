@@ -28,6 +28,16 @@
 <img width="2010" height="1216" alt="image" src="https://github.com/user-attachments/assets/07cff2d6-c769-46a0-b062-93bc1f7bb689" />
 
 
+# Committing On A Branch
+
+<img width="897" height="772" alt="image" src="https://github.com/user-attachments/assets/dd3c704c-792e-497d-b57e-0b403c0e7fae" />
+<img width="2216" height="1085" alt="image" src="https://github.com/user-attachments/assets/102c2c3a-f800-4407-a906-c7ee353bf3a6" />
+<img width="1022" height="1041" alt="image" src="https://github.com/user-attachments/assets/ccc3c0fe-827f-4fff-bfdd-14c7d177d43d" />
+<img width="1037" height="1027" alt="image" src="https://github.com/user-attachments/assets/0b455ab9-e0bc-4173-9a64-385c7cfd571b" />
+<img width="1061" height="1033" alt="image" src="https://github.com/user-attachments/assets/0b32eae0-37d5-456e-a66e-5e484aa02d31" />
+<img width="1037" height="1041" alt="image" src="https://github.com/user-attachments/assets/8cec3d78-046e-4aa0-a7f4-606d72596dd6" />
+<img width="1300" height="802" alt="image" src="https://github.com/user-attachments/assets/1f673548-0d05-4977-8c73-a6292f8bdd23" />
+
 
 
 
