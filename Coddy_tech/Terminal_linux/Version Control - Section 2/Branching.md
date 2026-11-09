@@ -41,6 +41,15 @@
 <img width="1857" height="1208" alt="image" src="https://github.com/user-attachments/assets/37ba0cec-da7a-4c63-aeb8-96fa354842ff" />
 
 
+## Deleting A Branch
+
+<img width="737" height="891" alt="image" src="https://github.com/user-attachments/assets/6fdba34b-2e1a-4623-bb09-6b8a9146aefa" />
+<img width="1023" height="1032" alt="image" src="https://github.com/user-attachments/assets/001975b5-ae42-4699-a23a-2d26d63f88a1" />
+<img width="1013" height="1046" alt="image" src="https://github.com/user-attachments/assets/ec544f9b-a9c0-4663-b62c-d107d0439247" />
+<img width="1001" height="1037" alt="image" src="https://github.com/user-attachments/assets/6ae539a9-9154-438d-b36b-ca871856d91a" />
+<img width="1021" height="1063" alt="image" src="https://github.com/user-attachments/assets/121cc9ac-97c2-44a9-a34a-fb66ba2b6e26" />
+<img width="1056" height="1043" alt="image" src="https://github.com/user-attachments/assets/340602ec-e0ed-4e06-b583-1c426610be99" />
+<img width="1186" height="801" alt="image" src="https://github.com/user-attachments/assets/0e1bb31b-3b13-4fff-9182-d891557abcdf" />
 
 
 
