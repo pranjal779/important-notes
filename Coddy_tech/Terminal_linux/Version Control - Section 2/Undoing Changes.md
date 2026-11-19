@@ -28,6 +28,17 @@
 
 
 
+## Amend The Last Commit
+
+<img width="594" height="712" alt="image" src="https://github.com/user-attachments/assets/15ec39ad-6a2e-48d5-aa51-59410026d73e" />
+<img width="858" height="518" alt="image" src="https://github.com/user-attachments/assets/9d3d4bd0-3e60-4e3c-955c-cc6dc084b552" />
+<img width="846" height="830" alt="image" src="https://github.com/user-attachments/assets/9530dc70-40c9-4d80-bab5-49441fa9450b" />
+<img width="1075" height="1030" alt="image" src="https://github.com/user-attachments/assets/c9abaa58-07ef-49a7-8ea5-7992dca93d42" />
+<img width="892" height="830" alt="image" src="https://github.com/user-attachments/assets/16803da5-b43a-4320-95b3-6d078b2935c6" />
+<img width="834" height="826" alt="image" src="https://github.com/user-attachments/assets/eeb8a26b-e024-4130-a4c0-db1d62bb1bff" />
+<img width="1047" height="1012" alt="image" src="https://github.com/user-attachments/assets/808dbaec-e98d-41a1-8cd5-1a7013d6c9ff" />
+<img width="1032" height="1052" alt="image" src="https://github.com/user-attachments/assets/997c863f-b5bd-40c8-a6d7-35861b44f47a" />
+<img width="809" height="826" alt="image" src="https://github.com/user-attachments/assets/f146a58e-046b-47b1-8417-1b34600ca4b0" />
 
 
 
