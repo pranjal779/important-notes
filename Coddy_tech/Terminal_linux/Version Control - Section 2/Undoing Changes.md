@@ -41,6 +41,11 @@
 <img width="809" height="826" alt="image" src="https://github.com/user-attachments/assets/f146a58e-046b-47b1-8417-1b34600ca4b0" />
 
 
+## Revert A Commit
+
+<img width="1135" height="890" alt="image" src="https://github.com/user-attachments/assets/e2caefb8-81b7-4db4-a13f-703240c7a005" />
+<img width="1621" height="1211" alt="image" src="https://github.com/user-attachments/assets/3b56abb1-f67d-4f2f-acf6-9a5996c83daa" />
+<img width="1935" height="1216" alt="image" src="https://github.com/user-attachments/assets/0a325688-7173-4f13-aa82-9aea9f3c471e" />
 
 
 
