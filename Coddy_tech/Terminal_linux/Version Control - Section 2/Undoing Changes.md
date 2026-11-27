@@ -48,6 +48,17 @@
 <img width="1935" height="1216" alt="image" src="https://github.com/user-attachments/assets/0a325688-7173-4f13-aa82-9aea9f3c471e" />
 
 
+## Reset A Branch
+
+<img width="735" height="870" alt="image" src="https://github.com/user-attachments/assets/de5416dc-ac46-4614-8e73-d11bde7c4498" />
+<img width="1157" height="1057" alt="image" src="https://github.com/user-attachments/assets/6d9199e5-eaef-438b-b033-695b4bdcac67" />
+<img width="1030" height="1061" alt="image" src="https://github.com/user-attachments/assets/8b978654-3227-4e86-8c9f-84f868721e4f" />
+<img width="1032" height="1035" alt="image" src="https://github.com/user-attachments/assets/1da7e063-daef-48f3-9ac3-9d702cedfb32" />
+<img width="1107" height="1032" alt="image" src="https://github.com/user-attachments/assets/7a533336-fa7c-4270-b590-77e6d1df17fd" />
+<img width="1088" height="1020" alt="image" src="https://github.com/user-attachments/assets/9089f97c-cd39-4ce2-a0db-4830a4c78f15" />
+<img width="1076" height="1042" alt="image" src="https://github.com/user-attachments/assets/9810c7ff-a0ec-4728-85ac-6bec3fd8bd58" />
+<img width="1036" height="1027" alt="image" src="https://github.com/user-attachments/assets/8e4afffb-cee4-49a0-b775-1d6989a6dd95" />
+<img width="2155" height="1087" alt="image" src="https://github.com/user-attachments/assets/6c19313f-6ab8-4afd-acc9-005f30cd3aee" />
 
 
 
