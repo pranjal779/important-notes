@@ -64,6 +64,13 @@
 
 ## challenge reset a branch
 
+<img width="1080" height="2400" alt="Screenshot_20261128_130841" src="https://github.com/user-attachments/assets/53a57b5e-ca63-43c8-bfcf-91ac714ddb81" />
+<img width="1080" height="2400" alt="Screenshot_20261128_131555" src="https://github.com/user-attachments/assets/4fb68ac4-1a61-4bf5-9be6-80c29a950b71" />
+<img width="1080" height="2400" alt="Screenshot_20261128_131939" src="https://github.com/user-attachments/assets/55e82872-b920-47f4-be99-541d51f42c1e" />
+<img width="1080" height="2400" alt="Screenshot_20261128_131825" src="https://github.com/user-attachments/assets/5715bb5f-ca0f-49b9-8814-0cfd664d6575" />
+<img width="1080" height="2400" alt="Screenshot_20261128_131227" src="https://github.com/user-attachments/assets/c9410238-342d-4530-92e9-7f924d6bf99e" />
+<img width="1080" height="2400" alt="Screenshot_20261128_131118" src="https://github.com/user-attachments/assets/a67ff907-f19d-44fb-900a-89ace524c06f" />
+<img width="1080" height="2400" alt="Screenshot_20261128_131019" src="https://github.com/user-attachments/assets/ccbb5dce-e4de-4e3b-b059-ee9ae2890468" />
 
 
 
